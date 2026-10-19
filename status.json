@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-19T20:40:02Z",
+  "published_at": "2026-10-19T20:45:29Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,11 +11,7 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-10-19T19:32:28Z",
-    "targets": 11,
-    "ok": 11,
-    "changed": 11,
-    "failed": []
+    "error": "unreadable archive/last_run.json: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)"
   },
   "kslegis": {
     "biennia": {
