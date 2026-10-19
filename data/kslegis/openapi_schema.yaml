@@ -1,0 +1,4430 @@
+openapi: 3.0.3
+info:
+  title: Kansas Legislature API
+  version: '1'
+  description: Read-only public API for Kansas legislative data.
+  contact:
+    name: Kansas Legislative Research Department
+  license:
+    name: Public domain (Kansas open records)
+paths:
+  /api/v1/:
+    get:
+      operationId: v1_retrieve
+      description: List of every top-level API resource with its absolute URL.
+      summary: API root
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiRootResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/ApiRootResponse'
+          description: ''
+  /api/v1/appointments/:
+    get:
+      operationId: v1_appointments_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: appointing_authority
+        schema:
+          type: string
+      - in: query
+        name: apptno
+        schema:
+          type: integer
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedAppointmentList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedAppointmentList'
+          description: ''
+  /api/v1/appointments/{apptno}/:
+    get:
+      operationId: v1_appointments_retrieve
+      description: Detail endpoint with appointment history from journal elements.
+      parameters:
+      - in: path
+        name: apptno
+        schema:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        required: true
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Appointment'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/Appointment'
+          description: ''
+  /api/v1/biennia/:
+    get:
+      operationId: v1_biennia_retrieve
+      description: Active and archived biennia served by this host.
+      summary: Biennium directory
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - Reference
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BienniaResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/BienniaResponse'
+          description: ''
+  /api/v1/bill_status/:
+    get:
+      operationId: v1_bill_status_retrieve
+      description: 'Returns full per-bill status, history, and version metadata in
+        the same shape as the v13 API on the legacy site. /api/v1/bill_status/<bill_no>/
+        returns a single bill in {api_version, results: [...]}.'
+      summary: Bill status (legacy v13 shape)
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+        description: Default 50, max 500. List endpoint only.
+      - in: query
+        name: offset
+        schema:
+          type: integer
+        description: List endpoint only.
+      tags:
+      - Bills
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BillStatusListEnvelope'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/BillStatusListEnvelope'
+          description: ''
+  /api/v1/bill_status/{bill_no}/:
+    get:
+      operationId: v1_bill_status_retrieve_2
+      description: 'Returns full per-bill status, history, and version metadata in
+        the same shape as the v13 API on the legacy site. /api/v1/bill_status/<bill_no>/
+        returns a single bill in {api_version, results: [...]}.'
+      summary: Bill status (legacy v13 shape)
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: path
+        name: bill_no
+        schema:
+          type: string
+        required: true
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+        description: Default 50, max 500. List endpoint only.
+      - in: query
+        name: offset
+        schema:
+          type: integer
+        description: List endpoint only.
+      tags:
+      - Bills
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BillStatusListEnvelope'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/BillStatusListEnvelope'
+          description: ''
+  /api/v1/chamber_status/:
+    get:
+      operationId: v1_chamber_status_retrieve
+      description: Plain-string status of each chamber, derived from the most recent
+        floor action.
+      summary: Chamber status
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - Live
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChamberStatusResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/ChamberStatusResponse'
+          description: ''
+  /api/v1/committees/:
+    get:
+      operationId: v1_committees_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: committee_type
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: status
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedCommitteeList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedCommitteeList'
+          description: ''
+  /api/v1/committees/{kpid}/:
+    get:
+      operationId: v1_committees_retrieve
+      description: Detail endpoint with resolved member names and in-committee bills.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: kpid
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Committee'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/Committee'
+          description: ''
+  /api/v1/conference-committees/:
+    get:
+      operationId: v1_conference_committees_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: house_committee_kpid
+        schema:
+          type: string
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: senate_committee_kpid
+        schema:
+          type: string
+      - in: query
+        name: status
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedConferenceScheduleList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedConferenceScheduleList'
+          description: ''
+  /api/v1/conference-committees/{id}/:
+    get:
+      operationId: v1_conference_committees_retrieve
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConferenceSchedule'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/ConferenceSchedule'
+          description: ''
+  /api/v1/daily-calendars/:
+    get:
+      operationId: v1_daily_calendars_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: session_day
+        schema:
+          type: integer
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDailyCalendarList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedDailyCalendarList'
+          description: ''
+  /api/v1/daily-calendars/{id}/:
+    get:
+      operationId: v1_daily_calendars_retrieve
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DailyCalendar'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/DailyCalendar'
+          description: ''
+  /api/v1/daily-journals/:
+    get:
+      operationId: v1_daily_journals_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: session_day
+        schema:
+          type: integer
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDailyJournalList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedDailyJournalList'
+          description: ''
+  /api/v1/daily-journals/{id}/:
+    get:
+      operationId: v1_daily_journals_retrieve
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DailyJournal'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/DailyJournal'
+          description: ''
+  /api/v1/events/:
+    get:
+      operationId: v1_events_retrieve
+      description: Journal-element actions for the most recent session day, optionally
+        filtered by chamber or session day.
+      summary: Session-day events
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+        description: Filter to "house" or "senate".
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+        description: Page size, max 500. Defaults to 500.
+      - in: query
+        name: offset
+        schema:
+          type: integer
+        description: Pagination offset.
+      - in: query
+        name: session_day
+        schema:
+          type: string
+        description: Session-day number (zero-padded internally).
+      tags:
+      - Live
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventsResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/EventsResponse'
+          description: ''
+  /api/v1/fiscal-notes/:
+    get:
+      operationId: v1_fiscal_notes_list
+      description: |-
+        Fiscal note PDFs.
+
+        Filter by ``?bill_no=HB2001`` to find the fiscal note for a specific bill.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill_no
+        schema:
+          type: string
+        description: Canonical bill number, e.g. HB2001.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedFiscalNoteList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedFiscalNoteList'
+          description: ''
+  /api/v1/fiscal-notes/{apn}/:
+    get:
+      operationId: v1_fiscal_notes_retrieve
+      description: |-
+        Fiscal note PDFs.
+
+        Filter by ``?bill_no=HB2001`` to find the fiscal note for a specific bill.
+      parameters:
+      - in: path
+        name: apn
+        schema:
+          type: string
+          pattern: ^[^?]+$
+        required: true
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FiscalNote'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/FiscalNote'
+          description: ''
+  /api/v1/general-orders/:
+    get:
+      operationId: v1_general_orders_retrieve
+      description: |-
+        Bills/resolutions on each chamber's General Orders calendar.
+
+        Grouped by chamber (house/senate) then by general_orders subfolder
+        (above_line, working_on, below_line). Each measure carries its
+        GOORDERING position; lists are sorted by position. Reuses the same
+        mirror query the public "Today" page uses, including the stale-move
+        suppression that drops a measure moved out of a folder without a
+        delete tombstone.
+      summary: General orders calendar
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralOrdersResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/GeneralOrdersResponse'
+          description: ''
+  /api/v1/governor-actions/:
+    get:
+      operationId: v1_governor_actions_retrieve
+      description: Bills classified by gubernatorial action.
+      summary: Governor actions
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+      - in: query
+        name: offset
+        schema:
+          type: integer
+      - in: query
+        name: status
+        schema:
+          type: string
+        description: 'Comma-separated subset of: signed, vetoed, veto-overridden,
+          line-item-veto, partial-override, awaiting-governor.'
+      tags:
+      - Reference
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GovernorActionsEnvelope'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/GovernorActionsEnvelope'
+          description: ''
+  /api/v1/hearings/:
+    get:
+      operationId: v1_hearings_retrieve
+      description: List committee hearings with chamber/committee/bill/date filters.
+      summary: Committee hearings
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill
+        schema:
+          type: string
+        description: Bill number, normalized form (HB2001)
+      - in: query
+        name: chamber
+        schema:
+          type: string
+          enum:
+          - House
+          - Senate
+      - in: query
+        name: committee
+        schema:
+          type: string
+        description: Committee kpid
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: from
+        schema:
+          type: string
+        description: Earliest hearing date (YYYY-MM-DD)
+      - in: query
+        name: limit
+        schema:
+          type: integer
+        description: Max 500. Default 100.
+      - in: query
+        name: offset
+        schema:
+          type: integer
+      - in: query
+        name: to
+        schema:
+          type: string
+        description: Latest hearing date (YYYY-MM-DD)
+      - in: query
+        name: upcoming
+        schema:
+          type: boolean
+        description: Restrict to today or later
+      tags:
+      - Reference
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HearingsEnvelope'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/HearingsEnvelope'
+          description: ''
+  /api/v1/hearings/{je_slug}/:
+    get:
+      operationId: v1_hearings_retrieve_2
+      description: JSON mirror of /committees/<kpid>/hearings/<je_slug>/.
+      summary: Hearing detail
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: je_slug
+        schema:
+          type: string
+        required: true
+      tags:
+      - Reference
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HearingDetailResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/HearingDetailResponse'
+          description: ''
+  /api/v1/leadership/:
+    get:
+      operationId: v1_leadership_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - in: query
+        name: mem_kpid
+        schema:
+          type: string
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: status
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedLeadershipList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedLeadershipList'
+          description: ''
+  /api/v1/leadership/{id}/:
+    get:
+      operationId: v1_leadership_retrieve
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this leadership record.
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Leadership'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/Leadership'
+          description: ''
+  /api/v1/legislators/:
+    get:
+      operationId: v1_legislators_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+          enum:
+          - house
+          - senate
+        description: |-
+          * `senate` - Senate
+          * `house` - House
+      - in: query
+        name: district
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - in: query
+        name: party
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: status
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedLegislatorList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedLegislatorList'
+          description: ''
+  /api/v1/legislators/{kpid}/:
+    get:
+      operationId: v1_legislators_retrieve
+      description: Detail endpoint with committees, leadership, and sponsored measures.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: kpid
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Legislator'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/Legislator'
+          description: ''
+  /api/v1/legislators/{kpid}/sponsorships/:
+    get:
+      operationId: v1_legislators_sponsorships_retrieve
+      description: Bills/resolutions sponsored by a single legislator, with last-action
+        dates.
+      summary: Legislator sponsorships
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: kpid
+        schema:
+          type: string
+        required: true
+      tags:
+      - Legislators
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LegislatorSponsorshipsResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/LegislatorSponsorshipsResponse'
+          description: ''
+  /api/v1/legislators/{kpid}/voting-record/:
+    get:
+      operationId: v1_legislators_voting_record_retrieve
+      description: Every roll-call vote a legislator participated in, with stance
+        + tally.
+      summary: Legislator voting record
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill_no
+        schema:
+          type: string
+        description: Single-bill voting history.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: kpid
+        schema:
+          type: string
+        required: true
+      - in: query
+        name: limit
+        schema:
+          type: integer
+      - in: query
+        name: offset
+        schema:
+          type: integer
+      - in: query
+        name: vote
+        schema:
+          type: string
+          enum:
+          - absent
+          - nay
+          - not_voting
+          - present
+          - yea
+        description: Restrict to a single stance.
+      tags:
+      - Legislators
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LegislatorVotingRecordResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/LegislatorVotingRecordResponse'
+          description: ''
+  /api/v1/measures/:
+    get:
+      operationId: v1_measures_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill_no
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: leg_type
+        schema:
+          type: string
+          enum:
+          - bill
+          - reso
+        description: |-
+          * `bill` - Bill
+          * `reso` - Resolution
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: session
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedLegislationList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedLegislationList'
+          description: ''
+  /api/v1/measures/{bill_no}/statutes-affected/:
+    get:
+      operationId: v1_measures_statutes_affected_retrieve
+      description: 'Forward direction: bill → list of KSA sections it touches.'
+      summary: Statutes a bill amends
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: path
+        name: bill_no
+        schema:
+          type: string
+        required: true
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - Bills
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MeasureStatutesAffectedResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/MeasureStatutesAffectedResponse'
+          description: ''
+  /api/v1/measures/{bill_no}/text/:
+    get:
+      operationId: v1_measures_text_retrieve
+      description: Returns line-by-line text plus structured sections (when ODT bookmark
+        markers are present). parse_status indicates which parts succeeded.
+      summary: Bill or resolution text (lines + sections)
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: path
+        name: bill_no
+        schema:
+          type: string
+        required: true
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: version
+        schema:
+          type: string
+        description: '''00'' (Introduced), ''01'', ''02'', ..., or ''enrolled''. Defaults
+          to the latest non-enrolled version.'
+      tags:
+      - Bills
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MeasureTextResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/MeasureTextResponse'
+          description: ''
+  /api/v1/measures/{id}/:
+    get:
+      operationId: v1_measures_retrieve
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Legislation'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/Legislation'
+          description: ''
+  /api/v1/now/:
+    get:
+      operationId: v1_now_retrieve
+      description: Live legislative-activity snapshot designed for 30-60s polling.
+      summary: Live activity snapshot
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - Live
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NowResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/NowResponse'
+          description: ''
+  /api/v1/search/:
+    get:
+      operationId: v1_search_retrieve
+      description: Searches LegislationIndex, StatuteIndex, and DocumentIndex via
+        PostgreSQL FTS. Limit/offset apply per type so each block has its own pagination
+        cursor.
+      summary: Cross-content full-text search
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+        description: Per type (max 100). Default 25.
+      - in: query
+        name: offset
+        schema:
+          type: integer
+      - in: query
+        name: q
+        schema:
+          type: string
+        description: Min 2 chars.
+        required: true
+      - in: query
+        name: type
+        schema:
+          type: string
+        description: Comma-separated subset of bills, statutes, documents.
+      tags:
+      - Search
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+          description: ''
+  /api/v1/session-days/:
+    get:
+      operationId: v1_session_days_list
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+      - in: query
+        name: chamber
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: session
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedSessionDayList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedSessionDayList'
+          description: ''
+  /api/v1/session-days/{id}/:
+    get:
+      operationId: v1_session_days_retrieve
+      description: |-
+        Inject ``?biennium=`` filtering into any viewset that has a
+        ``biennium`` column. Falls back to ``settings.BIENNIUM``.
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SessionDay'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/SessionDay'
+          description: ''
+  /api/v1/statutes/:
+    get:
+      operationId: v1_statutes_retrieve
+      description: 'Multi-mode browse: no params → chapter list (default, documented
+        shape); ?chapter=N → article list within that chapter; ?chapter=N&article=A
+        → sections in that article; ?chapter=N&all=true → flat section list across
+        the chapter.'
+      summary: Statutes index (browse-only)
+      parameters:
+      - in: query
+        name: all
+        schema:
+          type: boolean
+        description: Flat section list across an entire chapter.
+      - in: query
+        name: article
+        schema:
+          type: integer
+        description: Article number, only with ?chapter.
+      - in: query
+        name: chapter
+        schema:
+          type: integer
+        description: Chapter number (1-92).
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+        description: Section-list modes only. Default 200, max 1000.
+      - in: query
+        name: offset
+        schema:
+          type: integer
+      tags:
+      - Statutes
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatutesIndexChapterListResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/StatutesIndexChapterListResponse'
+          description: ''
+  /api/v1/statutes/{section}/:
+    get:
+      operationId: v1_statutes_retrieve_2
+      description: Returns plain text + URL for a single statute section.
+      summary: K.S.A. section text
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: section
+        schema:
+          type: string
+        required: true
+      tags:
+      - Statutes
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatuteSectionResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/StatuteSectionResponse'
+          description: ''
+  /api/v1/statutes/{section}/affected-by/:
+    get:
+      operationId: v1_statutes_affected_by_retrieve
+      description: 'Inverse of measure_statutes_affected: KSA → bills/resolutions.'
+      summary: Bills affecting a statute
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: path
+        name: section
+        schema:
+          type: string
+        required: true
+      tags:
+      - Statutes
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatuteAffectedByResponse'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/StatuteAffectedByResponse'
+          description: ''
+  /api/v1/subjects/:
+    get:
+      operationId: v1_subjects_retrieve
+      description: 'List subject paths with bill counts (default). When ?bill is set,
+        returns subject paths the bill appears under ({bill, count, results: [{topic,
+        path, level}]}). When ?topic or ?path is set, returns bills under that topic/path
+        ({topic, path, count, results: [{bill_no, short_title, enacted, paths}]}).
+        Schema documents the default list shape; alternate modes share the count and
+        results envelope but vary the entry shape.'
+      summary: Subject index
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill
+        schema:
+          type: string
+        description: Bill number
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: limit
+        schema:
+          type: integer
+      - in: query
+        name: offset
+        schema:
+          type: integer
+      - in: query
+        name: path
+        schema:
+          type: string
+        description: Exact subject path
+      - in: query
+        name: q
+        schema:
+          type: string
+        description: Substring match on path
+      - in: query
+        name: topic
+        schema:
+          type: string
+        description: Top-level topic name
+      tags:
+      - Reference
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubjectListEnvelope'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/SubjectListEnvelope'
+          description: ''
+  /api/v1/supplemental-notes/:
+    get:
+      operationId: v1_supplemental_notes_list
+      description: |-
+        Supplemental note PDFs (committee analyses written by KLRD).
+
+        Filter by ``?bill_no=HB2001`` (most useful) or ``?chamber=HOUSE``. The
+        ``keywords`` field is a free-text list of subject tags assigned by KLRD;
+        use ``?search=…`` to substring-match on it.
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill_no
+        schema:
+          type: string
+        description: Canonical bill number, e.g. HB2001.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedSupplementalNoteList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedSupplementalNoteList'
+          description: ''
+  /api/v1/supplemental-notes/{apn}/:
+    get:
+      operationId: v1_supplemental_notes_retrieve
+      description: |-
+        Supplemental note PDFs (committee analyses written by KLRD).
+
+        Filter by ``?bill_no=HB2001`` (most useful) or ``?chamber=HOUSE``. The
+        ``keywords`` field is a free-text list of subject tags assigned by KLRD;
+        use ``?search=…`` to substring-match on it.
+      parameters:
+      - in: path
+        name: apn
+        schema:
+          type: string
+          pattern: ^[^?]+$
+        required: true
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SupplementalNote'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/SupplementalNote'
+          description: ''
+  /api/v1/testimony/:
+    get:
+      operationId: v1_testimony_list
+      description: |-
+        Submitted committee testimony.
+
+        Filter examples:
+            ?committee=ctte_h_education_1
+            ?hearing_date=2026-03-12
+            ?bill=HB2001
+            ?presenter=Smith        — substring search
+            ?organization=AnOrganization      — substring search
+            ?position=proponent     — proponent / opponent / neutral
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill
+        schema:
+          type: string
+        description: Canonical bill number, e.g. HB2001.
+      - in: query
+        name: committee
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - in: query
+        name: hearing_date
+        schema:
+          type: string
+          format: date
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - in: query
+        name: position
+        schema:
+          type: string
+          enum:
+          - neutral
+          - opponent
+          - proponent
+        description: Stance encoded inside the topic string; matched case-insensitively.
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedTestimonyList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedTestimonyList'
+          description: ''
+  /api/v1/testimony/{apn}/:
+    get:
+      operationId: v1_testimony_retrieve
+      description: |-
+        Submitted committee testimony.
+
+        Filter examples:
+            ?committee=ctte_h_education_1
+            ?hearing_date=2026-03-12
+            ?bill=HB2001
+            ?presenter=Smith        — substring search
+            ?organization=AnOrganization      — substring search
+            ?position=proponent     — proponent / opponent / neutral
+      parameters:
+      - in: path
+        name: apn
+        schema:
+          type: string
+          pattern: ^[^?]+$
+        required: true
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Testimony'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/Testimony'
+          description: ''
+  /api/v1/votes/:
+    get:
+      operationId: v1_votes_list
+      description: |-
+        Roll-call votes with per-member breakdowns.
+
+        Filter examples:
+            ?bill_no=HB2001     — every vote on a bill
+            ?chamber=House
+            ?member=sen_smith   — every vote where this legislator voted any way
+      parameters:
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: bill_no
+        schema:
+          type: string
+        description: Canonical (SB430) or bare-number form; matches both shapes the
+          source stores.
+      - in: query
+        name: chamber
+        schema:
+          type: string
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - in: query
+        name: member
+        schema:
+          type: string
+        description: Legislator kpid — every vote where this legislator voted any
+          way.
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - in: query
+        name: rcs_num
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedVoteList'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/PaginatedVoteList'
+          description: ''
+  /api/v1/votes/{apn}/:
+    get:
+      operationId: v1_votes_retrieve
+      description: |-
+        Roll-call votes with per-member breakdowns.
+
+        Filter examples:
+            ?bill_no=HB2001     — every vote on a bill
+            ?chamber=House
+            ?member=sen_smith   — every vote where this legislator voted any way
+      parameters:
+      - in: path
+        name: apn
+        schema:
+          type: string
+          pattern: ^[^?]+$
+        required: true
+      - in: query
+        name: biennium
+        schema:
+          type: string
+        description: Two-year cycle, e.g. b2025_26. Defaults to the active biennium.
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - msgpack
+      tags:
+      - v1
+      security:
+      - ApiKeyAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VoteDetail'
+            application/msgpack:
+              schema:
+                $ref: '#/components/schemas/VoteDetail'
+          description: ''
+components:
+  schemas:
+    ApiRootResponse:
+      type: object
+      properties:
+        measures:
+          type: string
+          format: uri
+        legislators:
+          type: string
+          format: uri
+        committees:
+          type: string
+          format: uri
+        leadership:
+          type: string
+          format: uri
+        session-days:
+          type: string
+          format: uri
+        appointments:
+          type: string
+          format: uri
+        daily-journals:
+          type: string
+          format: uri
+        daily-calendars:
+          type: string
+          format: uri
+        conference-committees:
+          type: string
+          format: uri
+        votes:
+          type: string
+          format: uri
+        testimony:
+          type: string
+          format: uri
+        fiscal-notes:
+          type: string
+          format: uri
+        supplemental-notes:
+          type: string
+          format: uri
+        bill_status:
+          type: string
+          format: uri
+        events:
+          type: string
+          format: uri
+        chamber_status:
+          type: string
+          format: uri
+        hearings:
+          type: string
+          format: uri
+        subjects:
+          type: string
+          format: uri
+        governor_actions:
+          type: string
+          format: uri
+        general_orders:
+          type: string
+          format: uri
+        now:
+          type: string
+          format: uri
+        biennia:
+          type: string
+          format: uri
+        search:
+          type: string
+          format: uri
+        statutes:
+          type: string
+          format: uri
+      required:
+      - appointments
+      - biennia
+      - bill_status
+      - chamber_status
+      - committees
+      - conference-committees
+      - daily-calendars
+      - daily-journals
+      - events
+      - fiscal-notes
+      - general_orders
+      - governor_actions
+      - hearings
+      - leadership
+      - legislators
+      - measures
+      - now
+      - search
+      - session-days
+      - statutes
+      - subjects
+      - supplemental-notes
+      - testimony
+      - votes
+    Appointment:
+      type: object
+      properties:
+        apptno:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        appointee:
+          type: string
+          maxLength: 300
+        appointing_authority:
+          type: string
+          maxLength: 200
+        entity:
+          type: string
+          maxLength: 300
+        position:
+          type: string
+          maxLength: 200
+        term:
+          type: string
+        apn:
+          type: string
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - apptno
+      - rev_date
+    BienniaActiveEntry:
+      type: object
+      properties:
+        biennium:
+          type: string
+        label:
+          type: string
+        session:
+          type: string
+        url:
+          type: string
+          nullable: true
+      required:
+      - biennium
+      - label
+      - session
+      - url
+    BienniaArchivedEntry:
+      type: object
+      properties:
+        biennium:
+          type: string
+        label:
+          type: string
+        default_session:
+          type: string
+        url:
+          type: string
+      required:
+      - biennium
+      - default_session
+      - label
+      - url
+    BienniaResponse:
+      type: object
+      properties:
+        active:
+          $ref: '#/components/schemas/BienniaActiveEntry'
+        archived:
+          type: array
+          items:
+            $ref: '#/components/schemas/BienniaArchivedEntry'
+      required:
+      - active
+      - archived
+    BillStatusEntry:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        bill_no_display:
+          type: string
+        short_title:
+          type: string
+        long_title:
+          type: string
+        chamber:
+          type: string
+        session:
+          type: string
+        sponsor_names:
+          type: array
+          items:
+            type: string
+        status:
+          type: string
+        status_label:
+          type: string
+        measure_state:
+          $ref: '#/components/schemas/MeasureStateEnum'
+        apn:
+          type: string
+        versions:
+          type: array
+          items:
+            $ref: '#/components/schemas/BillStatusVersion'
+        history:
+          type: array
+          items:
+            $ref: '#/components/schemas/BillStatusHistoryEntry'
+        details:
+          type: string
+          description: List endpoint only
+      required:
+      - bill_no
+      - bill_no_display
+      - chamber
+      - history
+      - measure_state
+      - short_title
+      - sponsor_names
+      - status
+      - status_label
+      - versions
+    BillStatusHistoryEntry:
+      type: object
+      properties:
+        action_code:
+          type: string
+        chamber:
+          type: string
+        occurred:
+          type: string
+          nullable: true
+        page_number:
+          type: integer
+          nullable: true
+        status:
+          type: string
+        committee_names:
+          type: array
+          items:
+            type: string
+        conferee_names:
+          type: array
+          items:
+            type: string
+        amendment_report_url:
+          type: string
+          nullable: true
+      required:
+      - action_code
+      - chamber
+      - occurred
+      - page_number
+      - status
+    BillStatusListEnvelope:
+      type: object
+      properties:
+        api_version:
+          type: integer
+        count:
+          type: integer
+        next:
+          type: string
+          nullable: true
+        previous:
+          type: string
+          nullable: true
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/BillStatusEntry'
+      required:
+      - api_version
+      - count
+      - next
+      - previous
+      - results
+    BillStatusVersion:
+      type: object
+      properties:
+        label:
+          type: string
+        apn:
+          type: string
+        pdf_url:
+          type: string
+          nullable: true
+        fiscal_note_url:
+          type: string
+          nullable: true
+        supplemental_note_url:
+          type: string
+          nullable: true
+      required:
+      - apn
+      - fiscal_note_url
+      - label
+      - pdf_url
+      - supplemental_note_url
+    ChamberEnum:
+      enum:
+      - senate
+      - house
+      type: string
+      description: |-
+        * `senate` - Senate
+        * `house` - House
+    ChamberStatusResponse:
+      type: object
+      properties:
+        api_version:
+          type: integer
+        results:
+          $ref: '#/components/schemas/ChamberStatusResults'
+      required:
+      - api_version
+      - results
+    ChamberStatusResults:
+      type: object
+      properties:
+        house_status:
+          type: string
+        senate_status:
+          type: string
+      required:
+      - house_status
+      - senate_status
+    Committee:
+      type: object
+      properties:
+        kpid:
+          type: string
+          maxLength: 100
+        biennium:
+          type: string
+          default: ''
+          maxLength: 20
+        title:
+          type: string
+          maxLength: 300
+        display_name:
+          type: string
+          maxLength: 300
+        chamber:
+          type: string
+        committee_type:
+          type: string
+          maxLength: 50
+        status:
+          type: string
+          maxLength: 20
+        mtg_time:
+          type: string
+          maxLength: 100
+        mtg_room:
+          type: string
+          maxLength: 100
+        members: {}
+        chair: {}
+        vice_chair: {}
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - chamber
+      - committee_type
+      - display_name
+      - kpid
+      - rev_date
+      - status
+      - title
+    ConferenceSchedule:
+      type: object
+      properties:
+        apn:
+          type: string
+        date:
+          type: string
+          format: date
+          nullable: true
+        time:
+          type: string
+          format: time
+          nullable: true
+        time_text:
+          type: string
+          maxLength: 200
+        location:
+          type: string
+          maxLength: 100
+        status:
+          type: string
+          maxLength: 50
+        house_committee:
+          type: string
+        senate_committee:
+          type: string
+        bills: {}
+        committee_text:
+          type: string
+        bill_text:
+          type: string
+      required:
+      - apn
+      - house_committee
+      - senate_committee
+    DailyCalendar:
+      type: object
+      properties:
+        chamber:
+          type: string
+          maxLength: 20
+        date:
+          type: string
+          format: date
+          nullable: true
+        session_day:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+          nullable: true
+        apn:
+          type: string
+        document:
+          type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - document
+      - rev_date
+    DailyJournal:
+      type: object
+      properties:
+        chamber:
+          type: string
+          maxLength: 20
+        session_day:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+          nullable: true
+        page_number:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+          nullable: true
+        start_stamp:
+          type: string
+          format: date-time
+          nullable: true
+        apn:
+          type: string
+        document:
+          type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - document
+      - rev_date
+    EventsResponse:
+      type: object
+      properties:
+        api_version:
+          type: integer
+        count:
+          type: integer
+        next:
+          type: string
+          nullable: true
+        previous:
+          type: string
+          nullable: true
+        results:
+          type: array
+          items:
+            type: object
+            additionalProperties: {}
+      required:
+      - api_version
+      - count
+      - next
+      - previous
+      - results
+    FiscalNote:
+      type: object
+      description: Shared fields/derivations for fiscal & supplemental note serializers.
+      properties:
+        apn:
+          type: string
+        bill_no:
+          type: string
+          readOnly: true
+        version:
+          type: string
+          readOnly: true
+        chamber:
+          type: string
+          maxLength: 20
+        pdf_only:
+          type: boolean
+          description: Skip HTML rendering — serve only the PDF download.
+        document:
+          type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - bill_no
+      - document
+      - rev_date
+      - version
+    GeneralOrdersBill:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        bill_no_display:
+          type: string
+        short_title:
+          type: string
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        position:
+          type: integer
+      required:
+      - bill_no
+      - bill_no_display
+      - position
+      - short_title
+      - type
+    GeneralOrdersChamber:
+      type: object
+      properties:
+        above_line:
+          type: array
+          items:
+            $ref: '#/components/schemas/GeneralOrdersBill'
+        working_on:
+          type: array
+          items:
+            $ref: '#/components/schemas/GeneralOrdersBill'
+        below_line:
+          type: array
+          items:
+            $ref: '#/components/schemas/GeneralOrdersBill'
+      required:
+      - above_line
+      - below_line
+      - working_on
+    GeneralOrdersResponse:
+      type: object
+      properties:
+        biennium:
+          type: string
+        house:
+          $ref: '#/components/schemas/GeneralOrdersChamber'
+        senate:
+          $ref: '#/components/schemas/GeneralOrdersChamber'
+      required:
+      - biennium
+      - house
+      - senate
+    GovernorAction:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        type:
+          type: string
+        title:
+          type: string
+        chamber:
+          type: string
+        status:
+          type: string
+        status_label:
+          type: string
+        last_action_code:
+          type: string
+        last_action_label:
+          type: string
+        last_date:
+          type: string
+          format: date
+          nullable: true
+      required:
+      - bill_no
+      - chamber
+      - last_action_code
+      - last_action_label
+      - last_date
+      - status
+      - status_label
+      - title
+      - type
+    GovernorActionsEnvelope:
+      type: object
+      properties:
+        count:
+          type: integer
+        next_offset:
+          type: integer
+          nullable: true
+        previous_offset:
+          type: integer
+          nullable: true
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/GovernorAction'
+      required:
+      - count
+      - next_offset
+      - previous_offset
+      - results
+    Hearing:
+      type: object
+      properties:
+        committee_kpid:
+          type: string
+        committee_title:
+          type: string
+        chamber:
+          type: string
+        hearing_date:
+          type: string
+          format: date
+        hearing_time:
+          type: string
+        hearing_datetime:
+          type: string
+          format: date-time
+        room:
+          type: string
+        status:
+          type: string
+        hearing_type:
+          type: string
+        bill_numbers:
+          type: array
+          items:
+            type: string
+        is_past:
+          type: boolean
+        streaming:
+          type: string
+          format: uri
+      required:
+      - bill_numbers
+      - chamber
+      - committee_kpid
+      - committee_title
+      - hearing_date
+      - hearing_datetime
+      - hearing_time
+      - hearing_type
+      - is_past
+      - room
+      - status
+      - streaming
+    HearingDetailBill:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        bill_no_display:
+          type: string
+        short_title:
+          type: string
+        leg_type:
+          type: string
+      required:
+      - bill_no
+    HearingDetailCommittee:
+      type: object
+      properties:
+        kpid:
+          type: string
+        title:
+          type: string
+        chamber:
+          type: string
+      required:
+      - chamber
+      - kpid
+      - title
+    HearingDetailMinutes:
+      type: object
+      properties:
+        apn:
+          type: string
+        display_name:
+          type: string
+      required:
+      - apn
+      - display_name
+    HearingDetailResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        biennium:
+          type: string
+        committee:
+          $ref: '#/components/schemas/HearingDetailCommittee'
+        type:
+          type: string
+        status:
+          type: string
+        room:
+          type: string
+        starts_at:
+          type: string
+          nullable: true
+        is_past:
+          type: boolean
+        stream_url:
+          type: string
+        bills:
+          type: array
+          items:
+            $ref: '#/components/schemas/HearingDetailBill'
+        testimony:
+          type: array
+          items:
+            $ref: '#/components/schemas/HearingDetailTestimonyEntry'
+        minutes:
+          type: array
+          items:
+            $ref: '#/components/schemas/HearingDetailMinutes'
+        siblings:
+          type: array
+          items:
+            $ref: '#/components/schemas/HearingDetailSibling'
+      required:
+      - biennium
+      - bills
+      - committee
+      - id
+      - is_past
+      - minutes
+      - room
+      - siblings
+      - starts_at
+      - status
+      - stream_url
+      - testimony
+      - type
+    HearingDetailSibling:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+        starts_at:
+          type: string
+      required:
+      - id
+      - starts_at
+      - type
+    HearingDetailTestimonyEntry:
+      type: object
+      properties:
+        presenter:
+          type: string
+        organization:
+          type: string
+        topic:
+          type: string
+        position:
+          type: string
+        apn:
+          type: string
+      required:
+      - apn
+      - organization
+      - position
+      - presenter
+      - topic
+    HearingsEnvelope:
+      type: object
+      properties:
+        count:
+          type: integer
+        next_offset:
+          type: integer
+          nullable: true
+        previous_offset:
+          type: integer
+          nullable: true
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Hearing'
+      required:
+      - count
+      - next_offset
+      - previous_offset
+      - results
+    Leadership:
+      type: object
+      properties:
+        kpid:
+          type: string
+          maxLength: 100
+        biennium:
+          type: string
+          default: ''
+          maxLength: 20
+        mem_kpid:
+          type: string
+          maxLength: 100
+        chamber:
+          type: string
+          maxLength: 20
+        title:
+          type: string
+          maxLength: 200
+        status:
+          type: string
+          maxLength: 20
+        display_order:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+          nullable: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - kpid
+      - mem_kpid
+      - rev_date
+    LegTypeEnum:
+      enum:
+      - bill
+      - reso
+      type: string
+      description: |-
+        * `bill` - Bill
+        * `reso` - Resolution
+    Legislation:
+      type: object
+      properties:
+        bill_no:
+          type: string
+          maxLength: 20
+        leg_type:
+          $ref: '#/components/schemas/LegTypeEnum'
+        biennium:
+          type: string
+          maxLength: 20
+        session:
+          type: string
+          maxLength: 20
+        short_title:
+          type: string
+        long_title:
+          type: string
+        sponsor: {}
+        apn:
+          type: string
+        amended_status:
+          type: string
+          readOnly: true
+        sections_amended:
+          type: string
+          readOnly: true
+        sections_repealed:
+          type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - amended_status
+      - apn
+      - biennium
+      - bill_no
+      - leg_type
+      - rev_date
+      - sections_amended
+      - sections_repealed
+      - session
+    Legislator:
+      type: object
+      properties:
+        kpid:
+          type: string
+          maxLength: 100
+        biennium:
+          type: string
+          default: ''
+          maxLength: 20
+        chamber:
+          $ref: '#/components/schemas/ChamberEnum'
+        first_name:
+          type: string
+          maxLength: 100
+        last_name:
+          type: string
+          maxLength: 100
+        full_name:
+          type: string
+          maxLength: 200
+        party:
+          type: string
+          maxLength: 50
+        district:
+          type: string
+          maxLength: 10
+        seat_num:
+          type: string
+          maxLength: 10
+        status:
+          type: string
+          maxLength: 20
+        email:
+          type: string
+          maxLength: 200
+        county:
+          type: string
+          maxLength: 100
+        occupation:
+          type: string
+          maxLength: 200
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - chamber
+      - district
+      - first_name
+      - full_name
+      - kpid
+      - last_name
+      - party
+      - rev_date
+      - seat_num
+      - status
+    LegislatorSponsorshipEntry:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        type:
+          type: string
+        short_title:
+          type: string
+        primary:
+          type: boolean
+        last_action:
+          allOf:
+          - $ref: '#/components/schemas/LegislatorSponsorshipLastAction'
+          nullable: true
+      required:
+      - bill_no
+      - primary
+      - short_title
+      - type
+    LegislatorSponsorshipLastAction:
+      type: object
+      properties:
+        occurred:
+          type: string
+          nullable: true
+        action_code:
+          type: string
+      required:
+      - action_code
+      - occurred
+    LegislatorSponsorshipsResponse:
+      type: object
+      properties:
+        kpid:
+          type: string
+        name:
+          type: string
+        biennium:
+          type: string
+        count:
+          type: integer
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/LegislatorSponsorshipEntry'
+      required:
+      - biennium
+      - count
+      - kpid
+      - name
+      - results
+    LegislatorVotingRecordEntry:
+      type: object
+      properties:
+        apn:
+          type: string
+        bill_no:
+          type: string
+        chamber:
+          type: string
+        rcs_num:
+          type: string
+        session_day:
+          type: string
+        motion:
+          type: string
+        stance:
+          $ref: '#/components/schemas/StanceEnum'
+        tally:
+          $ref: '#/components/schemas/LegislatorVotingRecordTally'
+        rev_date:
+          type: string
+          nullable: true
+      required:
+      - apn
+      - bill_no
+      - chamber
+      - motion
+      - rcs_num
+      - rev_date
+      - session_day
+      - stance
+      - tally
+    LegislatorVotingRecordResponse:
+      type: object
+      properties:
+        kpid:
+          type: string
+        name:
+          type: string
+        biennium:
+          type: string
+        count:
+          type: integer
+        next_offset:
+          type: integer
+          nullable: true
+        previous_offset:
+          type: integer
+          nullable: true
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/LegislatorVotingRecordEntry'
+      required:
+      - biennium
+      - count
+      - kpid
+      - name
+      - next_offset
+      - previous_offset
+      - results
+    LegislatorVotingRecordTally:
+      type: object
+      properties:
+        yea:
+          type: integer
+        nay:
+          type: integer
+        present:
+          type: integer
+        absent:
+          type: integer
+        not_voting:
+          type: integer
+      required:
+      - absent
+      - nay
+      - not_voting
+      - present
+      - yea
+    MeasureStateEnum:
+      enum:
+      - enacted
+      - introduced
+      - dead
+      type: string
+      description: |-
+        * `enacted` - enacted
+        * `introduced` - introduced
+        * `dead` - dead
+    MeasureStatutesAffectedEntry:
+      type: object
+      properties:
+        section:
+          type: string
+        chapter:
+          type: string
+        rest:
+          type: string
+        url:
+          type: string
+      required:
+      - chapter
+      - rest
+      - section
+      - url
+    MeasureStatutesAffectedResponse:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        biennium:
+          type: string
+        amend_clause:
+          type: string
+        count:
+          type: integer
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/MeasureStatutesAffectedEntry'
+      required:
+      - amend_clause
+      - biennium
+      - bill_no
+      - count
+      - results
+    MeasureTextLine:
+      type: object
+      properties:
+        page:
+          type: integer
+          nullable: true
+        linenum:
+          type: integer
+          nullable: true
+        text:
+          type: string
+      required:
+      - linenum
+      - page
+      - text
+    MeasureTextResponse:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        biennium:
+          type: string
+        version:
+          type: string
+        label:
+          type: string
+        apn:
+          type: string
+        pdf_apn:
+          type: string
+        parse_status:
+          $ref: '#/components/schemas/ParseStatusEnum'
+        lines:
+          type: array
+          items:
+            $ref: '#/components/schemas/MeasureTextLine'
+        sections:
+          type: array
+          items:
+            $ref: '#/components/schemas/MeasureTextSection'
+          description: Omitted when the ODT lacks bookmark markers.
+      required:
+      - apn
+      - biennium
+      - bill_no
+      - label
+      - lines
+      - parse_status
+      - pdf_apn
+      - version
+    MeasureTextSection:
+      type: object
+      properties:
+        section_num:
+          type: integer
+        ksa_ref:
+          type: string
+        is_new:
+          type: boolean
+        text:
+          type: string
+      required:
+      - is_new
+      - ksa_ref
+      - section_num
+      - text
+    NowChambers:
+      type: object
+      properties:
+        house:
+          type: object
+          additionalProperties: {}
+          description: House status + last action.
+        senate:
+          type: object
+          additionalProperties: {}
+          description: Senate status + last action.
+      required:
+      - house
+      - senate
+    NowResponse:
+      type: object
+      properties:
+        biennium:
+          type: string
+        as_of:
+          type: string
+          description: ISO 8601 timestamp of the snapshot.
+        chambers:
+          $ref: '#/components/schemas/NowChambers'
+        committees_in_session:
+          type: array
+          items:
+            type: object
+            additionalProperties: {}
+          description: Hearings scheduled today, sorted by start time.
+        conference_committees_today:
+          type: array
+          items:
+            type: object
+            additionalProperties: {}
+          description: Conference committees scheduled today.
+      required:
+      - as_of
+      - biennium
+      - chambers
+      - committees_in_session
+      - conference_committees_today
+    PaginatedAppointmentList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Appointment'
+    PaginatedCommitteeList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Committee'
+    PaginatedConferenceScheduleList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/ConferenceSchedule'
+    PaginatedDailyCalendarList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/DailyCalendar'
+    PaginatedDailyJournalList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/DailyJournal'
+    PaginatedFiscalNoteList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/FiscalNote'
+    PaginatedLeadershipList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Leadership'
+    PaginatedLegislationList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Legislation'
+    PaginatedLegislatorList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Legislator'
+    PaginatedSessionDayList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/SessionDay'
+    PaginatedSupplementalNoteList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/SupplementalNote'
+    PaginatedTestimonyList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Testimony'
+    PaginatedVoteList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Vote'
+    ParseStatusEnum:
+      enum:
+      - ok
+      - no_lines
+      - no_sections
+      type: string
+      description: |-
+        * `ok` - ok
+        * `no_lines` - no_lines
+        * `no_sections` - no_sections
+    SearchResponse:
+      type: object
+      properties:
+        q:
+          type: string
+        biennium:
+          type: string
+        bills:
+          type: object
+          additionalProperties: {}
+          description: '{count, results: SearchBillResult[]}'
+        statutes:
+          type: object
+          additionalProperties: {}
+          description: '{count, results: SearchStatuteResult[]}'
+        documents:
+          type: object
+          additionalProperties: {}
+          description: '{count, results: SearchDocumentResult[]}'
+      required:
+      - biennium
+      - q
+    SessionDay:
+      type: object
+      properties:
+        biennium:
+          type: string
+          maxLength: 20
+        session:
+          type: string
+          maxLength: 20
+        chamber:
+          type: string
+          maxLength: 20
+        day_no:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        convene:
+          type: string
+          format: date-time
+          nullable: true
+        is_current:
+          type: boolean
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - biennium
+      - chamber
+      - day_no
+      - rev_date
+      - session
+    StanceEnum:
+      enum:
+      - yea
+      - nay
+      - present
+      - absent
+      - not_voting
+      type: string
+      description: |-
+        * `yea` - yea
+        * `nay` - nay
+        * `present` - present
+        * `absent` - absent
+        * `not_voting` - not_voting
+    StatuteAffectedByEntry:
+      type: object
+      properties:
+        bill_no:
+          type: string
+        type:
+          type: string
+        short_title:
+          type: string
+        amend_clause:
+          type: string
+        apns:
+          type: array
+          items:
+            type: string
+      required:
+      - amend_clause
+      - apns
+      - bill_no
+      - short_title
+      - type
+    StatuteAffectedByResponse:
+      type: object
+      properties:
+        section:
+          type: string
+        biennium:
+          type: string
+        count:
+          type: integer
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/StatuteAffectedByEntry'
+      required:
+      - biennium
+      - count
+      - results
+      - section
+    StatuteSectionResponse:
+      type: object
+      properties:
+        section:
+          type: string
+        chapter:
+          type: string
+        rest:
+          type: string
+        text:
+          type: string
+        url:
+          type: string
+      required:
+      - chapter
+      - rest
+      - section
+      - text
+      - url
+    StatutesIndexChapter:
+      type: object
+      properties:
+        chapter:
+          type: integer
+        caption:
+          type: string
+        section_count:
+          type: integer
+        href:
+          type: string
+      required:
+      - caption
+      - chapter
+      - href
+      - section_count
+    StatutesIndexChapterListResponse:
+      type: object
+      description: |-
+        Default mode: list of all chapters with section counts.
+
+        Other modes (?chapter, ?chapter&article, ?chapter&all) return
+        different shapes — see the endpoint docstring for details.
+      properties:
+        count:
+          type: integer
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/StatutesIndexChapter'
+      required:
+      - count
+      - results
+    Subject:
+      type: object
+      description: A subject-index topic with bill count. Built from SubjectIndexEntry.
+      properties:
+        topic:
+          type: string
+        path:
+          type: string
+        level:
+          type: integer
+        bill_count:
+          type: integer
+      required:
+      - bill_count
+      - level
+      - path
+      - topic
+    SubjectListEnvelope:
+      type: object
+      properties:
+        count:
+          type: integer
+        next_offset:
+          type: integer
+          nullable: true
+        previous_offset:
+          type: integer
+          nullable: true
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Subject'
+      required:
+      - count
+      - next_offset
+      - previous_offset
+      - results
+    SupplementalNote:
+      type: object
+      description: Shared fields/derivations for fiscal & supplemental note serializers.
+      properties:
+        apn:
+          type: string
+        bill_no:
+          type: string
+          readOnly: true
+        version:
+          type: string
+          readOnly: true
+        chamber:
+          type: string
+          maxLength: 20
+        session_year:
+          type: string
+          maxLength: 10
+        keywords:
+          type: string
+        associated_bills:
+          type: array
+          items:
+            type: string
+          readOnly: true
+        pdf_only:
+          type: boolean
+          description: Skip HTML rendering — serve only the PDF download.
+        document:
+          type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - associated_bills
+      - bill_no
+      - document
+      - rev_date
+      - version
+    Testimony:
+      type: object
+      properties:
+        apn:
+          type: string
+        committee:
+          type: string
+          maxLength: 100
+        hearing_date:
+          type: string
+          format: date
+          nullable: true
+        presenter:
+          type: string
+          maxLength: 200
+        organization:
+          type: string
+          maxLength: 200
+        topic:
+          type: string
+        position:
+          type: string
+          readOnly: true
+        bill_no:
+          type: string
+          readOnly: true
+        document:
+          type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - bill_no
+      - committee
+      - document
+      - position
+      - rev_date
+    TypeEnum:
+      enum:
+      - bill
+      - resolution
+      type: string
+      description: |-
+        * `bill` - bill
+        * `resolution` - resolution
+    Vote:
+      type: object
+      description: |-
+        Roll-call vote summary. Member kpids are returned as raw lists; use
+        the detail endpoint to get them resolved to names.
+      properties:
+        apn:
+          type: string
+        bill_no:
+          type: string
+          maxLength: 20
+        chamber:
+          type: string
+          maxLength: 20
+        rcs_num:
+          type: string
+          maxLength: 20
+        session_day:
+          type: string
+          maxLength: 20
+        motion:
+          type: string
+        tally:
+          type: object
+          properties:
+            yea:
+              type: integer
+            nay:
+              type: integer
+            present:
+              type: integer
+            absent:
+              type: integer
+            not_voting:
+              type: integer
+          readOnly: true
+        occurred:
+          type: string
+          readOnly: true
+        journal_element:
+          type: object
+          nullable: true
+          properties:
+            apn:
+              type: string
+            action_code:
+              type: string
+            action_label:
+              type: string
+            occurred:
+              type: string
+              nullable: true
+            page_number:
+              type: integer
+              nullable: true
+            chamber:
+              type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+      required:
+      - apn
+      - bill_no
+      - chamber
+      - journal_element
+      - occurred
+      - rcs_num
+      - rev_date
+      - session_day
+      - tally
+    VoteDetail:
+      type: object
+      description: Vote detail — adds member-by-member breakdowns with names resolved.
+      properties:
+        apn:
+          type: string
+        bill_no:
+          type: string
+          maxLength: 20
+        chamber:
+          type: string
+          maxLength: 20
+        rcs_num:
+          type: string
+          maxLength: 20
+        session_day:
+          type: string
+          maxLength: 20
+        motion:
+          type: string
+        tally:
+          type: object
+          properties:
+            yea:
+              type: integer
+            nay:
+              type: integer
+            present:
+              type: integer
+            absent:
+              type: integer
+            not_voting:
+              type: integer
+          readOnly: true
+        occurred:
+          type: string
+          readOnly: true
+        journal_element:
+          type: object
+          nullable: true
+          properties:
+            apn:
+              type: string
+            action_code:
+              type: string
+            action_label:
+              type: string
+            occurred:
+              type: string
+              nullable: true
+            page_number:
+              type: integer
+              nullable: true
+            chamber:
+              type: string
+          readOnly: true
+        rev_date:
+          type: string
+          format: date-time
+        members:
+          type: object
+          properties:
+            yea:
+              type: array
+              items:
+                type: object
+                properties:
+                  kpid:
+                    type: string
+                  name:
+                    type: string
+            nay:
+              type: array
+              items:
+                type: object
+                properties:
+                  kpid:
+                    type: string
+                  name:
+                    type: string
+            present:
+              type: array
+              items:
+                type: object
+                properties:
+                  kpid:
+                    type: string
+                  name:
+                    type: string
+            absent:
+              type: array
+              items:
+                type: object
+                properties:
+                  kpid:
+                    type: string
+                  name:
+                    type: string
+            not_voting:
+              type: array
+              items:
+                type: object
+                properties:
+                  kpid:
+                    type: string
+                  name:
+                    type: string
+          readOnly: true
+      required:
+      - apn
+      - bill_no
+      - chamber
+      - journal_element
+      - members
+      - occurred
+      - rcs_num
+      - rev_date
+      - session_day
+      - tally
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: Pass `Api-Key <your-key>` as the `Authorization` header value.
+        Get a key by visiting /api/v1/request-key/.
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid

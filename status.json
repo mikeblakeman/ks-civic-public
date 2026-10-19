@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-19T20:45:29Z",
+  "published_at": "2026-10-19T20:49:53Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,96 +11,194 @@
     "playbook"
   ],
   "archive": {
-    "error": "unreadable archive/last_run.json: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)"
+    "ran_at": "2026-10-19T19:32:28Z",
+    "targets": 11,
+    "ok": 11,
+    "changed": 11,
+    "failed": []
   },
   "kslegis": {
     "biennia": {
       "b2019_20": {
-        "governor_actions": 0,
         "legislators": 0
       },
       "b2021_22": {
-        "governor_actions": 0,
         "legislators": 0
       },
       "b2023_24": {
-        "governor_actions": 200,
+        "base": "https://www.kslegislature.gov/api/v1/",
+        "governor_actions": 232,
         "legislators": 466
       },
       "b2025_26": {
-        "governor_actions": 200,
+        "base": "https://www.kslegislature.gov/api/v1/",
+        "governor_actions": 305,
         "legislators": 509
       }
     },
+    "envelopes": {
+      "governor-actions": {
+        "count": 305,
+        "next_offset": 200,
+        "page_len": 200,
+        "paged_by": "offset",
+        "previous_offset": null
+      },
+      "legislators": {
+        "count": 509,
+        "next": "https://www.kslegislature.gov/api/v1/legislators/?biennium=b2025_26&limit=100&offset=100&page_size=1000",
+        "page_len": 100,
+        "previous": null
+      },
+      "voting-record": {
+        "biennium": "b2025_26",
+        "count": 743,
+        "kpid": "sen_masterson_ty_1",
+        "name": "Ty Masterson",
+        "next_offset": 100,
+        "page_len": 100,
+        "paged_by": "offset",
+        "previous_offset": null
+      }
+    },
     "errors": [
-      "b2025_26 Holscher: 2 matches",
-      "b2023_24 Holscher: 2 matches"
+      "b2021_22: API returned no legislators (biennium may not be served)",
+      "b2019_20: API returned no legislators (biennium may not be served)"
     ],
     "keyed": true,
     "people": {
       "amyx-mike": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_amyx_mike_1": 613
+        },
+        "b2025_26": {
+          "rep_amyx_mike_1": 749
+        }
       },
       "ballard-barbara": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_ballard_barbara_1": 613
+        },
+        "b2025_26": {
+          "rep_ballard_barbara_1": 749
+        }
       },
       "barth-carrie": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_barth_carrie_1": 613
+        },
+        "b2025_26": {
+          "rep_barth_carrie_1": 352
+        }
       },
       "ellis-ronald": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_ellis_ronald_1": 613
+        },
+        "b2025_26": {
+          "rep_ellis_ronald_1": 749
+        }
       },
       "francisco-marci": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "sen_francisco_marci_1": 608
+        },
+        "b2025_26": {
+          "sen_francisco_marci_1": 743
+        }
       },
       "gossage-beverly": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "sen_gossage_beverly_1": 608
+        },
+        "b2025_26": {
+          "sen_gossage_beverly_1": 743
+        }
       },
       "hawkins-dan": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_hawkins_daniel_1": 613
+        },
+        "b2025_26": {
+          "rep_hawkins_daniel_1": 749
+        }
+      },
+      "holscher-cindy": {
+        "b2023_24": {
+          "rep_holscher_cindy_1": 0,
+          "sen_holscher_cindy_1": 608
+        },
+        "b2025_26": {
+          "rep_holscher_cindy_1": 0,
+          "sen_holscher_cindy_1": 743
+        }
       },
       "kloos-rick": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "sen_kloos_rick_1": 608
+        },
+        "b2025_26": {
+          "sen_kloos_rick_1": 743
+        }
       },
       "masterson-ty": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "sen_masterson_ty_1": 608
+        },
+        "b2025_26": {
+          "sen_masterson_ty_1": 743
+        }
       },
       "mosley-brooklynne": {
-        "b2025_26": 100
+        "b2025_26": {
+          "rep_mosley_brooklynne_1": 749
+        }
       },
       "neelly-lance": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_neelly_lance_1": 613
+        },
+        "b2025_26": {
+          "rep_neelly_lance_1": 749
+        }
       },
       "proctor-pat": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_proctor_pat_1": 613
+        },
+        "b2025_26": {
+          "rep_proctor_pat_1": 749
+        }
       },
       "schmidt-patrick": {
-        "b2025_26": 100
+        "b2025_26": {
+          "sen_schmidt_patrick_1": 743
+        }
       },
       "sykes-dinah": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "sen_sykes_dinah_1": 608
+        },
+        "b2025_26": {
+          "sen_sykes_dinah_1": 743
+        }
       },
       "turk-adam": {
-        "b2023_24": 100,
-        "b2025_26": 100
+        "b2023_24": {
+          "rep_turk_adam_1": 613
+        },
+        "b2025_26": {
+          "rep_turk_adam_1": 749
+        }
       },
       "wikle-suzanne": {
-        "b2025_26": 100
+        "b2025_26": {
+          "rep_wikle_suzanne_1": 749
+        }
       }
     },
-    "requests": 46
+    "requests": 252,
+    "warnings": []
   },
   "census": {
     "written": [
