@@ -1,0 +1,2502 @@
+[
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_407_HB2535.odt",
+  "bill_no": "HB2535",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260411010735_629253.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-11T01:07:34+00:00",
+   "page_number": 2766
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "407",
+  "rev_date": "2026-04-11T06:07:45.738482+00:00",
+  "session_day": "54",
+  "stance": "present",
+  "tally": {
+   "absent": 1,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 1,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_406_SB82.odt",
+  "bill_no": "SB82",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260411010655_606166.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-11T01:06:54+00:00",
+   "page_number": 2617
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "406",
+  "rev_date": "2026-04-11T06:07:06.903379+00:00",
+  "session_day": "54",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 2,
+   "not_voting": 0,
+   "present": 1,
+   "yea": 36
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_405_HCR5008.odt",
+  "bill_no": "HCR5008",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "efa_fabc_934",
+   "action_label": "Emergency Final Action - Adopted as amended by Required 2/3 Majority;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260411005257_182069.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-11T00:52:56+00:00",
+   "page_number": 2610
+  },
+  "motion": "Emergency Final Action As Amended",
+  "rcs_num": "405",
+  "rev_date": "2026-04-11T05:53:05.201114+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_404_HB2763.odt",
+  "bill_no": "HB2763",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410224759_321665.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T22:47:58+00:00",
+   "page_number": 2770
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "404",
+  "rev_date": "2026-04-11T03:48:07.157188+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_403_HB2029.odt",
+  "bill_no": "HB2029",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410224717_142448.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T22:47:15+00:00",
+   "page_number": 2720
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "403",
+  "rev_date": "2026-04-11T03:47:23.616587+00:00",
+  "session_day": "54",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_402_SB430.odt",
+  "bill_no": "SB430",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410224637_720369.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T22:46:36+00:00",
+   "page_number": 2650
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "402",
+  "rev_date": "2026-04-11T03:46:45.924321+00:00",
+  "session_day": "54",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 1,
+   "yea": 38
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_401_SB300.odt",
+  "bill_no": "SB300",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410224555_933125.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T22:45:54+00:00",
+   "page_number": 2632
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "401",
+  "rev_date": "2026-04-11T03:46:03.825131+00:00",
+  "session_day": "54",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_400_HB2043.odt",
+  "bill_no": "HB2043",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410195258_185887.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T19:52:57+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "400",
+  "rev_date": "2026-04-11T00:53:04.561129+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 13,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_399_HB2731.odt",
+  "bill_no": "HB2731",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410190024_379842.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T19:00:23+00:00",
+   "page_number": 2609
+  },
+  "motion": "Override",
+  "rcs_num": "399",
+  "rev_date": "2026-04-11T00:00:36.437874+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_398_Line Item Veto Override Portion 26(a) 53(b) 54(w) 54(u) 78(dd) 81(h) 88(k) 96(d) 153 155.odt",
+  "bill_no": "HB2315",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410180344_170409.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T18:03:43+00:00",
+   "page_number": 2608
+  },
+  "motion": "Line Item Veto Override Portion 26(a) 53(b) 54(w) 54(u) 78(dd) 81(h) 88(k) 96(d) 153 155",
+  "rcs_num": "398",
+  "rev_date": "2026-04-10T23:05:10.169978+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_397_Line Item Veto Override 37(a) 74(Q).odt",
+  "bill_no": "HB2513",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410172237_930677.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T17:22:37+00:00",
+   "page_number": 2608
+  },
+  "motion": "Line Item Veto Override 37(a) 74(Q)",
+  "rcs_num": "397",
+  "rev_date": "2026-04-10T22:24:01.305964+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_396_Line Item Veto Override 54(y).odt",
+  "bill_no": "HB2513",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410172018_556198.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T17:20:18+00:00",
+   "page_number": 2608
+  },
+  "motion": "Line Item Veto Override 54(y)",
+  "rcs_num": "396",
+  "rev_date": "2026-04-10T22:23:17.672422+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 14,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 25
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_395_Line Item Veto Override 15(b) 15(c).odt",
+  "bill_no": "HB2315",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410170625_828876.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T17:06:25+00:00",
+   "page_number": 2607
+  },
+  "motion": "Line Item Veto Override 15(b) 15(c)",
+  "rcs_num": "395",
+  "rev_date": "2026-04-10T22:07:58.510340+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 28,
+   "not_voting": 0,
+   "present": 1,
+   "yea": 10
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_394_Line Item Veto Override 88(m) .odt",
+  "bill_no": "HB2513",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410165903_230650.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T16:59:02+00:00",
+   "page_number": 2607
+  },
+  "motion": "Line Item Veto Override 88(m)",
+  "rcs_num": "394",
+  "rev_date": "2026-04-10T22:02:58.182459+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_393_Line Item Veto Override 87(g) portion of 88(a) 88(l).odt",
+  "bill_no": "HB2513",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410164557_001263.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T16:45:56+00:00",
+   "page_number": 2607
+  },
+  "motion": "Line Item Veto Override 87(g) portion of 88(a) 88(l)",
+  "rcs_num": "393",
+  "rev_date": "2026-04-10T21:58:46.958987+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 16,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 23
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_392_Line Item Veto Override 87(f) portion 88(a).odt",
+  "bill_no": "HB2513",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "misc_bs_100",
+   "action_label": "",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410163657_493211.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T16:36:57+00:00",
+   "page_number": 2606
+  },
+  "motion": "Line Item Veto Override 87(f) portion 88(a)",
+  "rcs_num": "392",
+  "rev_date": "2026-04-10T21:56:43.409336+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 18,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 21
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_391_HB2515.odt",
+  "bill_no": "HB2515",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410154834_574382.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T15:48:33+00:00",
+   "page_number": 2748
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "391",
+  "rev_date": "2026-04-10T20:48:41.849248+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_390_HB2044.odt",
+  "bill_no": "HB2044",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410154754_028269.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T15:47:48+00:00",
+   "page_number": 2738
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "390",
+  "rev_date": "2026-04-10T20:48:00.690791+00:00",
+  "session_day": "54",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 40
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/vote_records/vote_389_HB2111.odt",
+  "bill_no": "HB2111",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day054_20260410/journal_elements/je_20260410110026_215300.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-10T11:00:25+00:00",
+   "page_number": 2739
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "389",
+  "rev_date": "2026-04-10T16:00:34.243673+00:00",
+  "session_day": "54",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 13,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_388_HB2593.odt",
+  "bill_no": "HB2593",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409185306_393128.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T18:53:06+00:00",
+   "page_number": 2594
+  },
+  "motion": "Override",
+  "rcs_num": "388",
+  "rev_date": "2026-04-09T23:53:17.559683+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_387_HB2521.odt",
+  "bill_no": "HB2521",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409185236_206546.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T18:52:34+00:00",
+   "page_number": 2593
+  },
+  "motion": "Override",
+  "rcs_num": "387",
+  "rev_date": "2026-04-09T23:52:47.515179+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_386_HB2437.odt",
+  "bill_no": "HB2437",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409185158_278228.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T18:51:58+00:00",
+   "page_number": 2593
+  },
+  "motion": "Override",
+  "rcs_num": "386",
+  "rev_date": "2026-04-09T23:52:12.537536+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_384_HB2372.odt",
+  "bill_no": "HB2372",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409173857_034319.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:38:56+00:00",
+   "page_number": 2592
+  },
+  "motion": "Override",
+  "rcs_num": "384",
+  "rev_date": "2026-04-09T22:39:09.937326+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_385_HB2333.odt",
+  "bill_no": "HB2333",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409173828_787093.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:38:28+00:00",
+   "page_number": 2592
+  },
+  "motion": "Override",
+  "rcs_num": "385",
+  "rev_date": "2026-04-09T22:38:41.517986+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_383_HB2004.odt",
+  "bill_no": "HB2004",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409173739_572049.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:37:39+00:00",
+   "page_number": 2591
+  },
+  "motion": "Override",
+  "rcs_num": "383",
+  "rev_date": "2026-04-09T22:37:49.911989+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_382_HB2729.odt",
+  "bill_no": "HB2729",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409170632_675107.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:06:32+00:00",
+   "page_number": 2595
+  },
+  "motion": "Override",
+  "rcs_num": "382",
+  "rev_date": "2026-04-09T22:06:40.743017+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_378_HB2727.odt",
+  "bill_no": "HB2727",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409170559_809694.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:05:59+00:00",
+   "page_number": 2595
+  },
+  "motion": "Override",
+  "rcs_num": "378",
+  "rev_date": "2026-04-09T22:06:08.828059+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_381_HB2719.odt",
+  "bill_no": "HB2719",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409170523_769405.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:05:23+00:00",
+   "page_number": 2595
+  },
+  "motion": "Override",
+  "rcs_num": "381",
+  "rev_date": "2026-04-09T22:05:31.634702+00:00",
+  "session_day": "53",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 38
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_379_HB2603.odt",
+  "bill_no": "HB2603",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409170448_469314.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:04:48+00:00",
+   "page_number": 2594
+  },
+  "motion": "Override",
+  "rcs_num": "379",
+  "rev_date": "2026-04-09T22:04:57.137667+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_380_HB2329.odt",
+  "bill_no": "HB2329",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409170406_092942.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T17:04:05+00:00",
+   "page_number": 2591
+  },
+  "motion": "Override",
+  "rcs_num": "380",
+  "rev_date": "2026-04-09T22:04:16.316058+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_377_SB51.odt",
+  "bill_no": "SB51",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "cur_con_335",
+   "action_label": "Concurred with amendments in conference;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409150436_809763.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T15:04:34+00:00",
+   "page_number": 2596
+  },
+  "motion": "Concur",
+  "rcs_num": "377",
+  "rev_date": "2026-04-09T20:04:48.252691+00:00",
+  "session_day": "53",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 38
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_376_SB462.odt",
+  "bill_no": "SB462",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409150010_260545.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T15:00:09+00:00",
+   "page_number": 2590
+  },
+  "motion": "Override",
+  "rcs_num": "376",
+  "rev_date": "2026-04-09T20:00:18.489677+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_375_SB391.odt",
+  "bill_no": "SB391",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409145934_132342.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T14:59:33+00:00",
+   "page_number": 2590
+  },
+  "motion": "Override",
+  "rcs_num": "375",
+  "rev_date": "2026-04-09T19:59:45.527318+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_374_SB361.odt",
+  "bill_no": "SB361",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409145031_971767.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T14:50:31+00:00",
+   "page_number": 2589
+  },
+  "motion": "Override",
+  "rcs_num": "374",
+  "rev_date": "2026-04-09T19:50:50.986567+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_373_SB30.odt",
+  "bill_no": "SB30",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409144951_357856.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T14:49:51+00:00",
+   "page_number": 2588
+  },
+  "motion": "Override",
+  "rcs_num": "373",
+  "rev_date": "2026-04-09T19:50:00.328148+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_372_SB375.odt",
+  "bill_no": "SB375",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day053_20260409/journal_elements/je_20260409144912_995359.odt",
+   "chamber": "senate",
+   "occurred": "2026-04-09T14:49:12+00:00",
+   "page_number": 2589
+  },
+  "motion": "Override",
+  "rcs_num": "372",
+  "rev_date": "2026-04-09T19:49:22.563104+00:00",
+  "session_day": "53",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_370_HB2164.odt",
+  "bill_no": "HB2164",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327225317_214064.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:53:16+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "370",
+  "rev_date": "2026-03-28T03:53:22.937910+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 3,
+   "nay": 13,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 24
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_371_HB2412.odt",
+  "bill_no": "HB2412",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327225242_275946.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:52:41+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "371",
+  "rev_date": "2026-03-28T03:52:47.628017+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 3,
+   "nay": 14,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 23
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_369_HB2587.odt",
+  "bill_no": "HB2587",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327220559_965649.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:05:59+00:00",
+   "page_number": 2546
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "369",
+  "rev_date": "2026-03-28T03:06:04.861834+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_368_HB2560.odt",
+  "bill_no": "HB2560",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327220521_065383.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:05:20+00:00",
+   "page_number": 2543
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "368",
+  "rev_date": "2026-03-28T03:05:26.099822+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_367_SB462.odt",
+  "bill_no": "SB462",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327220417_338482.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:04:16+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "367",
+  "rev_date": "2026-03-28T03:04:24.064127+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_366_SB361.odt",
+  "bill_no": "SB361",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327220310_770542.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:03:09+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "366",
+  "rev_date": "2026-03-28T03:03:17.526446+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_365_SB84.odt",
+  "bill_no": "SB84",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327220214_979016.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T22:02:14+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "365",
+  "rev_date": "2026-03-28T03:02:21.146967+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_364_HB2635.odt",
+  "bill_no": "HB2635",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327212142_387783.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T21:21:42+00:00",
+   "page_number": 2363
+  },
+  "motion": "Override",
+  "rcs_num": "364",
+  "rev_date": "2026-03-28T02:21:49.465995+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_363_HB2651.odt",
+  "bill_no": "HB2651",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327193458_302706.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T19:34:57+00:00",
+   "page_number": 2556
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "363",
+  "rev_date": "2026-03-28T00:35:03.540844+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_362_HB2521.odt",
+  "bill_no": "HB2521",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327193417_169080.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T19:34:16+00:00",
+   "page_number": 2525
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "362",
+  "rev_date": "2026-03-28T00:34:23.629610+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 32
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_361_HB2357.odt",
+  "bill_no": "HB2357",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327193332_675719.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T19:33:31+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "361",
+  "rev_date": "2026-03-28T00:33:37.567585+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 4,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 36
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_360_SB391.odt",
+  "bill_no": "SB391",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327193258_422660.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T19:32:57+00:00",
+   "page_number": 2410
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "360",
+  "rev_date": "2026-03-28T00:33:05.205973+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_359_SB382.odt",
+  "bill_no": "SB382",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327193212_423318.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T19:32:11+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "359",
+  "rev_date": "2026-03-28T00:32:19.474696+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 3,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 37
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_358_HB2745.odt",
+  "bill_no": "HB2745",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "efa_fabc_926",
+   "action_label": "Emergency Final Action - Substitute passed as amended;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327191042_233403.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T19:10:41+00:00",
+   "page_number": 2364
+  },
+  "motion": "Emergency Final Action Substitute As Amended",
+  "rcs_num": "358",
+  "rev_date": "2026-03-28T00:10:50.929429+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 18,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 22
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_357_HB2626.odt",
+  "bill_no": "HB2626",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327172039_054225.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:20:38+00:00",
+   "page_number": 2553
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "357",
+  "rev_date": "2026-03-27T22:20:44.283955+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 7,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 33
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_356_HB2594.odt",
+  "bill_no": "HB2594",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171955_518986.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:19:54+00:00",
+   "page_number": 2548
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "356",
+  "rev_date": "2026-03-27T22:20:02.623265+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 4,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 36
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_355_HB2518.odt",
+  "bill_no": "HB2518",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171913_344232.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:19:12+00:00",
+   "page_number": 2524
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "355",
+  "rev_date": "2026-03-27T22:19:18.296775+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 40
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_354_HB2466.odt",
+  "bill_no": "HB2466",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171829_995142.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:18:29+00:00",
+   "page_number": 2503
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "354",
+  "rev_date": "2026-03-27T22:18:35.212615+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 10,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_353_HB2413.odt",
+  "bill_no": "HB2413",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171753_176070.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:17:52+00:00",
+   "page_number": 2465
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "353",
+  "rev_date": "2026-03-27T22:17:58.150317+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 40
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_352_HB2402.odt",
+  "bill_no": "HB2402",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171711_093332.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:17:10+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "352",
+  "rev_date": "2026-03-27T22:17:16.249387+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_351_HB2333.odt",
+  "bill_no": "HB2333",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171630_550334.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:16:29+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "351",
+  "rev_date": "2026-03-27T22:16:35.763232+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_350_SB435.odt",
+  "bill_no": "SB435",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171536_803711.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:15:35+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "350",
+  "rev_date": "2026-03-27T22:15:43.214411+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 40
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_349_SB356.odt",
+  "bill_no": "SB356",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171452_496663.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:14:51+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "349",
+  "rev_date": "2026-03-27T22:14:59.196279+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_348_SB260.odt",
+  "bill_no": "SB260",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327171412_856902.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T17:14:11+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "348",
+  "rev_date": "2026-03-27T22:14:20.621827+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_343_HB2731.odt",
+  "bill_no": "HB2731",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113850_529363.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:38:49+00:00",
+   "page_number": 2576
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "343",
+  "rev_date": "2026-03-27T16:38:56.522735+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_342_HB2534.odt",
+  "bill_no": "HB2534",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113812_722628.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:38:11+00:00",
+   "page_number": 2536
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "342",
+  "rev_date": "2026-03-27T16:38:17.642092+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_341_HB2485.odt",
+  "bill_no": "HB2485",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113727_688463.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:37:26+00:00",
+   "page_number": 2518
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "341",
+  "rev_date": "2026-03-27T16:37:33.851523+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_347_SB487.odt",
+  "bill_no": "SB487",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "cur_con_335",
+   "action_label": "Concurred with amendments in conference;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113545_018336.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:35:44+00:00",
+   "page_number": 2364
+  },
+  "motion": "Concur",
+  "rcs_num": "347",
+  "rev_date": "2026-03-27T16:35:51.379823+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_346_SB418.odt",
+  "bill_no": "SB418",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113503_041308.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:35:02+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "346",
+  "rev_date": "2026-03-27T16:35:11.280802+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 4,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 35
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_340_SB412.odt",
+  "bill_no": "SB412",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113420_326995.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:34:19+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "340",
+  "rev_date": "2026-03-27T16:34:26.492874+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_339_SB403.odt",
+  "bill_no": "SB403",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113342_492622.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:33:41+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "339",
+  "rev_date": "2026-03-27T16:33:48.295570+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 2,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 37
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_338_SB380.odt",
+  "bill_no": "SB380",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113302_729133.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:33:01+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "338",
+  "rev_date": "2026-03-27T16:33:08.785244+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_345_SB374.odt",
+  "bill_no": "SB374",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113219_067435.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:32:18+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "345",
+  "rev_date": "2026-03-27T16:32:26.075426+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_337_SB353.odt",
+  "bill_no": "SB353",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113138_524529.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:31:36+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "337",
+  "rev_date": "2026-03-27T16:31:43.872040+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 38
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_336_SB321.odt",
+  "bill_no": "SB321",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327113049_276253.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:30:48+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "336",
+  "rev_date": "2026-03-27T16:30:55.377678+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_335_SB271.odt",
+  "bill_no": "SB271",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327112953_832363.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:29:53+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "335",
+  "rev_date": "2026-03-27T16:30:00.598874+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_334_SB232.odt",
+  "bill_no": "SB232",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327112913_443003.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:29:12+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "334",
+  "rev_date": "2026-03-27T16:29:19.430357+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_344_SB92.odt",
+  "bill_no": "SB92",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327112831_789900.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T11:28:30+00:00",
+   "page_number": null
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "344",
+  "rev_date": "2026-03-27T16:28:40.161319+00:00",
+  "session_day": "52",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/vote_records/vote_333_SB368.odt",
+  "bill_no": "SB368",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "gov_avm_885",
+   "action_label": "Motion to override veto prevailed;",
+   "apn": "b2025_26/year2/senate/legislative_days/day052_20260327/journal_elements/je_20260327103940_074154.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-27T10:39:39+00:00",
+   "page_number": 2363
+  },
+  "motion": "Override",
+  "rcs_num": "333",
+  "rev_date": "2026-03-27T15:39:46.818391+00:00",
+  "session_day": "52",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_332_HB2513.odt",
+  "bill_no": "HB2513",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221515_586490.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:15:13+00:00",
+   "page_number": 2327
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "332",
+  "rev_date": "2026-03-27T03:15:21.152141+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 16,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 23
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_331_HB2509.odt",
+  "bill_no": "HB2509",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221416_999310.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:14:16+00:00",
+   "page_number": 2000
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "331",
+  "rev_date": "2026-03-27T03:14:23.390959+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 2,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 37
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_330_HB2462.odt",
+  "bill_no": "HB2462",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221332_495554.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:13:31+00:00",
+   "page_number": 1978
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "330",
+  "rev_date": "2026-03-27T03:13:37.679800+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_329_HB2372.odt",
+  "bill_no": "HB2372",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221245_737592.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:12:44+00:00",
+   "page_number": 1968
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "329",
+  "rev_date": "2026-03-27T03:12:50.204928+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 30
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_328_SB480.odt",
+  "bill_no": "SB480",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "cur_con_335",
+   "action_label": "Concurred with amendments in conference;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221135_620045.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:11:35+00:00",
+   "page_number": 1914
+  },
+  "motion": "Concur",
+  "rcs_num": "328",
+  "rev_date": "2026-03-27T03:11:40.230532+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_327_SB408.odt",
+  "bill_no": "SB408",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "cur_con_335",
+   "action_label": "Concurred with amendments in conference;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221105_932985.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:11:05+00:00",
+   "page_number": 1914
+  },
+  "motion": "Concur",
+  "rcs_num": "327",
+  "rev_date": "2026-03-27T03:11:12.749181+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_326_SB398.odt",
+  "bill_no": "SB398",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "cur_con_335",
+   "action_label": "Concurred with amendments in conference;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326221035_761684.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T22:10:35+00:00",
+   "page_number": 1913
+  },
+  "motion": "Concur",
+  "rcs_num": "326",
+  "rev_date": "2026-03-27T03:10:41.311829+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_325_HB2601.odt",
+  "bill_no": "HB2601",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326203056_335625.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T20:30:54+00:00",
+   "page_number": 2356
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "325",
+  "rev_date": "2026-03-27T01:31:00.904876+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_324_HB2479.odt",
+  "bill_no": "HB2479",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326202956_013688.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T20:29:55+00:00",
+   "page_number": 1989
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "324",
+  "rev_date": "2026-03-27T01:30:00.635605+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_323_HB2365.odt",
+  "bill_no": "HB2365",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326202852_710509.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T20:28:51+00:00",
+   "page_number": 1959
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "323",
+  "rev_date": "2026-03-27T01:28:57.549814+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 5,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 34
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_322_HB2116.odt",
+  "bill_no": "HB2116",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326202802_703731.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T20:28:01+00:00",
+   "page_number": 1918
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "322",
+  "rev_date": "2026-03-27T01:28:07.278658+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_321_HB2114.odt",
+  "bill_no": "HB2114",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326202704_532691.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T20:27:03+00:00",
+   "page_number": 1918
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "321",
+  "rev_date": "2026-03-27T01:27:09.090833+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_320_HB2042.odt",
+  "bill_no": "HB2042",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326202600_094612.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T20:25:59+00:00",
+   "page_number": 1917
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "320",
+  "rev_date": "2026-03-27T01:26:05.003783+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 38
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_319_HB2739.odt",
+  "bill_no": "HB2739",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326153437_677741.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:34:36+00:00",
+   "page_number": 2357
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "319",
+  "rev_date": "2026-03-26T20:34:42.274614+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 1,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 38
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_318_HB2596.odt",
+  "bill_no": "HB2596",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326153331_457766.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:33:30+00:00",
+   "page_number": 2353
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "318",
+  "rev_date": "2026-03-26T20:33:39.578010+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 3,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 36
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_317_HB2501.odt",
+  "bill_no": "HB2501",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326153228_949534.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:32:27+00:00",
+   "page_number": 1991
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "317",
+  "rev_date": "2026-03-26T20:32:34.352536+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 4,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 35
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_316_HB2346.odt",
+  "bill_no": "HB2346",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326153101_860405.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:31:01+00:00",
+   "page_number": 1935
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "316",
+  "rev_date": "2026-03-26T20:31:06.434907+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 13,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 26
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_315_HB2329.odt",
+  "bill_no": "HB2329",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326152957_134434.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:29:56+00:00",
+   "page_number": 1934
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "315",
+  "rev_date": "2026-03-26T20:30:01.742076+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 27
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_314_HB2192.odt",
+  "bill_no": "HB2192",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326152902_940319.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:29:01+00:00",
+   "page_number": 1923
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "314",
+  "rev_date": "2026-03-26T20:29:07.526847+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 1,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 39
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_313_HB2004.odt",
+  "bill_no": "HB2004",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326152812_992055.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T15:28:12+00:00",
+   "page_number": 1916
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "313",
+  "rev_date": "2026-03-26T20:28:17.479420+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 1,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_312_HB2591.odt",
+  "bill_no": "HB2591",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326120250_111280.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T12:02:49+00:00",
+   "page_number": 2352
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "312",
+  "rev_date": "2026-03-26T17:02:54.864329+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 0,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 40
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_311_HB2569.odt",
+  "bill_no": "HB2569",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326120155_829493.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T12:01:54+00:00",
+   "page_number": 2332
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "311",
+  "rev_date": "2026-03-26T17:02:00.680662+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_310_HB2528.odt",
+  "bill_no": "HB2528",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326120053_348635.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T12:00:52+00:00",
+   "page_number": 2329
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "310",
+  "rev_date": "2026-03-26T17:00:59.006047+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 8,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 32
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_309_HB2507.odt",
+  "bill_no": "HB2507",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326115950_434837.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T11:59:49+00:00",
+   "page_number": 1999
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "309",
+  "rev_date": "2026-03-26T16:59:55.141015+00:00",
+  "session_day": "51",
+  "stance": "yea",
+  "tally": {
+   "absent": 0,
+   "nay": 11,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 29
+  }
+ },
+ {
+  "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/vote_records/vote_308_HB2437.odt",
+  "bill_no": "HB2437",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "ccac_om_832",
+   "action_label": "Conference Committee Report was adopted;",
+   "apn": "b2025_26/year2/senate/legislative_days/day051_20260326/journal_elements/je_20260326115839_722506.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-26T11:58:38+00:00",
+   "page_number": 1970
+  },
+  "motion": "Adopt CCR",
+  "rcs_num": "308",
+  "rev_date": "2026-03-26T16:58:44.768141+00:00",
+  "session_day": "51",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 12,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 28
+  }
+ }
+]

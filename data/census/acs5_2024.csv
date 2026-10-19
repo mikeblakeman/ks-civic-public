@@ -1,0 +1,58 @@
+year,geo_name,geo_id,variable,label,estimate,moe
+2024,"Lawrence city, Kansas",1600000US2038900,B01003_001,Total population,96051,50
+2024,"Lawrence city, Kansas",1600000US2038900,B01002_001,Median age,29.3,0.4
+2024,"Lawrence city, Kansas",1600000US2038900,B19013_001,Median household income (dollars),65009,4505
+2024,"Lawrence city, Kansas",1600000US2038900,B25003_001,Occupied housing units,41129,657
+2024,"Lawrence city, Kansas",1600000US2038900,B25003_002,Owner-occupied housing units,17931,709
+2024,"Lawrence city, Kansas",1600000US2038900,B25003_003,Renter-occupied housing units,23198,742
+2024,"Lawrence city, Kansas",1600000US2038900,B25064_001,Median gross rent (dollars),1091,36
+2024,"Lawrence city, Kansas",1600000US2038900,B25077_001,Median home value (dollars),292700,11368
+2024,"Lawrence city, Kansas",1600000US2038900,B17001_001,Population for whom poverty status is determined,88595,151
+2024,"Lawrence city, Kansas",1600000US2038900,B17001_002,Population below poverty level,15393,1448
+2024,"Lawrence city, Kansas",1600000US2038900,B14001_008,"Enrolled in college, undergraduate",18383,977
+2024,"Lawrence city, Kansas",1600000US2038900,B14001_009,Enrolled in graduate or professional school,5171,784
+2024,"Lawrence city, Kansas",1600000US2038900,B15003_001,Population 25 years and over,55061,603
+2024,"Lawrence city, Kansas",1600000US2038900,B15003_022,Population 25+ with a bachelor's degree,15877,904
+2024,"Lawrence city, Kansas",1600000US2038900,B02001_002,White alone,72207,766
+2024,"Lawrence city, Kansas",1600000US2038900,B02001_003,Black or African American alone,4821,537
+2024,"Lawrence city, Kansas",1600000US2038900,B02001_004,American Indian and Alaska Native alone,1409,317
+2024,"Lawrence city, Kansas",1600000US2038900,B02001_005,Asian alone,4941,593
+2024,"Lawrence city, Kansas",1600000US2038900,B03003_003,Hispanic or Latino (any race),7614,386
+2024,"Douglas County, Kansas",0500000US20045,B01003_001,Total population,120302,-555555555
+2024,"Douglas County, Kansas",0500000US20045,B01002_001,Median age,31.6,0.2
+2024,"Douglas County, Kansas",0500000US20045,B19013_001,Median household income (dollars),69746,2954
+2024,"Douglas County, Kansas",0500000US20045,B25003_001,Occupied housing units,50406,600
+2024,"Douglas County, Kansas",0500000US20045,B25003_002,Owner-occupied housing units,25246,622
+2024,"Douglas County, Kansas",0500000US20045,B25003_003,Renter-occupied housing units,25160,720
+2024,"Douglas County, Kansas",0500000US20045,B25064_001,Median gross rent (dollars),1099,33
+2024,"Douglas County, Kansas",0500000US20045,B25077_001,Median home value (dollars),309400,10713
+2024,"Douglas County, Kansas",0500000US20045,B17001_001,Population for whom poverty status is determined,111939,164
+2024,"Douglas County, Kansas",0500000US20045,B17001_002,Population below poverty level,16487,1494
+2024,"Douglas County, Kansas",0500000US20045,B14001_008,"Enrolled in college, undergraduate",19564,1045
+2024,"Douglas County, Kansas",0500000US20045,B14001_009,Enrolled in graduate or professional school,5316,793
+2024,"Douglas County, Kansas",0500000US20045,B15003_001,Population 25 years and over,71726,364
+2024,"Douglas County, Kansas",0500000US20045,B15003_022,Population 25+ with a bachelor's degree,20569,1029
+2024,"Douglas County, Kansas",0500000US20045,B02001_002,White alone,93924,693
+2024,"Douglas County, Kansas",0500000US20045,B02001_003,Black or African American alone,5260,557
+2024,"Douglas County, Kansas",0500000US20045,B02001_004,American Indian and Alaska Native alone,1549,317
+2024,"Douglas County, Kansas",0500000US20045,B02001_005,Asian alone,5207,529
+2024,"Douglas County, Kansas",0500000US20045,B03003_003,Hispanic or Latino (any race),8640,-555555555
+2024,Kansas,0400000US20,B01003_001,Total population,2947197,-555555555
+2024,Kansas,0400000US20,B01002_001,Median age,37.4,0.1
+2024,Kansas,0400000US20,B19013_001,Median household income (dollars),74275,475
+2024,Kansas,0400000US20,B25003_001,Occupied housing units,1174060,4246
+2024,Kansas,0400000US20,B25003_002,Owner-occupied housing units,788409,5615
+2024,Kansas,0400000US20,B25003_003,Renter-occupied housing units,385651,3803
+2024,Kansas,0400000US20,B25064_001,Median gross rent (dollars),1060,7
+2024,Kansas,0400000US20,B25077_001,Median home value (dollars),217200,1343
+2024,Kansas,0400000US20,B17001_001,Population for whom poverty status is determined,2861130,690
+2024,Kansas,0400000US20,B17001_002,Population below poverty level,322842,6298
+2024,Kansas,0400000US20,B14001_008,"Enrolled in college, undergraduate",151745,2901
+2024,Kansas,0400000US20,B14001_009,Enrolled in graduate or professional school,42769,1542
+2024,Kansas,0400000US20,B15003_001,Population 25 years and over,1946678,1192
+2024,Kansas,0400000US20,B15003_022,Population 25+ with a bachelor's degree,431471,5054
+2024,Kansas,0400000US20,B02001_002,White alone,2240383,3840
+2024,Kansas,0400000US20,B02001_003,Black or African American alone,156891,2231
+2024,Kansas,0400000US20,B02001_004,American Indian and Alaska Native alone,23131,1534
+2024,Kansas,0400000US20,B02001_005,Asian alone,86924,1459
+2024,Kansas,0400000US20,B03003_003,Hispanic or Latino (any race),400018,110
