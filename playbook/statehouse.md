@@ -18,12 +18,29 @@
 - Check `data/kslegis/last_run.json` warnings before trusting counts. A warning like "got 100 of 1200" means the
   pull was cut short.
 
-Example: how did tracked people vote on SB 98 (2025)?
+## Before calling any vote a vote "on" a subject
+
+1. **Bill numbers restart every biennium.** SB 98 in 2023 and SB 98 in 2025 are different bills. Always filter
+   by `biennium`.
+2. **Kansas bills are often gutted and replaced.** A conference committee or a substitute can swap a bill's entire
+   content. SB 98 (2025) began as a Route 66 license plate bill; the April 11, 2025 conference report replaced it
+   with the data center exemption from SB 51. SB 51 itself later became an unrelated IT security bill in 2026.
+3. **Titles in `governor_actions` can be the original title, not the final one.** Confirm what a bill did at the
+   moment of each vote from the enrolled text, the conference committee brief, or the supplemental note before
+   describing the vote. Votes before a gut-and-replace are on the old content.
+4. Prefer the final-passage or conference-report roll call when stating how someone voted on a law.
+
+Example: how did tracked people vote on the 2025 data center law (SB 98, conference report)?
 
 ```sql
-SELECT person_id, member_id, motion, action, occurred_on, position, tally_yea, tally_nay
-FROM votes WHERE measure = 'SB98' ORDER BY occurred_on, person_id;
+SELECT person_id, member_id, action, occurred_on, position, tally_yea, tally_nay
+FROM votes
+WHERE biennium = 'b2025_26' AND measure = 'SB98' AND action LIKE 'Conference Committee Report%'
+ORDER BY body, person_id;
 ```
+
+Known gap: the API serves 2023-24 onward only. Earlier votes need another source (for example LegiScan or
+Open States bulk data, or House and Senate journals).
 
 ## Consistency check (candidates with a record)
 
