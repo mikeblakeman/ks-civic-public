@@ -1,0 +1,46 @@
+person_id,name,office,district,party,status,notes,source_url,as_of
+kelly-laura,Laura Kelly,Governor,,D,holder,Term-limited; term ends January 2027,https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election,2026-10-19
+masterson-ty,Ty Masterson,Governor,,R,nominee,Running mate Jeff Klemp,https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election,2026-10-19
+masterson-ty,Ty Masterson,Kansas Senate,,R,holder,Senate President; district to confirm via Legislature API,https://www.kcur.org/politics-elections-and-government/2026-10-14/kansas-governor-race-2026-election-candidates-masterson-holscher,2026-10-19
+klemp-jeff,Jeff Klemp,Lieutenant Governor,,R,nominee,Running mate of Ty Masterson,https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election,2026-10-19
+holscher-cindy,Cindy Holscher,Governor,,D,nominee,Running mate KC Ohaebosim,https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election,2026-10-19
+holscher-cindy,Cindy Holscher,Kansas Senate,,D,holder,State senator from Overland Park; district to confirm via Legislature API,https://www.kcur.org/politics-elections-and-government/2026-10-14/kansas-governor-race-2026-election-candidates-masterson-holscher,2026-10-19
+ohaebosim-kc,KC Ohaebosim,Lieutenant Governor,,D,nominee,Running mate of Cindy Holscher,https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election,2026-10-19
+kobach-kris,Kris Kobach,Attorney General,,R,holder; nominee,Attorney general since 2023,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+mann-chris,Chris Mann,Attorney General,,D,nominee,Former Lawrence police officer and Wyandotte County prosecutor,https://www.kcur.org/politics-elections-and-government/2026-09-22/kansas-attorney-general-election-kobach-mann,2026-10-19
+proctor-pat,Pat Proctor,Secretary of State,,R,nominee,,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+day-jennifer,Jennifer Day,Secretary of State,,D,nominee,,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+morgan-scott,Scott Morgan,Secretary of State,,United Kansas,nominee,,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+johnson-steve,Steve Johnson,State Treasurer,,R,holder; nominee,Elected treasurer in 2022,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+luengo-juan,Juan C. Luengo,State Treasurer,,D,nominee,,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+hawkins-dan,Dan Hawkins,Insurance Commissioner,,R,nominee,Kansas House Speaker,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+sykes-dinah,Dinah Sykes,Insurance Commissioner,,D,nominee,,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+koehn-ric,Ric Koehn,Insurance Commissioner,,L,nominee,,https://kansasreflector.com/2026/08/04/kansas-democrats-republicans-firm-up-teams-for-statewide-office-contests/,2026-10-19
+finkeldei-brad,Brad Finkeldei,Lawrence City Commission,at large,,holder,"Mayor for 2026; elected 2019, reelected 2023",https://lawrencekstimes.com/contact-lawrencecitycomm/,2025-12-03
+courtney-mike,Mike Courtney,Lawrence City Commission,at large,,holder,Vice mayor for 2026; elected 2025,https://lawrencekstimes.com/contact-lawrencecitycomm/,2025-12-03
+dever-mike,Mike Dever,Lawrence City Commission,at large,,holder,Elected 2023; also served 2007 to 2015,https://lawrencekstimes.com/contact-lawrencecitycomm/,2025-12-03
+polian-kristine,Kristine Polian,Lawrence City Commission,at large,,holder,Elected 2025,https://lawrencekstimes.com/contact-lawrencecitycomm/,2025-12-03
+sellers-amber,Amber Sellers,Lawrence City Commission,at large,,holder,"Elected 2021, reelected 2023",https://lawrencekstimes.com/contact-lawrencecitycomm/,2025-12-03
+byers-bob,Bob Byers,USD 497 Board of Education,,,holder,Board president 2026-27; appointed to a vacancy in 2026,https://lawrencekstimes.com/contact-usd497bd/,2026-10-19
+franklin-yolanda,Yolanda Franklin,USD 497 Board of Education,,,holder,Board vice president 2026-27; elected 2023,https://lawrencekstimes.com/contact-usd497bd/,2026-10-19
+gordon-ross-gr,GR Gordon-Ross,USD 497 Board of Education,,,holder,Elected 2017; appointed 2022; elected 2023,https://www.usd497.org/fs/pages/5449,2026-10-19
+cadue-blackwood-carole,Carole Cadue-Blackwood,USD 497 Board of Education,,,holder,,https://www.usd497.org/fs/pages/5449,2026-10-19
+kimball-shannon,Shannon Kimball,USD 497 Board of Education,,,holder,Reelected November 2025,https://lawrencekstimes.com/tag/election-2025/,2026-10-19
+jones-kelly,Kelly Jones,USD 497 Board of Education,,,holder,"Reelected November 2025; roster has 6 of 7 members, fill the seventh from usd497.org",https://lawrencekstimes.com/tag/election-2025/,2026-10-19
+kelly-patrick,Patrick Kelly,Douglas County Commission,1,,holder,,https://www.dgcoks.gov/county-commission?page=1,2026-10-19
+reid-shannon,Shannon Reid,Douglas County Commission,2,,holder,Chair,https://www.dgcoks.gov/county-commission?page=1,2026-10-19
+willey-karen,Karen Willey,Douglas County Commission,3,,holder,Vice chair,https://www.dgcoks.gov/county-commission?page=1,2026-10-19
+dorsey-gene,Gene Dorsey,Douglas County Commission,4,,holder,,https://www.dgcoks.gov/county-commission?page=1,2026-10-19
+anderson-erica,Erica Anderson,Douglas County Commission,5,,holder,,https://www.dgcoks.gov/county-commission?page=1,2026-10-19
+francisco-marci,Marci Francisco,Kansas Senate,2,D,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+schmidt-patrick,Patrick Schmidt,Kansas Senate,19,D,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+kloos-rick,Rick Kloos,Kansas Senate,3,R,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+gossage-beverly,Beverly Gossage,Kansas Senate,9,R,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+wikle-suzanne,Suzanne Wikle,Kansas House,10,D,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+ballard-barbara,Barbara Ballard,Kansas House,44,D,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+amyx-mike,Mike Amyx,Kansas House,45,D,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+mosley-brooklynne,Brooklynne Mosley,Kansas House,46,D,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+barth-carrie,Carrie Barth,Kansas House,5,R,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+neelly-lance,Lance Neelly,Kansas House,42,R,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+ellis-ronald,Ronald Ellis,Kansas House,47,R,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
+turk-adam,Adam Turk,Kansas House,117,R,holder,"Lawrence or Douglas County area; verify after the Nov 3, 2026 House election",https://lawrencekstimes.com/contact-state-fed/,2025-03-15
