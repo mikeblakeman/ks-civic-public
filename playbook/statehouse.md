@@ -3,7 +3,7 @@
 ## Data
 
 - `data/kslegis/<biennium>/legislators.json`: every member for that biennium.
-- `data/kslegis/<biennium>/voting_record_<person_id>.json`: votes for people listed in `config/kslegis.json`.
+- `data/kslegis/<biennium>/voting_record_<person_id>__<kpid>.json`: votes for people listed in `config/kslegis.json`.
 - `data/kslegis/<biennium>/governor_actions.json`: bills signed, vetoed, overridden.
 - Files are named `voting_record_<person_id>__<kpid>.json`. One person can have two kpids (for example
   `rep_holscher_cindy_1` and `sen_holscher_cindy_1` after moving from the House to the Senate).
