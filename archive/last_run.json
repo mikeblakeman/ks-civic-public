@@ -1,7 +1,33 @@
 {
-  "ran_at": "2026-10-19T19:32:28Z",
-  "targets": 11,
-  "ok": 11,
-  "changed": 11,
-  "failed": []
+  "ran_at": "2026-10-20T18:00:08Z",
+  "targets": 34,
+  "ok": 29,
+  "changed": 22,
+  "failed": [
+    {
+      "slug": "sykes-home",
+      "outcome": "fetch_error",
+      "note": "ConnectionError"
+    },
+    {
+      "slug": "nfts-gov-state-fair-debate",
+      "outcome": "http_error",
+      "note": "status 403"
+    },
+    {
+      "slug": "governor-office",
+      "outcome": "http_error",
+      "note": "status 403"
+    },
+    {
+      "slug": "ag-office",
+      "outcome": "http_error",
+      "note": "status 403"
+    },
+    {
+      "slug": "insurance-office",
+      "outcome": "http_error",
+      "note": "status 403"
+    }
+  ]
 }
