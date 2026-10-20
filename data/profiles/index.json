@@ -1,0 +1,366 @@
+[
+ {
+  "person_id": "amyx-mike",
+  "name": "Mike Amyx",
+  "sort_name": "amyx mike",
+  "roles": "Kansas House 45 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "anderson-erica",
+  "name": "Erica Anderson",
+  "sort_name": "anderson erica",
+  "roles": "Douglas County Commission 5 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "ballard-barbara",
+  "name": "Barbara Ballard",
+  "sort_name": "ballard barbara",
+  "roles": "Kansas House 44 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "barth-carrie",
+  "name": "Carrie Barth",
+  "sort_name": "barth carrie",
+  "roles": "Kansas House 5 (former)",
+  "on_chart": true
+ },
+ {
+  "person_id": "byers-bob",
+  "name": "Bob Byers",
+  "sort_name": "byers bob",
+  "roles": "USD 497 Board of Education (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "cadue-blackwood-carole",
+  "name": "Carole Cadue-Blackwood",
+  "sort_name": "cadue-blackwood carole",
+  "roles": "USD 497 Board of Education (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "courtney-mike",
+  "name": "Mike Courtney",
+  "sort_name": "courtney mike",
+  "roles": "Lawrence City Commission at large (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "day-jennifer",
+  "name": "Jennifer Day",
+  "sort_name": "day jennifer",
+  "roles": "Secretary of State (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "dever-mike",
+  "name": "Mike Dever",
+  "sort_name": "dever mike",
+  "roles": "Lawrence City Commission at large (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "dorsey-gene",
+  "name": "Gene Dorsey",
+  "sort_name": "dorsey gene",
+  "roles": "Douglas County Commission 4 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "ellis-paula-newell",
+  "name": "Paula Newell Ellis",
+  "sort_name": "ellis paula newell",
+  "roles": "Kansas House 47 (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "ellis-ronald",
+  "name": "Ronald Ellis",
+  "sort_name": "ellis ronald",
+  "roles": "Kansas House 47 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "finkeldei-brad",
+  "name": "Brad Finkeldei",
+  "sort_name": "finkeldei brad",
+  "roles": "Lawrence City Commission at large (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "francisco-marci",
+  "name": "Marci Francisco",
+  "sort_name": "francisco marci",
+  "roles": "Kansas Senate 2 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "franklin-yolanda",
+  "name": "Yolanda Franklin",
+  "sort_name": "franklin yolanda",
+  "roles": "USD 497 Board of Education (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "gordon-ross-gr",
+  "name": "GR Gordon-Ross",
+  "sort_name": "gordon-ross gr",
+  "roles": "USD 497 Board of Education (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "gossage-beverly",
+  "name": "Beverly Gossage",
+  "sort_name": "gossage beverly",
+  "roles": "Kansas Senate 9 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "hawkins-dan",
+  "name": "Dan Hawkins",
+  "sort_name": "hawkins dan",
+  "roles": "Insurance Commissioner (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "holland-brandon",
+  "name": "Brandon Holland",
+  "sort_name": "holland brandon",
+  "roles": "Kansas House 117 (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "holscher-cindy",
+  "name": "Cindy Holscher",
+  "sort_name": "holscher cindy",
+  "roles": "Governor (nominee); Kansas Senate (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "johns-henry",
+  "name": "Henry Johns",
+  "sort_name": "johns henry",
+  "roles": "Kansas House 5 (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "johnson-steve",
+  "name": "Steve Johnson",
+  "sort_name": "johnson steve",
+  "roles": "State Treasurer (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "jones-kelly",
+  "name": "Kelly Jones",
+  "sort_name": "jones kelly",
+  "roles": "USD 497 Board of Education (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "kelly-laura",
+  "name": "Laura Kelly",
+  "sort_name": "kelly laura",
+  "roles": "Governor (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "kelly-patrick",
+  "name": "Patrick Kelly",
+  "sort_name": "kelly patrick",
+  "roles": "Douglas County Commission 1 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "kimball-shannon",
+  "name": "Shannon Kimball",
+  "sort_name": "kimball shannon",
+  "roles": "USD 497 Board of Education (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "klemp-jeff",
+  "name": "Jeff Klemp",
+  "sort_name": "klemp jeff",
+  "roles": "Lieutenant Governor (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "kloos-rick",
+  "name": "Rick Kloos",
+  "sort_name": "kloos rick",
+  "roles": "Kansas Senate 3 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "kobach-kris",
+  "name": "Kris Kobach",
+  "sort_name": "kobach kris",
+  "roles": "Attorney General (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "koehn-ric",
+  "name": "Ric Koehn",
+  "sort_name": "koehn ric",
+  "roles": "Insurance Commissioner (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "luengo-juan",
+  "name": "Juan C. Luengo",
+  "sort_name": "luengo juan c.",
+  "roles": "State Treasurer (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "lund-eric",
+  "name": "Eric Lund",
+  "sort_name": "lund eric",
+  "roles": "State Treasurer (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "mann-chris",
+  "name": "Chris Mann",
+  "sort_name": "mann chris",
+  "roles": "Attorney General (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "masterson-ty",
+  "name": "Ty Masterson",
+  "sort_name": "masterson ty",
+  "roles": "Governor (nominee); Kansas Senate (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "morgan-scott",
+  "name": "Scott Morgan",
+  "sort_name": "morgan scott",
+  "roles": "Secretary of State (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "mosley-brooklynne",
+  "name": "Brooklynne Mosley",
+  "sort_name": "mosley brooklynne",
+  "roles": "Kansas House 46 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "neelly-lance",
+  "name": "Lance Neelly",
+  "sort_name": "neelly lance",
+  "roles": "Kansas House 42 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "ohaebosim-kc",
+  "name": "KC Ohaebosim",
+  "sort_name": "ohaebosim kc",
+  "roles": "Lieutenant Governor (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "polian-kristine",
+  "name": "Kristine Polian",
+  "sort_name": "polian kristine",
+  "roles": "Lawrence City Commission at large (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "proctor-pat",
+  "name": "Pat Proctor",
+  "sort_name": "proctor pat",
+  "roles": "Secretary of State (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "reid-shannon",
+  "name": "Shannon Reid",
+  "sort_name": "reid shannon",
+  "roles": "Douglas County Commission 2 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "sappington-courtney",
+  "name": "Courtney Sappington",
+  "sort_name": "sappington courtney",
+  "roles": "Kansas House 5 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "schmidt-patrick",
+  "name": "Patrick Schmidt",
+  "sort_name": "schmidt patrick",
+  "roles": "Kansas Senate 19 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "schultz-kristen",
+  "name": "Kristen Schultz",
+  "sort_name": "schultz kristen",
+  "roles": "Kansas House 43 (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "sellers-amber",
+  "name": "Amber Sellers",
+  "sort_name": "sellers amber",
+  "roles": "Lawrence City Commission at large (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "sutton-bill",
+  "name": "Bill Sutton",
+  "sort_name": "sutton bill",
+  "roles": "Kansas House 43 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "sykes-dinah",
+  "name": "Dinah Sykes",
+  "sort_name": "sykes dinah",
+  "roles": "Insurance Commissioner (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "turk-adam",
+  "name": "Adam Turk",
+  "sort_name": "turk adam",
+  "roles": "Kansas House 117 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "wendt-brandon",
+  "name": "Brandon Wendt",
+  "sort_name": "wendt brandon",
+  "roles": "Kansas House 42 (nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "wikle-suzanne",
+  "name": "Suzanne Wikle",
+  "sort_name": "wikle suzanne",
+  "roles": "Kansas House 10 (holder, nominee)",
+  "on_chart": true
+ },
+ {
+  "person_id": "willey-karen",
+  "name": "Karen Willey",
+  "sort_name": "willey karen",
+  "roles": "Douglas County Commission 3 (holder)",
+  "on_chart": true
+ },
+ {
+  "person_id": "williams-mary",
+  "name": "Mary T. Williams",
+  "sort_name": "williams mary t.",
+  "roles": "Kansas House 47 (nominee)",
+  "on_chart": true
+ }
+]

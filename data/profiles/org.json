@@ -1,0 +1,1654 @@
+{
+ "schema_version": "1.0.0",
+ "title": "Lawrence and Kansas officials",
+ "election": {
+  "date": "2026-11-03",
+  "label": "Nov 3, 2026 general election"
+ },
+ "stale_after_days": 90,
+ "repo_url": "https://github.com/mikeblakeman/ks-civic-relay/blob/main/",
+ "data_as_of": "2026-10-19",
+ "section_order": [
+  "commitments",
+  "votes",
+  "money",
+  "claims",
+  "statements",
+  "sources"
+ ],
+ "status_scale": {
+  "scored": [
+   "Kept",
+   "Partial",
+   "In progress",
+   "Stalled",
+   "Broken",
+   "Unverifiable"
+  ],
+  "not_scored": [
+   "Pre-office",
+   "Moot",
+   "Not scored"
+  ],
+  "definitions": {
+   "Kept": {
+    "effort": "Acted and voted consistently every time it came up",
+    "outcome": "Adopted or achieved"
+   },
+   "Partial": {
+    "effort": "Mixed record, or acted on a narrower version",
+    "outcome": "A compromise version adopted"
+   },
+   "In progress": {
+    "effort": "Not yet up for action, or action underway",
+    "outcome": "Underway with a dated next step"
+   },
+   "Stalled": {
+    "effort": "No action in 12+ months despite opportunity",
+    "outcome": "No movement in 12+ months"
+   },
+   "Broken": {
+    "effort": "Acted or voted against the commitment",
+    "outcome": "Rejected or reversed"
+   },
+   "Unverifiable": {
+    "effort": "No public record could show it either way",
+    "outcome": "Same"
+   },
+   "Pre-office": {
+    "effort": "Made as a candidate; nothing to score until they hold the office",
+    "outcome": "Same"
+   },
+   "Moot": {
+    "effort": "Candidate lost; kept for the record, never scored",
+    "outcome": "Same"
+   },
+   "Not scored": {
+    "effort": "Used only for positions",
+    "outcome": "Same"
+   }
+  }
+ },
+ "groups": [
+  {
+   "id": "ks-statewide",
+   "label": "Kansas statewide executive offices",
+   "partisan": true,
+   "seat_count": 6,
+   "seats": [
+    {
+     "id": "ks-governor",
+     "label": "Governor",
+     "office": "Governor",
+     "district": null,
+     "multi_member": null,
+     "holders": [
+      "kelly-laura"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "holscher-cindy",
+       "masterson-ty"
+      ]
+     }
+    },
+    {
+     "id": "ks-lt-governor",
+     "label": "Lieutenant Governor",
+     "office": "Lieutenant Governor",
+     "district": null,
+     "multi_member": null,
+     "holders": [],
+     "former": [],
+     "unfilled": 1,
+     "holder_note": "The current holder is not tracked yet.",
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "klemp-jeff",
+       "ohaebosim-kc"
+      ]
+     }
+    },
+    {
+     "id": "ks-attorney-general",
+     "label": "Attorney General",
+     "office": "Attorney General",
+     "district": null,
+     "multi_member": null,
+     "holders": [
+      "kobach-kris"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "kobach-kris",
+       "mann-chris"
+      ]
+     }
+    },
+    {
+     "id": "ks-secretary-of-state",
+     "label": "Secretary of State",
+     "office": "Secretary of State",
+     "district": null,
+     "multi_member": null,
+     "holders": [],
+     "former": [],
+     "unfilled": 1,
+     "holder_note": "The current holder is not tracked until the 2027 winner takes office.",
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "day-jennifer",
+       "morgan-scott",
+       "proctor-pat"
+      ]
+     }
+    },
+    {
+     "id": "ks-treasurer",
+     "label": "State Treasurer",
+     "office": "State Treasurer",
+     "district": null,
+     "multi_member": null,
+     "holders": [
+      "johnson-steve"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "johnson-steve",
+       "luengo-juan",
+       "lund-eric"
+      ]
+     }
+    },
+    {
+     "id": "ks-insurance-commissioner",
+     "label": "Insurance Commissioner",
+     "office": "Insurance Commissioner",
+     "district": null,
+     "multi_member": null,
+     "holders": [],
+     "former": [],
+     "unfilled": 1,
+     "holder_note": "The current holder is not tracked until the 2027 winner takes office.",
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "hawkins-dan",
+       "koehn-ric",
+       "sykes-dinah"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ks-senate",
+   "label": "Kansas Senate (districts covering Lawrence)",
+   "partisan": true,
+   "seat_count": 4,
+   "seats": [
+    {
+     "id": "ks-senate-2",
+     "label": "Senate District 2",
+     "office": "Kansas Senate",
+     "district": "2",
+     "multi_member": null,
+     "holders": [
+      "francisco-marci"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "ks-senate-3",
+     "label": "Senate District 3",
+     "office": "Kansas Senate",
+     "district": "3",
+     "multi_member": null,
+     "holders": [
+      "kloos-rick"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "ks-senate-9",
+     "label": "Senate District 9",
+     "office": "Kansas Senate",
+     "district": "9",
+     "multi_member": null,
+     "holders": [
+      "gossage-beverly"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "ks-senate-19",
+     "label": "Senate District 19",
+     "office": "Kansas Senate",
+     "district": "19",
+     "multi_member": null,
+     "holders": [
+      "schmidt-patrick"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    }
+   ]
+  },
+  {
+   "id": "ks-house",
+   "label": "Kansas House (districts covering Lawrence)",
+   "partisan": true,
+   "seat_count": 9,
+   "seats": [
+    {
+     "id": "ks-house-5",
+     "label": "House District 5",
+     "office": "Kansas House",
+     "district": "5",
+     "multi_member": null,
+     "holders": [
+      "sappington-courtney"
+     ],
+     "former": [
+      "barth-carrie"
+     ],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "johns-henry",
+       "sappington-courtney"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-10",
+     "label": "House District 10",
+     "office": "Kansas House",
+     "district": "10",
+     "multi_member": null,
+     "holders": [
+      "wikle-suzanne"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "wikle-suzanne"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-42",
+     "label": "House District 42",
+     "office": "Kansas House",
+     "district": "42",
+     "multi_member": null,
+     "holders": [
+      "neelly-lance"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "neelly-lance",
+       "wendt-brandon"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-43",
+     "label": "House District 43",
+     "office": "Kansas House",
+     "district": "43",
+     "multi_member": null,
+     "holders": [
+      "sutton-bill"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "schultz-kristen",
+       "sutton-bill"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-44",
+     "label": "House District 44",
+     "office": "Kansas House",
+     "district": "44",
+     "multi_member": null,
+     "holders": [
+      "ballard-barbara"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "ballard-barbara"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-45",
+     "label": "House District 45",
+     "office": "Kansas House",
+     "district": "45",
+     "multi_member": null,
+     "holders": [
+      "amyx-mike"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "amyx-mike"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-46",
+     "label": "House District 46",
+     "office": "Kansas House",
+     "district": "46",
+     "multi_member": null,
+     "holders": [
+      "mosley-brooklynne"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "mosley-brooklynne"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-47",
+     "label": "House District 47",
+     "office": "Kansas House",
+     "district": "47",
+     "multi_member": null,
+     "holders": [
+      "ellis-ronald"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "ellis-paula-newell",
+       "williams-mary"
+      ]
+     }
+    },
+    {
+     "id": "ks-house-117",
+     "label": "House District 117",
+     "office": "Kansas House",
+     "district": "117",
+     "multi_member": null,
+     "holders": [
+      "turk-adam"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": {
+      "election": "2026-11-03",
+      "label": "Nov 3, 2026 general election",
+      "nominees": [
+       "holland-brandon",
+       "turk-adam"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "douglas-county",
+   "label": "Douglas County Commission",
+   "partisan": true,
+   "seat_count": 5,
+   "seats": [
+    {
+     "id": "dgco-1",
+     "label": "District 1",
+     "office": "Douglas County Commission",
+     "district": "1",
+     "multi_member": null,
+     "holders": [
+      "kelly-patrick"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "dgco-2",
+     "label": "District 2",
+     "office": "Douglas County Commission",
+     "district": "2",
+     "multi_member": null,
+     "holders": [
+      "reid-shannon"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "dgco-3",
+     "label": "District 3",
+     "office": "Douglas County Commission",
+     "district": "3",
+     "multi_member": null,
+     "holders": [
+      "willey-karen"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "dgco-4",
+     "label": "District 4",
+     "office": "Douglas County Commission",
+     "district": "4",
+     "multi_member": null,
+     "holders": [
+      "dorsey-gene"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    },
+    {
+     "id": "dgco-5",
+     "label": "District 5",
+     "office": "Douglas County Commission",
+     "district": "5",
+     "multi_member": null,
+     "holders": [
+      "anderson-erica"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    }
+   ]
+  },
+  {
+   "id": "lawrence-city",
+   "label": "Lawrence City Commission",
+   "partisan": false,
+   "seat_count": 1,
+   "seats": [
+    {
+     "id": "lawrence-cc-at-large",
+     "label": "At-large seats",
+     "office": "Lawrence City Commission",
+     "district": "at large",
+     "multi_member": 5,
+     "holders": [
+      "courtney-mike",
+      "dever-mike",
+      "finkeldei-brad",
+      "polian-kristine",
+      "sellers-amber"
+     ],
+     "former": [],
+     "unfilled": 0,
+     "holder_note": null,
+     "race": null
+    }
+   ]
+  },
+  {
+   "id": "usd497",
+   "label": "USD 497 Board of Education",
+   "partisan": false,
+   "seat_count": 1,
+   "seats": [
+    {
+     "id": "usd497-board",
+     "label": "Board seats",
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "multi_member": 7,
+     "holders": [
+      "byers-bob",
+      "cadue-blackwood-carole",
+      "franklin-yolanda",
+      "gordon-ross-gr",
+      "jones-kelly",
+      "kimball-shannon"
+     ],
+     "former": [],
+     "unfilled": 1,
+     "holder_note": null,
+     "race": null
+    }
+   ]
+  }
+ ],
+ "people": {
+  "amyx-mike": {
+   "name": "Mike Amyx",
+   "initials": "MA",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "45",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-45"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "anderson-erica": {
+   "name": "Erica Anderson",
+   "initials": "EA",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Douglas County Commission",
+     "district": "5",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "dgco-5"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "ballard-barbara": {
+   "name": "Barbara Ballard",
+   "initials": "BB",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "44",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-44"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "barth-carrie": {
+   "name": "Carrie Barth",
+   "initials": "CB",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "5",
+     "status": [
+      "former"
+     ],
+     "seat_id": "ks-house-5"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "byers-bob": {
+   "name": "Bob Byers",
+   "initials": "BB",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "usd497-board"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "cadue-blackwood-carole": {
+   "name": "Carole Cadue-Blackwood",
+   "initials": "CC",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "usd497-board"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "courtney-mike": {
+   "name": "Mike Courtney",
+   "initials": "MC",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Lawrence City Commission",
+     "district": "at large",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "lawrence-cc-at-large"
+    }
+   ],
+   "data_as_of": "2025-12-03",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "day-jennifer": {
+   "name": "Jennifer Day",
+   "initials": "JD",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Secretary of State",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-secretary-of-state"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "statements",
+    "sources"
+   ]
+  },
+  "dever-mike": {
+   "name": "Mike Dever",
+   "initials": "MD",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Lawrence City Commission",
+     "district": "at large",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "lawrence-cc-at-large"
+    }
+   ],
+   "data_as_of": "2025-12-03",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "dorsey-gene": {
+   "name": "Gene Dorsey",
+   "initials": "GD",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Douglas County Commission",
+     "district": "4",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "dgco-4"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "ellis-paula-newell": {
+   "name": "Paula Newell Ellis",
+   "initials": "PE",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "47",
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-house-47"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "ellis-ronald": {
+   "name": "Ronald Ellis",
+   "initials": "RE",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "47",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "ks-house-47"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "finkeldei-brad": {
+   "name": "Brad Finkeldei",
+   "initials": "BF",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Lawrence City Commission",
+     "district": "at large",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "lawrence-cc-at-large"
+    }
+   ],
+   "data_as_of": "2025-12-03",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "francisco-marci": {
+   "name": "Marci Francisco",
+   "initials": "MF",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas Senate",
+     "district": "2",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "ks-senate-2"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "franklin-yolanda": {
+   "name": "Yolanda Franklin",
+   "initials": "YF",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "usd497-board"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "gordon-ross-gr": {
+   "name": "GR Gordon-Ross",
+   "initials": "GG",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "usd497-board"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "gossage-beverly": {
+   "name": "Beverly Gossage",
+   "initials": "BG",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas Senate",
+     "district": "9",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "ks-senate-9"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "hawkins-dan": {
+   "name": "Dan Hawkins",
+   "initials": "DH",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Insurance Commissioner",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-insurance-commissioner"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "votes",
+    "statements",
+    "sources"
+   ]
+  },
+  "holland-brandon": {
+   "name": "Brandon Holland",
+   "initials": "BH",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "117",
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-house-117"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "holscher-cindy": {
+   "name": "Cindy Holscher",
+   "initials": "CH",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Governor",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-governor"
+    },
+    {
+     "office": "Kansas Senate",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": null
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "votes",
+    "claims",
+    "statements",
+    "sources"
+   ]
+  },
+  "johns-henry": {
+   "name": "Henry Johns",
+   "initials": "HJ",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "5",
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-house-5"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "johnson-steve": {
+   "name": "Steve Johnson",
+   "initials": "SJ",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "State Treasurer",
+     "district": null,
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-treasurer"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "claims",
+    "statements",
+    "sources"
+   ]
+  },
+  "jones-kelly": {
+   "name": "Kelly Jones",
+   "initials": "KJ",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "usd497-board"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "kelly-laura": {
+   "name": "Laura Kelly",
+   "initials": "LK",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Governor",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "ks-governor"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "kelly-patrick": {
+   "name": "Patrick Kelly",
+   "initials": "PK",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Douglas County Commission",
+     "district": "1",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "dgco-1"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "kimball-shannon": {
+   "name": "Shannon Kimball",
+   "initials": "SK",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "USD 497 Board of Education",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": "usd497-board"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "klemp-jeff": {
+   "name": "Jeff Klemp",
+   "initials": "JK",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Lieutenant Governor",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-lt-governor"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "kloos-rick": {
+   "name": "Rick Kloos",
+   "initials": "RK",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas Senate",
+     "district": "3",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "ks-senate-3"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "kobach-kris": {
+   "name": "Kris Kobach",
+   "initials": "KK",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Attorney General",
+     "district": null,
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-attorney-general"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "claims",
+    "statements",
+    "sources"
+   ]
+  },
+  "koehn-ric": {
+   "name": "Ric Koehn",
+   "initials": "RK",
+   "party_label": "Libertarian",
+   "roles": [
+    {
+     "office": "Insurance Commissioner",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-insurance-commissioner"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "luengo-juan": {
+   "name": "Juan C. Luengo",
+   "initials": "JL",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "State Treasurer",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-treasurer"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "statements",
+    "sources"
+   ]
+  },
+  "lund-eric": {
+   "name": "Eric Lund",
+   "initials": "EL",
+   "party_label": "Libertarian",
+   "roles": [
+    {
+     "office": "State Treasurer",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-treasurer"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "mann-chris": {
+   "name": "Chris Mann",
+   "initials": "CM",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Attorney General",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-attorney-general"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "statements",
+    "sources"
+   ]
+  },
+  "masterson-ty": {
+   "name": "Ty Masterson",
+   "initials": "TM",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Governor",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-governor"
+    },
+    {
+     "office": "Kansas Senate",
+     "district": null,
+     "status": [
+      "holder"
+     ],
+     "seat_id": null
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "votes",
+    "claims",
+    "sources"
+   ]
+  },
+  "morgan-scott": {
+   "name": "Scott Morgan",
+   "initials": "SM",
+   "party_label": "United Kansas",
+   "roles": [
+    {
+     "office": "Secretary of State",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-secretary-of-state"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "sources"
+   ]
+  },
+  "mosley-brooklynne": {
+   "name": "Brooklynne Mosley",
+   "initials": "BM",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "46",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-46"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "neelly-lance": {
+   "name": "Lance Neelly",
+   "initials": "LN",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "42",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-42"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "ohaebosim-kc": {
+   "name": "KC Ohaebosim",
+   "initials": "KO",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Lieutenant Governor",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-lt-governor"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "polian-kristine": {
+   "name": "Kristine Polian",
+   "initials": "KP",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Lawrence City Commission",
+     "district": "at large",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "lawrence-cc-at-large"
+    }
+   ],
+   "data_as_of": "2025-12-03",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "proctor-pat": {
+   "name": "Pat Proctor",
+   "initials": "PP",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Secretary of State",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-secretary-of-state"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "votes",
+    "statements",
+    "sources"
+   ]
+  },
+  "reid-shannon": {
+   "name": "Shannon Reid",
+   "initials": "SR",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Douglas County Commission",
+     "district": "2",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "dgco-2"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "sappington-courtney": {
+   "name": "Courtney Sappington",
+   "initials": "CS",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "5",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-5"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "schmidt-patrick": {
+   "name": "Patrick Schmidt",
+   "initials": "PS",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas Senate",
+     "district": "19",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "ks-senate-19"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "schultz-kristen": {
+   "name": "Kristen Schultz",
+   "initials": "KS",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "43",
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-house-43"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "sellers-amber": {
+   "name": "Amber Sellers",
+   "initials": "AS",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Lawrence City Commission",
+     "district": "at large",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "lawrence-cc-at-large"
+    }
+   ],
+   "data_as_of": "2025-12-03",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "sutton-bill": {
+   "name": "Bill Sutton",
+   "initials": "BS",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "43",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-43"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "sykes-dinah": {
+   "name": "Dinah Sykes",
+   "initials": "DS",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Insurance Commissioner",
+     "district": null,
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-insurance-commissioner"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "votes",
+    "sources"
+   ]
+  },
+  "turk-adam": {
+   "name": "Adam Turk",
+   "initials": "AT",
+   "party_label": "Republican",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "117",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-117"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "votes",
+    "sources"
+   ]
+  },
+  "wendt-brandon": {
+   "name": "Brandon Wendt",
+   "initials": "BW",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "42",
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-house-42"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "wikle-suzanne": {
+   "name": "Suzanne Wikle",
+   "initials": "SW",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "10",
+     "status": [
+      "holder",
+      "nominee"
+     ],
+     "seat_id": "ks-house-10"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "commitments",
+    "votes",
+    "statements",
+    "sources"
+   ]
+  },
+  "willey-karen": {
+   "name": "Karen Willey",
+   "initials": "KW",
+   "party_label": null,
+   "roles": [
+    {
+     "office": "Douglas County Commission",
+     "district": "3",
+     "status": [
+      "holder"
+     ],
+     "seat_id": "dgco-3"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  },
+  "williams-mary": {
+   "name": "Mary T. Williams",
+   "initials": "MW",
+   "party_label": "Democratic",
+   "roles": [
+    {
+     "office": "Kansas House",
+     "district": "47",
+     "status": [
+      "nominee"
+     ],
+     "seat_id": "ks-house-47"
+    }
+   ],
+   "data_as_of": "2026-10-19",
+   "sections_with_data": [
+    "sources"
+   ]
+  }
+ }
+}
