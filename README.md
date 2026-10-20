@@ -5,9 +5,10 @@ and Kansas statewide officials. Generated automatically from a private repositor
 
 Contents: a SQLite database (`civic.db`), an officials registry, a promise ledger with sources,
 a list of claims queued for checking, the manifest of archived pages (URL, date, SHA-256 only),
-Kansas Legislature and Census API pulls, and the playbooks the research assistant follows.
+Kansas Legislature and Census API pulls, verified social accounts, and the playbooks the research assistant follows.
 
 Archived copies of third-party web pages are kept privately as evidence and are not republished here.
+The same goes for social posts: `data/social/index.csv` lists post links, dates, and flags only, never post text.
 Quotes in the ledger are under 15 words and link to their source.
 
 Kansas law (K.S.A. 25-4154(d)) prohibits copying contributor names from campaign finance reports
