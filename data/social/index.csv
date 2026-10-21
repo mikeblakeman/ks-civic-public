@@ -1,4 +1,5 @@
 platform,person_id,handle,account_type,account_status,uri,url,created_at,is_reply,is_quote,has_link,commitment_terms,missing_since
+bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3myfmytyva224,https://bsky.app/profile/cindyforkansas.bsky.social/post/3myfmytyva224,2026-10-21T17:04:31.608Z,0,0,0,,
 bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3myavkge6422h,https://bsky.app/profile/cindyforkansas.bsky.social/post/3myavkge6422h,2026-10-19T19:54:12.519Z,0,0,0,,
 bluesky,day-jennifer,electjenday.bsky.social,campaign,verified,at://did:plc:taplcufw43k674ezuiptfmhk/app.bsky.feed.post/3myak33pl7s2j,https://bsky.app/profile/electjenday.bsky.social/post/3myak33pl7s2j,2026-10-19T16:28:46.880Z,0,0,0,,
 bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3my66s7lpl22d,https://bsky.app/profile/cindyforkansas.bsky.social/post/3my66s7lpl22d,2026-10-18T18:01:38.323Z,0,0,0,,
