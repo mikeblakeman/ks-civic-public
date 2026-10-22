@@ -7,7 +7,7 @@
  },
  "stale_after_days": 90,
  "repo_url": "https://github.com/mikeblakeman/ks-civic-relay/blob/main/",
- "data_as_of": "2026-10-21",
+ "data_as_of": "2026-10-22",
  "section_order": [
   "commitments",
   "votes",
@@ -745,7 +745,7 @@
      "seat_id": "ks-secretary-of-state"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "statements",
@@ -940,7 +940,7 @@
      "seat_id": "ks-insurance-commissioner"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -989,7 +989,7 @@
      "seat_id": null
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1032,7 +1032,7 @@
      "seat_id": "ks-treasurer"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "claims",
@@ -1171,7 +1171,7 @@
      "seat_id": "ks-attorney-general"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "claims",
@@ -1212,7 +1212,7 @@
      "seat_id": "ks-treasurer"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "statements",
@@ -1252,7 +1252,7 @@
      "seat_id": "ks-attorney-general"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "statements",
@@ -1281,7 +1281,7 @@
      "seat_id": null
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1403,7 +1403,7 @@
      "seat_id": "ks-secretary-of-state"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1604,7 +1604,7 @@
      "seat_id": "ks-house-10"
     }
    ],
-   "data_as_of": "2026-10-21",
+   "data_as_of": "2026-10-22",
    "sections_with_data": [
     "commitments",
     "votes",

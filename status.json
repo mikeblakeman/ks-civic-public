@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-21T18:32:07Z",
+  "published_at": "2026-10-22T18:16:04Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,15 +11,35 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-10-21T18:05:35Z",
+    "ran_at": "2026-10-22T18:00:42Z",
     "targets": 34,
-    "ok": 29,
-    "changed": 21,
+    "ok": 25,
+    "changed": 9,
     "failed": [
       {
         "slug": "sykes-home",
         "outcome": "fetch_error",
         "note": "ConnectionError"
+      },
+      {
+        "slug": "wikle-questionnaire",
+        "outcome": "http_error",
+        "note": "status 403"
+      },
+      {
+        "slug": "kns-sos-guide",
+        "outcome": "http_error",
+        "note": "status 403"
+      },
+      {
+        "slug": "kns-treasurer-guide",
+        "outcome": "http_error",
+        "note": "status 403"
+      },
+      {
+        "slug": "kns-insurance-guide",
+        "outcome": "http_error",
+        "note": "status 403"
       },
       {
         "slug": "nfts-gov-state-fair-debate",
@@ -234,14 +254,14 @@
     "errors": []
   },
   "social": {
-    "ran_at": "2026-10-21T18:31:53Z",
+    "ran_at": "2026-10-22T18:15:51Z",
     "accounts": [
       {
         "person_id": "holscher-cindy",
         "handle": "cindyforkansas.bsky.social",
         "status": "probable",
-        "seen_this_run": 646,
-        "stored": 646,
+        "seen_this_run": 647,
+        "stored": 647,
         "complete": true,
         "missing": 0,
         "flagged": 149

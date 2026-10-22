@@ -1,13 +1,33 @@
 {
-  "ran_at": "2026-10-21T18:05:35Z",
+  "ran_at": "2026-10-22T18:00:42Z",
   "targets": 34,
-  "ok": 29,
-  "changed": 21,
+  "ok": 25,
+  "changed": 9,
   "failed": [
     {
       "slug": "sykes-home",
       "outcome": "fetch_error",
       "note": "ConnectionError"
+    },
+    {
+      "slug": "wikle-questionnaire",
+      "outcome": "http_error",
+      "note": "status 403"
+    },
+    {
+      "slug": "kns-sos-guide",
+      "outcome": "http_error",
+      "note": "status 403"
+    },
+    {
+      "slug": "kns-treasurer-guide",
+      "outcome": "http_error",
+      "note": "status 403"
+    },
+    {
+      "slug": "kns-insurance-guide",
+      "outcome": "http_error",
+      "note": "status 403"
     },
     {
       "slug": "nfts-gov-state-fair-debate",
