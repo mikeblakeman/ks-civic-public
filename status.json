@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-22T18:16:04Z",
+  "published_at": "2026-10-23T18:12:14Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,40 +11,15 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-10-22T18:00:42Z",
+    "ran_at": "2026-10-23T17:53:49Z",
     "targets": 34,
-    "ok": 25,
-    "changed": 9,
+    "ok": 30,
+    "changed": 20,
     "failed": [
       {
         "slug": "sykes-home",
         "outcome": "fetch_error",
         "note": "ConnectionError"
-      },
-      {
-        "slug": "wikle-questionnaire",
-        "outcome": "http_error",
-        "note": "status 403"
-      },
-      {
-        "slug": "kns-sos-guide",
-        "outcome": "http_error",
-        "note": "status 403"
-      },
-      {
-        "slug": "kns-treasurer-guide",
-        "outcome": "http_error",
-        "note": "status 403"
-      },
-      {
-        "slug": "kns-insurance-guide",
-        "outcome": "http_error",
-        "note": "status 403"
-      },
-      {
-        "slug": "nfts-gov-state-fair-debate",
-        "outcome": "http_error",
-        "note": "status 403"
       },
       {
         "slug": "governor-office",
@@ -254,14 +229,14 @@
     "errors": []
   },
   "social": {
-    "ran_at": "2026-10-22T18:15:51Z",
+    "ran_at": "2026-10-23T18:11:56Z",
     "accounts": [
       {
         "person_id": "holscher-cindy",
         "handle": "cindyforkansas.bsky.social",
         "status": "probable",
-        "seen_this_run": 647,
-        "stored": 647,
+        "seen_this_run": 648,
+        "stored": 648,
         "complete": true,
         "missing": 0,
         "flagged": 149
