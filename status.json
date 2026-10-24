@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-23T18:12:14Z",
+  "published_at": "2026-10-24T16:56:26Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,7 +11,7 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-10-23T17:53:49Z",
+    "ran_at": "2026-10-24T16:37:59Z",
     "targets": 34,
     "ok": 30,
     "changed": 20,
@@ -229,14 +229,14 @@
     "errors": []
   },
   "social": {
-    "ran_at": "2026-10-23T18:11:56Z",
+    "ran_at": "2026-10-24T16:56:12Z",
     "accounts": [
       {
         "person_id": "holscher-cindy",
         "handle": "cindyforkansas.bsky.social",
         "status": "probable",
-        "seen_this_run": 648,
-        "stored": 648,
+        "seen_this_run": 649,
+        "stored": 649,
         "complete": true,
         "missing": 0,
         "flagged": 149
