@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-24T16:56:26Z",
+  "published_at": "2026-10-25T17:15:29Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,10 +11,10 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-10-24T16:37:59Z",
+    "ran_at": "2026-10-25T17:04:30Z",
     "targets": 34,
     "ok": 30,
-    "changed": 20,
+    "changed": 16,
     "failed": [
       {
         "slug": "sykes-home",
@@ -229,7 +229,7 @@
     "errors": []
   },
   "social": {
-    "ran_at": "2026-10-24T16:56:12Z",
+    "ran_at": "2026-10-25T17:15:17Z",
     "accounts": [
       {
         "person_id": "holscher-cindy",
