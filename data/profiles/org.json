@@ -7,7 +7,7 @@
  },
  "stale_after_days": 90,
  "repo_url": "https://github.com/mikeblakeman/ks-civic-relay/blob/main/",
- "data_as_of": "2026-10-25",
+ "data_as_of": "2026-10-26",
  "section_order": [
   "commitments",
   "votes",
@@ -608,7 +608,7 @@
      "seat_id": "ks-house-45"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -648,7 +648,7 @@
      "seat_id": "ks-house-44"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -668,7 +668,7 @@
      "seat_id": "ks-house-5"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -745,7 +745,7 @@
      "seat_id": "ks-secretary-of-state"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "statements",
@@ -823,7 +823,7 @@
      "seat_id": "ks-house-47"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -862,7 +862,7 @@
      "seat_id": "ks-senate-2"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -920,7 +920,7 @@
      "seat_id": "ks-senate-9"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -940,7 +940,7 @@
      "seat_id": "ks-insurance-commissioner"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -989,7 +989,7 @@
      "seat_id": null
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1032,7 +1032,7 @@
      "seat_id": "ks-treasurer"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "claims",
@@ -1073,7 +1073,7 @@
      "seat_id": "ks-governor"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1150,7 +1150,7 @@
      "seat_id": "ks-senate-3"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1171,7 +1171,7 @@
      "seat_id": "ks-attorney-general"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "claims",
@@ -1212,7 +1212,7 @@
      "seat_id": "ks-treasurer"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "statements",
@@ -1252,7 +1252,7 @@
      "seat_id": "ks-attorney-general"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "statements",
@@ -1281,7 +1281,7 @@
      "seat_id": null
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1324,7 +1324,7 @@
      "seat_id": "ks-house-46"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1345,7 +1345,7 @@
      "seat_id": "ks-house-42"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1403,7 +1403,7 @@
      "seat_id": "ks-secretary-of-state"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1445,7 +1445,7 @@
      "seat_id": "ks-house-5"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1465,7 +1465,7 @@
      "seat_id": "ks-senate-19"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1524,7 +1524,7 @@
      "seat_id": "ks-house-43"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1544,7 +1544,7 @@
      "seat_id": "ks-insurance-commissioner"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "votes",
@@ -1566,7 +1566,7 @@
      "seat_id": "ks-house-117"
     }
    ],
-   "data_as_of": "2026-10-19",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "votes",
     "sources"
@@ -1606,7 +1606,7 @@
      "seat_id": "ks-house-10"
     }
    ],
-   "data_as_of": "2026-10-25",
+   "data_as_of": "2026-10-26",
    "sections_with_data": [
     "commitments",
     "votes",
