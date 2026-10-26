@@ -151,9 +151,22 @@
     "rep_proctor_pat_1": 749
    }
   },
+  "sappington-courtney": {
+   "b2025_26": {
+    "rep_sappington_courtney_1": 397
+   }
+  },
   "schmidt-patrick": {
    "b2025_26": {
     "sen_schmidt_patrick_1": 743
+   }
+  },
+  "sutton-bill": {
+   "b2023_24": {
+    "rep_sutton_william_1": 613
+   },
+   "b2025_26": {
+    "rep_sutton_william_1": 749
    }
   },
   "sykes-dinah": {
@@ -178,6 +191,6 @@
    }
   }
  },
- "requests": 252,
+ "requests": 271,
  "warnings": []
 }
