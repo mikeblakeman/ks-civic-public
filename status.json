@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-30T18:59:25Z",
+  "published_at": "2026-10-31T18:06:12Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,10 +11,10 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-10-30T18:39:06Z",
+    "ran_at": "2026-10-31T17:46:58Z",
     "targets": 34,
     "ok": 29,
-    "changed": 17,
+    "changed": 14,
     "failed": [
       {
         "slug": "sykes-home",
@@ -247,17 +247,17 @@
     "errors": []
   },
   "social": {
-    "ran_at": "2026-10-30T18:59:14Z",
+    "ran_at": "2026-10-31T18:06:01Z",
     "accounts": [
       {
         "person_id": "holscher-cindy",
         "handle": "cindyforkansas.bsky.social",
         "status": "probable",
-        "seen_this_run": 654,
-        "stored": 654,
+        "seen_this_run": 656,
+        "stored": 656,
         "complete": true,
         "missing": 0,
-        "flagged": 152
+        "flagged": 154
       },
       {
         "person_id": "day-jennifer",
