@@ -1,18 +1,13 @@
 {
-  "ran_at": "2026-11-05T20:41:39Z",
-  "targets": 34,
-  "ok": 29,
-  "changed": 14,
+  "ran_at": "2026-11-06T19:58:08Z",
+  "targets": 28,
+  "ok": 24,
+  "changed": 11,
   "failed": [
     {
       "slug": "sykes-home",
       "outcome": "fetch_error",
       "note": "ConnectionError"
-    },
-    {
-      "slug": "nfts-gov-state-fair-debate",
-      "outcome": "http_error",
-      "note": "status 403"
     },
     {
       "slug": "governor-office",
