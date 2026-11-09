@@ -1,8 +1,8 @@
 {
-  "ran_at": "2026-11-08T18:23:01Z",
+  "ran_at": "2026-11-09T23:00:00Z",
   "targets": 28,
   "ok": 24,
-  "changed": 7,
+  "changed": 10,
   "failed": [
     {
       "slug": "sykes-home",
