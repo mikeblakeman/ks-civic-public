@@ -1,15 +1,15 @@
 {
-  "ran_at": "2026-11-09T23:09:45Z",
+  "ran_at": "2026-11-10T20:38:53Z",
   "accounts": [
     {
       "person_id": "holscher-cindy",
       "handle": "cindyforkansas.bsky.social",
       "status": "probable",
-      "seen_this_run": 660,
-      "stored": 660,
+      "seen_this_run": 661,
+      "stored": 661,
       "complete": true,
       "missing": 0,
-      "flagged": 156
+      "flagged": 157
     },
     {
       "person_id": "day-jennifer",
