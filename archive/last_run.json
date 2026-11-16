@@ -1,8 +1,8 @@
 {
-  "ran_at": "2026-11-15T19:23:46Z",
+  "ran_at": "2026-11-16T22:55:00Z",
   "targets": 28,
   "ok": 22,
-  "changed": 9,
+  "changed": 11,
   "failed": [
     {
       "slug": "mann-home",
