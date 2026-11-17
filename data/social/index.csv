@@ -1,4 +1,5 @@
 platform,person_id,handle,account_type,account_status,uri,url,created_at,is_reply,is_quote,has_link,commitment_terms,missing_since
+bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3n2k23ba7jc2a,https://bsky.app/profile/cindyforkansas.bsky.social/post/3n2k23ba7jc2a,2026-11-17T21:59:33.438Z,0,0,1,,
 bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3n2eqbwhjcc2o,https://bsky.app/profile/cindyforkansas.bsky.social/post/3n2eqbwhjcc2o,2026-11-15T19:21:00.911Z,0,0,0,I will,
 bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3n25mdls5i22f,https://bsky.app/profile/cindyforkansas.bsky.social/post/3n25mdls5i22f,2026-11-12T23:21:43.697Z,0,0,0,as officeholder,
 bluesky,holscher-cindy,cindyforkansas.bsky.social,campaign,probable,at://did:plc:ei6fueazsxvhhjvbr53hr63f/app.bsky.feed.post/3n22fzdszrk2v,https://bsky.app/profile/cindyforkansas.bsky.social/post/3n22fzdszrk2v,2026-11-11T16:50:38.131Z,0,0,0,,
