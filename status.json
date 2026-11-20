@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-19T21:47:05Z",
+  "published_at": "2026-11-20T21:21:22Z",
   "included": [
     "civic.db",
     "registry",
@@ -11,10 +11,10 @@
     "playbook"
   ],
   "archive": {
-    "ran_at": "2026-11-19T21:38:09Z",
+    "ran_at": "2026-11-20T21:10:01Z",
     "targets": 28,
     "ok": 22,
-    "changed": 10,
+    "changed": 8,
     "failed": [
       {
         "slug": "mann-home",
@@ -252,7 +252,7 @@
     "errors": []
   },
   "social": {
-    "ran_at": "2026-11-19T21:46:52Z",
+    "ran_at": "2026-11-20T21:21:09Z",
     "accounts": [
       {
         "person_id": "holscher-cindy",
