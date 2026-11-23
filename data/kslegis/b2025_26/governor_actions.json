@@ -1,24 +1,24 @@
 [
  {
   "bill_no": "SB82",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-27",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring the secretary for aging and disability services to grant physical environment waivers for certain rural emergency hospitals to provide skilled nursing facility care. ",
+  "title": "Providing tax credits for expenditures for lockable gun and ammunition storage and the retail sale of higher ethanol blends of fuel, discontinuing the tax credit for qualified alternative-fueled motor vehicle property or fueling station expenditures, repealing the agritourism liability insurance, assistive technology contributions, declared disaster capital investment, owners promoting employment across Kansas and swine facility improvement tax credits and expanding the eligibility for applicable expenses under the child day care services assistance tax credit.",
   "type": "bill"
  },
  {
   "bill_no": "SB51",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-27",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing a sales tax exemption for the construction or remodeling of a qualified data center in Kansas and the purchase of data center equipment, eligible data center costs and certain labor costs to qualified firms that commit to a minimum investment of at least $250,000,000 and meet new Kansas jobs and other requirements.",
+  "title": "House Substitute for SB 51 by Committee on Legislative Modernization - Authorizing the chief information security officer to receive audit reports, updating statutes related to services provided by the chief information technology officer and authorizing the office of information technology services to provide certain services to political subdivisions and hospitals.",
   "type": "bill"
  },
  {
@@ -51,7 +51,7 @@
   "last_date": "2026-04-27",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Enacting the athletic licensure trainer compact to provide interstate practice privileges for athletic trainers.",
+  "title": "Requiring school districts to provide elementary students with a certain amount of daily recess, prohibiting limiting or withholding recess for disciplinary reasons, requiring a Kansas state fitness test and designating required recess time as part of the school term.",
   "type": "bill"
  },
  {
@@ -73,7 +73,7 @@
   "last_date": "2026-04-27",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Increasing the CREP acreage cap to 60,000 acres, clarifying eligibility and criteria, allowing exceptions for specific conditions and modifying reporting requirements to cover the last five years.",
+  "title": "Senate Substitute for HB 2111 by Committee on Agriculture and Natural Resources - Exempting certain registered agritourism operations from local code and regulation enforcement.",
   "type": "bill"
  },
  {
@@ -84,7 +84,7 @@
   "last_date": "2026-04-27",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Requiring that third party administrators maintain separate fiduciary accounts for individual payors and not contain funds collected or held on behalf of multiple payors and disclose to the commissioner of insurance any bankruptcy petition filed by or on behalf of such administrator.",
+  "title": "Providing a income tax subtraction modification for amounts received as compensation for serving in the armed forces and providing that a person shall not lose eligibility for a homestead property tax refund claim or the selective assistance for effective senior relief (SAFESR) income tax credit if the appraised valuation of the homestead subsequently exceeds $350,000 after qualifying in a previous tax year.",
   "type": "bill"
  },
  {
@@ -95,7 +95,7 @@
   "last_date": "2026-04-27",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Requiring agents and insurers to respond to inquiries from the commissioner of insurance within 14 calendar days and authorizing certain rebate pilot programs to exceed one year in duration. ",
+  "title": "Providing a protest petition to contest certain increases in property tax revenues and continuing reimbursements from the taxpayer notification costs fund for an additional five years.",
   "type": "bill"
  },
  {
@@ -106,7 +106,7 @@
   "last_date": "2026-04-27",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Designating a portion of K-5 highway as the Representative Marvin S Robinson II memorial highway and redesignating a current portion of the Harry Darby memorial highway for interstate highway 635.",
+  "title": "Reconciling multiple amendments to certain statutes.",
   "type": "bill"
  },
  {
@@ -139,7 +139,7 @@
   "last_date": "2026-04-13",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Establishing the Kansas sports tourism grant program to be administered by the secretary of commerce to provide grants to assist communities in developing and continuing sporting events and creating the Kansas sports tourism committee to review and determine grant awards. ",
+  "title": "Substitute for HB 2346 by Committee on Commerce, Labor and Economic Development - Establishing the Kansas sports tourism grant program administered by the secretary of commerce to provide matching grants to communities for developing and continuing sporting events, providing for funding of such grants from the state economic development initiatives fund or from the state general fund if funds are not available therefrom.",
   "type": "bill"
  },
  {
@@ -150,7 +150,7 @@
   "last_date": "2026-04-13",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Prohibiting the disqualification of active military members, spouses or other dependents as poll workers by county election officers on the basis of residency or registered voter status.",
+  "title": "Senate Substitute for HB 2018 by Committee on Federal and State Affairs - Creating the crime of interference with the conduct of a religious assembly, providing criminal penalties therefor and providing for a civil cause of action for damages.",
   "type": "bill"
  },
  {
@@ -172,18 +172,18 @@
   "last_date": "2026-04-10",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Requiring a vote of the electors to approve increases in property tax revenues for the next year, establishing the property tax relief fund and providing transfers to counties that limit property taxes to certain increases, establishing the property tax limit in lieu of the revenue neutral rate to provide for certain budget increases of taxing subdivisions and continuing in existence the taxpayer notification costs fund.",
+  "title": "Senate Substitute for HB 2745 by Committee on Assessment and Taxation - Providing a protest petition to contest certain increases in property tax revenues and continuing reimbursements from the taxpayer notification costs fund for an additional five years.",
   "type": "bill"
  },
  {
   "bill_no": "HB2731",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2026-04-10",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Directing the secretary for children and families to contract with the office of the inspector general for the establishment of a fraud detection unit to detect, investigate and assist in prosecuting fraud in the food assistance program.",
+  "title": "Substitute for HB 2731 by Committee on Welfare Reform - Requiring the department for children and families and the office of inspector general to exchange information and documents related to cash assistance, childcare assistance and food assistance fraud investigations.",
   "type": "bill"
  },
  {
@@ -194,7 +194,7 @@
   "last_date": "2026-04-10",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Authorizing a challenge to a voluntary acknowledgment of paternity at any time after acknowledgment in cases of fraud, duress or mistake of fact and specifying that genetic testing results are considered a material mistake of fact. ",
+  "title": "Authorizing a challenge to a voluntary acknowledgment of paternity as soon as practicable after discovery of fraud, duress or mistake of fact, specifying that certain genetic testing results shall constitute a change of circumstances that warrants a court finding of material mistake of fact and providing for recovery of actual damages in exceptional circumstances.&nbsp;",
   "type": "bill"
  },
  {
@@ -216,7 +216,7 @@
   "last_date": "2026-04-10",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Requiring actions challenging the constitutionality of an election statute to be brought in the district court of Shawnee county and providing a conditional amendment to limit advance voting if a court order invalidates or enjoins the signature verification requirement.",
+  "title": "Requiring actions challenging the constitutionality of an election statute to be brought in the district court of Shawnee county.",
   "type": "bill"
  },
  {
@@ -227,7 +227,7 @@
   "last_date": "2026-04-10",
   "status": "partial-override",
   "status_label": "Partial Line-Item Overrides",
-  "title": "Making and concerning supplemental appropriations for fiscal year 2026 and appropriations for fiscal years 2027, 2028, 2029 and 2030 for various state agencies, authorizing certain capital improvement projects and fees, authorizing certain transfers.",
+  "title": "Authorizing payment of certain claims against the state, making appropriations therefor and authorizing certain transfers.",
   "type": "bill"
  },
  {
@@ -271,7 +271,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring the Kansas bureau of investigation to implement a statewide offender registration system for agencies who register offenders under the offender registration act.",
+  "title": "Requiring the Kansas bureau of investigation to implement a statewide offender registration system for agencies who register offenders under the offender registration act, providing for a petition to determine that an offender is indigent and authorizing a notice to appear to be issued for a violation of the act involving nonpayment of a fee.",
   "type": "bill"
  },
  {
@@ -293,7 +293,7 @@
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Prohibiting certain public nuisance claims, requiring the attorney general to bring nuisance actions that are not wholly contained in one political subdivision, requiring special injury for certain public nuisance actions and providing an accrual period for the statute of limitations in public nuisance actions.",
+  "title": "Prohibiting certain public nuisance claims, providing that only the attorney general may file claims regarding public nuisances that are not wholly contained in one political subdivision unless the attorney general delegates authorization to file such claims and requiring special injury for certain public nuisance actions.",
   "type": "bill"
  },
  {
@@ -304,7 +304,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing procedures, standards and requirements for the deposit and investment of public moneys, creating the public moneys fee fund and authorizing the state treasurer to assess a fee to operate the public moneys pooled method, making and concerning appropriations for fiscal year 2027 for the office of the state treasurer, authorizing a certain transfer from the state general fund to the public moneys fee fund, modifying investment standards for the board of trustees of the Kansas public employees retirement system of moneys certified by the state treasurer as equivalent to the aggregate net amount received for unclaimed property and authorizing investments in certain foreign governments and the KPERS board of trustees to elect the vice chairperson of the board, requiring newly affiliated KP&F employers to contribute at the actuarial required rate for past and future service and repealing certain working after retirement statutes for state and local elected officials.",
+  "title": "Authorizing the KPERS board of trustees to elect the vice chairperson of the board, requiring newly affiliated KP&F employers to contribute at the actuarial required rate for past and future service and repealing certain working after retirement statutes for state and local elected officials.",
   "type": "bill"
  },
  {
@@ -315,7 +315,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Imposing the duty to notify nonparties to a conservatorship of any court order commanding performance or safekeeping of the conservatee's estate assets.",
+  "title": "Imposing a duty on a conservator to notify certain entities and persons of any court order commanding performance or safekeeping of a conservatee's estate assets.",
   "type": "bill"
  },
  {
@@ -331,24 +331,24 @@
  },
  {
   "bill_no": "SB403",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for the pheasants forever and quail forever distinctive license plates.",
+  "title": "Providing for the pheasants forever, quail forever and delta waterfowl distinctive license plates.",
   "type": "bill"
  },
  {
   "bill_no": "SB382",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for the administration and proctoring of statewide assessments to virtual school students by such students' virtual schools.",
+  "title": "Providing for the administration and proctoring of statewide assessments to virtual school students by such students' virtual schools, adding certain third parties who contract with school districts to the definition of special teacher and providing for special education state aid reimbursement for qualified teachers who provide approved special education or related services to students with an IEP administered by such school district pursuant to a contract.",
   "type": "bill"
  },
  {
@@ -359,7 +359,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring retail electric suppliers to provide fair, reasonable and nondiscriminatory rates and services to entities that provide electric vehicle charging services.",
+  "title": "Requiring retail electric suppliers to provide nondiscriminatory rates and services to entities that provide electric vehicle charging services and prohibiting any costs and expenses associated with a retail electric supplier's electric vehicle charging stations from being recovered in electric rates.",
   "type": "bill"
  },
  {
@@ -392,18 +392,18 @@
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Electing to participate in the federal tax credit for individual contributions to scholarship granting organizations.",
+  "title": "Authorizing foreign exchange students who reside with a host family to enroll in and attend the resident school district of the host family as if the student were a resident of the school district and excluding such student from the open-seat lottery process.",
   "type": "bill"
  },
  {
   "bill_no": "SB356",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing federal firearms licensees immunity from civil liability for returning a firearm to the firearm owner at the termination of a firearm hold agreement.",
+  "title": "House Substitute for SB356 by House Committee on Federal and State Affairs - Providing immunity from civil liability to federal firearms licensees for returning a firearm to a firearm owner at the termination of the firearm hold agreement, preempting municipalities from imposing any regulations or additional terms on firearm hold agreements, providing that firearm hold agreements shall not give rise to any inference that the firearm owner lacked legal capacity or fitness to possess a firearm.",
   "type": "bill"
  },
  {
@@ -419,7 +419,7 @@
  },
  {
   "bill_no": "SB325",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -436,18 +436,18 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Designating the junction of I-35 and U.S. highway 69 and 18th street expressway in Johnson county as the Representative Robert M Tomlinson memorial interchange.",
+  "title": "Designating bridges on United States highway 69 and the 18th street expressway in Johnson county as the Representative Robert M Tomlinson memorial bridge and a bridge on interstate 135 in Sedgwick county as the Don Snyder memorial bridge.",
   "type": "bill"
  },
  {
   "bill_no": "SB30",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Requiring the secretary of labor to conduct a state and national criminal history record check on employees who have access to federal tax information received directly from the internal revenue service.",
+  "title": "Requiring that adoption of new occupational licensing requirements and material changes to existing occupational licenses by a state agency be approved by joint resolution of the legislature unless otherwise ratified by the legislature by the enactment of a bill and providing for notice to agencies and the legislature and a procedure for legislative review of such occupational licensing requirements.",
   "type": "bill"
  },
  {
@@ -485,7 +485,7 @@
  },
  {
   "bill_no": "SB20",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -524,7 +524,7 @@
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Providing an exception to the rules and regulations filing act for technical amendments, creating a process for certain rules and regulations to receive priority status in the adoption process, removing references to revival of rules and regulations, clarifying that the department of the budget is not required to approve proposed rules and regulations mandated by the federal government and adding references to department of corrections rules and regulations that are not subject to the act.",
+  "title": "Providing an exception to the rules and regulations filing act for technical amendments, creating a process for certain rules and regulations to receive priority status in the adoption process, removing references to revival of rules and regulations, clarifying that the department of the budget is not required to approve proposed rules and regulations mandated by the federal government, adding references to department of corrections rules and regulations that are not subject to the act and requiring an agency submit a proposed rule and regulation to the joint committee on administrative rules and regulations prior to presentation of a bill to the legislature for ratification.",
   "type": "bill"
  },
  {
@@ -535,7 +535,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Establishing the Kansas right-to-repair act to provide the right for persons who purchase or lease digital electronic equipment to obtain the legal authorization and necessary documentation and parts from original equipment manufacturers to diagnose, maintain and repair such equipment.",
+  "title": "Establishing the Kansas digital right-to-repair act to provide the right for persons who purchase digital electronic equipment to obtain the legal authorization and necessary documentation and parts from original equipment manufacturers to diagnose, maintain and repair such equipment.",
   "type": "bill"
  },
  {
@@ -557,7 +557,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing the Kansas department of transportation to establish a statewide fiber system.",
+  "title": "Authorizing the Kansas department of transportation to establish a statewide conduit system for fiber optic transmissions of broadband connections.",
   "type": "bill"
  },
  {
@@ -584,13 +584,13 @@
  },
  {
   "bill_no": "HB2613",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for the crime victims compensation board to establish fees chargeable for conducting examinations of persons who may be victims of sexual assault and authorizing the board to adopt rules and regulations to administer such fees and to use moneys in the crime victims compensation fund for the payment of such fees.",
+  "title": "Providing for the crime victims compensation board to establish fees chargeable for conducting examinations of persons who may be victims of sexual assault, authorizing the board to adopt rules and regulations to administer such fees and to use moneys in the crime victims compensation fund for the payment of such fees and allowing certain exceptions to the confidentiality of records and information given to the board.",
   "type": "bill"
  },
  {
@@ -612,7 +612,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Establishing a registry for child abuse and neglect to be maintained by the secretary for children and families and providing for registration and expungement processes that include administrative hearings and opportunities for subsequent appeals.",
+  "title": "Establishing a registry for child abuse and neglect to be maintained by the secretary for children and families, providing for registration and expungement processes that include administrative hearings and opportunities for subsequent appeals, requiring reports of abuse or neglect to include information regarding a custody dispute concerning the child who is the subject of the report and directing the secretary to submit a report to the legislature on such information.",
   "type": "bill"
  },
  {
@@ -623,7 +623,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Permitting the secretary of corrections to enter into certain contracts for the production of manufactured or modular homes under the prison-made goods act.",
+  "title": "Permitting the secretary of corrections to enter into certain contracts for the production of manufactured or modular homes for a pilot program at the Hutchinson correctional facility under the prison-made goods act.",
   "type": "bill"
  },
  {
@@ -639,7 +639,7 @@
  },
  {
   "bill_no": "HB2591",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -650,7 +650,7 @@
  },
  {
   "bill_no": "HB2590",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -661,7 +661,7 @@
  },
  {
   "bill_no": "HB2573",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -672,7 +672,7 @@
  },
  {
   "bill_no": "HB2560",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -733,12 +733,12 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Adding advanced practice registered nurse to the definition of healthcare provider for purposes of the healthcare provider insurance availability act.",
+  "title": "Adding advanced practice registered nurse to the definition of healthcare provider for purposes of the healthcare provider insurance availability act and adding an advanced practice registered nurse position to the board of governors of the healthcare stabilization fund.",
   "type": "bill"
  },
  {
   "bill_no": "HB2507",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -755,12 +755,12 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for immunity from civil liability to federal firearms licensees for returning a firearm to the firearm owner at the termination of a firearm hold agreement.",
+  "title": "Senate Substitute for HB 2501 by Committee on Federal and State Affairs - Providing for immunity from civil liability to federal firearms licensees for returning a firearm to the firearm owner at the termination of a firearm hold agreement, removing the criminal prohibition against firearm suppressors and shotgun barrel length qualification requirements and providing enhanced penalties for certain felonies committed while using a firearm suppressor or short-barrel shotgun.",
   "type": "bill"
  },
  {
   "bill_no": "HB2497",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -777,7 +777,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing the chief executive officer of the board of regents to negotiate and settle repayment obligations arising under financial aid programs administered by the board, providing requirements for agreements between postsecondary educational institutions and school districts for postsecondary courses taught in secondary schools, directing the governor to approve short-term workforce training programs for Pell grant eligibility, modifying requirements under the every child can read act and prohibiting Kansas promise scholarship awards for remedial hours.",
+  "title": "Authorizing the chief executive officer of the state board of regents to negotiate and settle any repayment obligations arising under any scholarship, grant or other financial aid program administered by the board and prohibiting the payment of additional funds to any student who is subject to repayment obligations under such financial aid programs.",
   "type": "bill"
  },
  {
@@ -799,7 +799,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "During the period of the FIFA 2026 world cup, prohibiting certain limitations by municipalities on short-term rental or vacation properties and requiring timely rental permit processing, modifying the definition of transient guest for transient guest tax purposes and authorizing expanded sales of alcoholic beverages by cities and counties.",
+  "title": "Replacing the two-bedroom requirement with a one-bedroom requirement to qualify as hotel, motel or tourist court requiring collection of tax from all such qualifying rentals, prohibiting certain limitations by municipalities on short-term rental or vacation properties during the period of May 15, 2026, through July 25, 2026, and modifying the definition of transient guest for such period.",
   "type": "bill"
  },
  {
@@ -815,13 +815,13 @@
  },
  {
   "bill_no": "HB2466",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Extending the sunset for the angel investor tax credit to 2031.",
+  "title": "Extending the sunset for the angel investor tax credit to 2029 and providing for a minimum amount of credits for investors in qualified Kansas businesses located in counties with a population of 50,000 or fewer.",
   "type": "bill"
  },
  {
@@ -832,12 +832,12 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Extending the number of years that tax credits may be issued or earned for contributions to graduates of aerospace and aviation-related educational programs and employers of program graduates, the tax credits for contributions to the Eisenhower foundation and friends of cedar crest association and the sunset for the angel investor tax credit and providing for a minimum amount of such credits for investments in counties with a population of 50,000 or fewer.",
+  "title": "Extending the number of years that new credits may be issued or earned for contributions to graduates of aerospace and aviation-related educational programs and employers of program graduates and extending the tax credits for contributions to the Eisenhower foundation and friends of cedar crest association for three years.",
   "type": "bill"
  },
  {
   "bill_no": "HB2462",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -854,7 +854,7 @@
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Establishing the save Kansas act, authorizing the use of additional resources for verifying voter registration records, imposing restrictions on websites that can accept and transmit voter registration applications, removing individuals disqualified for voting from such records and providing an open records request exemption for certain information related to such records.",
+  "title": "Authorizing the use of additional resources for verifying voter registration records, removing individuals disqualified for voting from such records and providing an open records request exemption for certain information related to such records.",
   "type": "bill"
  },
  {
@@ -870,13 +870,13 @@
  },
  {
   "bill_no": "HB2372",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Designating the existing fallen firefighters memorial within the Kansas firefighters museum in Wichita as the official fallen firefighters memorial of the state of Kansas and replacing the Kansas firefighters memorial advisory committee with the Kansas firefighter memorial council.",
+  "title": "Senate Substitute for HB 2372 by Committee on Federal and State Affairs - Establishing requirements for a county sheriff operating a jail for the enforcement of detainer requests issued by the United States immigration and customs enforcement, requiring municipal insurance pools to provide coverage for law enforcement that enforces federal laws, requiring the state to pay certain judgments in federal court actions, requiring the attorney general to provide representation in certain civil actions and exempting section 287(g) agreements from certain provisions of the interlocal cooperation act.",
   "type": "bill"
  },
  {
@@ -887,12 +887,12 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for sealing and expungement of court records in eviction actions where the underlying rental agreement is governed by the residential landlord and tenant act and requiring mediation in such eviction cases unless the court finds that mediation would not aid the parties materially.",
+  "title": "Substitute for HB 2357 by Committee on Judiciary - Providing for expungement of certain court records and consideration of mediation in eviction actions in which the underlying rental agreement is governed by the residential landlord and tenant act.",
   "type": "bill"
  },
  {
   "bill_no": "HB2333",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2026-04-09",
@@ -909,7 +909,7 @@
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Providing for increased placement of juvenile offenders in non-foster home beds in youth residential facilities, requiring the secretary of corrections to pay for the costs associated with such placements and authorizing the secretary to make expenditures from the evidence-based programs account of the state general fund moneys to contract for such beds in youth residential facilities.",
+  "title": "Increasing the cumulative detention limit for juvenile offenders and criminal penalties for juvenile offenders who use a firearm in the commission of an offense or who are repeat offenders, providing for increased placement of offenders in non-foster home beds in youth residential facilities, requiring the secretary of corrections to pay for the costs associated with such placements and authorizing the secretary to make expenditures from the evidence-based programs account of the state general fund moneys to contract for such beds.",
   "type": "bill"
  },
  {
@@ -920,7 +920,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Increasing the annual assessment rate on hospital providers.",
+  "title": "Substitute for HB 2250 - Defining emergency opioid antagonist as including an expired emergency opioid antagonist for a person rendering aid to another in reasonable need of medical assistance and permitting a first responder to distribute and administer an expired emergency opioid antagonists.",
   "type": "bill"
  },
  {
@@ -931,7 +931,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Limiting or prohibiting work release for people convicted of a second or third offense of domestic battery.",
+  "title": "Limiting or prohibiting work release for people convicted of a second or third offense of domestic battery, requiring an offender convicted of a first offense to undergo a domestic violence offender assessment, excluding certain offenders convicted of a nonperson felony from participation in certified drug abuse treatment programs and authorizing community correctional services officers to complete criminal risk-need assessments for divertees who are committed to such programs.",
   "type": "bill"
  },
  {
@@ -953,12 +953,12 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Designating a portion of United States highway 160 as the CPL Monte Wayne Forrest memorial highway.",
+  "title": "Designating a portion of United States highway 160 as the CPL Monte Wayne Forrest memorial highway, a portion of United States highway 77 as the POW MIA memorial highway and bridge No. 82-14-6.88 (026) in Clay county as the POW MIA memorial bridge.",
   "type": "bill"
  },
  {
   "bill_no": "HB2116",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -975,7 +975,7 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing the chief engineer to adopt rules and regulations under the watershed district act and concerning fees and inspections of dams.",
+  "title": "Substitute for HB 2114 by Committee on Agriculture and Natural Resources - Clarifying which structures shall be considered water obstructions and not a dam, increasing application fees for a permit to construct, modify or add to a dam, requiring preconstruction permit fees and requiring any licensed professional engineer who conducts inspections required by the act to be approved by the chief engineer or a certified intern engineer who is under the supervision of a licensed professional engineer.",
   "type": "bill"
  },
  {
@@ -986,12 +986,12 @@
   "last_date": "2026-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Permitting periodic inspections by a city or county for code violations of private residential rental housing where the property owner is receiving governmental rental subsidies.",
+  "title": "Senate Substitute for HB 2099 by Committee on Local Government, Transparency and Ethics - Authorizing the secretary of corrections on behalf of the state of Kansas to convey certain real property located in Leavenworth county, Kansas, to Leavenworth county.",
   "type": "bill"
  },
  {
   "bill_no": "HB2068",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -1002,7 +1002,7 @@
  },
  {
   "bill_no": "HB2042",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-09",
@@ -1013,13 +1013,13 @@
  },
  {
   "bill_no": "HB2004",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2026-04-09",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Providing countywide retailers' sales tax authority for Seward county for the purpose of financing the costs of roadway and bridge construction, maintenance and improvement in the county.",
+  "title": "Senate Substitute for HB 2004 by Committee on Government Efficiency - Requiring the secretary for children and families and the secretary of health and environment to execute a memorandum of understanding or other written data-sharing instrument upon written request of the United States department of agriculture or the United States department of health and human services and comply with data requests from such federal agencies.",
   "type": "bill"
  },
  {
@@ -1030,7 +1030,7 @@
   "last_date": "2026-04-08",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing that fire sprinkler systems shall not be required in this state for multi-family dwellings of four attached units or fewer, prohibiting municipal fire sprinkler requirements for multi-family dwellings of four or fewer attached living units and defining apartment buildings for purposes of the fire code.",
+  "title": "Relating to housing code requirements, removing the definition of apartment houses from chapter 31 of the Kansas Statutes Annotated, providing requirements for adoption of the national fire protection association standards, 2024 edition, and providing that certain state accessibility standards are not applicable to moderate income housing program and Kansas investor tax credit housing act projects.",
   "type": "bill"
  },
  {
@@ -1046,24 +1046,24 @@
  },
  {
   "bill_no": "HB2528",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-08",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring all state board of nursing actions related to nonpractice violations be void, allowing for late license renewal for professional, practical and advanced practice registered nurses, setting fees for late license renewal, limiting unprofessional conduct to acts related to the practice of nursing, prohibiting the board from taking retaliatory action against a licensee based on certain lawful actions and creating a civil cause of action for violation thereof, requiring that board members be subject to senate confirmation and requiring the board to issue refunds for overpayment or duplicate payment.",
+  "title": "Requiring all state board of nursing actions related to certain nonpractice violations be void, allowing for late license renewal for professional, practical and advanced practice registered nurses, setting fees for late license renewal, limiting unprofessional conduct to acts related to the practice of nursing, prohibiting the board from taking retaliatory action against a licensee based on certain lawful actions and creating a civil cause of action for violation thereof, requiring termination of current board members on January 1, 2027 and requiring the governor to appoint interim board members subject to senate confirmation and requiring the board to issue refunds for overpayment or duplicate payment.",
   "type": "bill"
  },
  {
   "bill_no": "HB2402",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-08",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Creating the blue ribbon commission on higher education to study and set long-term goals for higher education in the state of Kansas and requiring the submission of reports to the legislature.",
+  "title": "Senate Substitute for HB 2402 by Committee on Education - Requiring eligible boards of education to consider participation in the community eligibility provision, providing a financial hardship exception  to such participation and requiring the state department of education to assist school districts seeking such participation.",
   "type": "bill"
  },
  {
@@ -1085,7 +1085,7 @@
   "last_date": "2026-04-07",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Changing the membership of the prisoner review board and requiring parole hearings to be postponed if proper notice of the public comment session is not made to the victim.",
+  "title": "Removing the prisoner review board from the supervision of the secretary of corrections, changing the appointing authority and creating qualifications for the members of the board and requiring parole hearings to be postponed if proper notice of the public comment session is not made to the victim.",
   "type": "bill"
  },
  {
@@ -1096,7 +1096,7 @@
   "last_date": "2026-04-07",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Enacting the by-right housing development act to provide a streamlined permit approval process for by-right housing developments, allowing third-party review of new residential construction development documents and inspection of improvements, requiring political subdivisions to allow certain building provisions for single-family residences of a certain size, excluding owner initiated rezoning to a single-family residential district from protest petition provisions and providing for all land within the corporate limits of a city to be considered zoned for single-family residential use.",
+  "title": "Enacting the by-right housing development act to provide a streamlined permit approval process for by-right housing developments, allowing third-party review of new residential construction development documents and inspection of improvements, requiring political subdivisions to allow certain building provisions for certain single-family residences of a certain size, excluding owner initiated rezoning to a single-family residential district from protest petition provisions and providing for all land within the corporate limits of a city that is zoned for any type of residential use to be considered zoned for single-family residential use.",
   "type": "bill"
  },
  {
@@ -1118,7 +1118,7 @@
   "last_date": "2026-04-07",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Amending the Kansas parimutuel racing act regarding qualifications for an organization license, the definition of horsemen's associations and horsemen's nonprofit organizations and the distribution of certain tax revenues.",
+  "title": "House Substitute for SB260 by Committee on Federal and State Affairs - Establishing the born to invest act and requiring the office of vital statistics to provide data to the office of the state treasurer for distribution of informational materials regarding certain government-administered savings accounts.",
   "type": "bill"
  },
  {
@@ -1178,7 +1178,7 @@
  },
  {
   "bill_no": "HB2644",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-06",
@@ -1217,7 +1217,7 @@
   "last_date": "2026-04-06",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing financial assistance to law students who practice law in rural areas of Kansas, establishing the attorney training program for rural Kansas fund and transferring moneys to fund the program for five years.",
+  "title": "Substitute for HB 2595 by Committee on Agriculture and Natural Resources - Enacting the attorney training program for rural Kansas act, providing stipends to law students who meet certain requirements and agree to practice law in rural areas and providing loan forgiveness to lawyers who meet certain requirements and practice law in rural areas.",
   "type": "bill"
  },
  {
@@ -1239,7 +1239,7 @@
   "last_date": "2026-04-06",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring cost-sharing agreements between municipalities for the maintenance of shared roads.",
+  "title": "Senate Substitute for HB 2571 by Committee on Local Government, Transparency and Ethics - Increasing the cost threshold for when a county shall use the public bidding process in awarding a construction contract.",
   "type": "bill"
  },
  {
@@ -1343,13 +1343,13 @@
  },
  {
   "bill_no": "HB2467",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-06",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Prohibiting past convictions or sanctions for failure to comply with a traffic citation that are more than five years old from being considered by courts or the division of vehicles and eliminating certain notice requirements for the division of vehicles related to suspended or restricted drivers' licenses.",
+  "title": "Prohibiting past convictions or sanctions for failure to comply with a traffic citation that are more than five years old from being considered by courts and the division of vehicles in determining suspended or restricted driving privileges and eliminating certain notice requirements for the division of vehicles.",
   "type": "bill"
  },
  {
@@ -1404,7 +1404,7 @@
   "last_date": "2026-04-06",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Establishing the removal of squatters act, providing a procedure to remove a squatter from a dwelling unit, requiring owners or agents of dwelling units to provide an affidavit to the county sheriff, requiring notice to vacate by the sheriff, establishing the crime of providing a false affidavit and establishing a civil cause of action for wrongful removal of a person from a dwelling unit, allowing attorney fees and punitive damages.",
+  "title": "Establishing the removal of squatters act, providing a procedure to remove a squatter from a dwelling unit, requiring owners or agents of dwelling units to provide an affidavit to the county sheriff department or police department , requiring notice to vacate by the sheriff, establishing the crime of providing a false affidavit and establishing a civil cause of action for wrongful removal of a person from a dwelling unit, allowing attorney fees and punitive damages. ",
   "type": "bill"
  },
  {
@@ -1420,7 +1420,7 @@
  },
  {
   "bill_no": "HB2331",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-06",
@@ -1453,7 +1453,7 @@
  },
  {
   "bill_no": "HB2237",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-06",
@@ -1492,12 +1492,12 @@
   "last_date": "2026-04-03",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Designating a bridge on I-135 in Sedgwick county as the Don Snyder memorial bridge.",
+  "title": "House Substitute for Senate Bill 366 by Committee on Transportation - Prohibiting the use of a mobile telephone while operating a motor vehicle in school or construction zones and providing penalties thereof and permitting the display of certain lighting in road construction zones by vehicles and trailers engaged in highway construction and maintenance operations.",
   "type": "bill"
  },
  {
   "bill_no": "SB334",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_151",
   "last_action_label": "Will become law without Governor's signature",
   "last_date": "2026-04-03",
@@ -1508,7 +1508,7 @@
  },
  {
   "bill_no": "HB2761",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-03",
@@ -1574,13 +1574,13 @@
  },
  {
   "bill_no": "HB2212",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-04-03",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Increasing the reimbursement amount of money that the secretary of corrections may make to inmates for losses for personal injury or property damage or loss caused by negligence and requiring notice to the secretary for claims exceeding the reimbursement maximum.",
+  "title": "Senate Substitute for HB 2212 by Committee on Judiciary - Authorizing the governor to make a declaration of need for enhanced public safety and security for an extraordinary event and providing certain powers to the governor during a period of such declaration.",
   "type": "bill"
  },
  {
@@ -1800,7 +1800,7 @@
   "last_date": "2026-03-19",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Prohibiting discriminatory practices on the basis of religion at public educational institutions and authorizing the attorney general to investigate violations and assess civil penalties under the Kansas act against discrimination.",
+  "title": "Senate Substitute for Substitute for HB2299 by Committee on Education - Providing that certain statutory references to accredited nonpublic schools mean nonpublic schools accredited by the state board of education, requiring that schools accredited by a national or regional accrediting agency shall have the same rights as schools accredited by the state board, requiring school districts and accredited nonpublic schools to prohibit the use of personal electronic communication devices during the school day and prohibiting employees of a school district from using social media to communicate with students for official school purposes.",
   "type": "bill"
  },
  {
@@ -1827,13 +1827,13 @@
  },
  {
   "bill_no": "HB2274",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2026-03-12",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Removing the active requirement from military servicemembers for occupational licensure.",
+  "title": "Designating Kansas as a purple heart state and permitting homeless veterans to use alternative forms of proof of identity and residency when applying for nondriver identification cards.",
   "type": "bill"
  },
  {
@@ -1849,13 +1849,13 @@
  },
  {
   "bill_no": "SB244",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2026-02-18",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Prohibiting a compensated surety from making loans for certain portions of the required minimum appearance bond premium.",
+  "title": "House Substitute for SB 244 by Committee on Judiciary - Requiring the designation of multiple-occupancy private spaces in public buildings for use by only one sex and imposing criminal and civil penalties for violations, defining the term \"gender\" to mean biological sex at birth for purposes of statutory construction, directing the division of vehicles to invalidate and reissue driver's licenses when necessary to correct the gender identification on such licenses and directing the office of vital statistics to invalidate and reissue birth certificates when necessary to correct the sex identification on such certificates.",
   "type": "bill"
  },
  {
@@ -1866,7 +1866,7 @@
   "last_date": "2026-02-06",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Changing the culpability required for certain types of theft and increasing the criminal penalty for theft of property that is a motor vehicle to a felony.",
+  "title": "Changing the culpability required for certain types of theft and increasing the criminal penalty for theft to a felony when the property is a motor vehicle of the value of at least $500.",
   "type": "bill"
  },
  {
@@ -1882,7 +1882,7 @@
  },
  {
   "bill_no": "HB2291",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-08-05",
@@ -1904,7 +1904,7 @@
  },
  {
   "bill_no": "HB2217",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-08-05",
@@ -1915,7 +1915,7 @@
  },
  {
   "bill_no": "HB2062",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-16",
@@ -1926,7 +1926,7 @@
  },
  {
   "bill_no": "HB2033",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-16",
@@ -1943,7 +1943,7 @@
   "last_date": "2025-06-06",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Establishing the daily compensation rate for members of the state board of education in an amount that corresponds to the daily compensation rate of members of the legislature while in session.",
+  "title": "Senate Substitute for HB 2382 by Committee on Education - Requiring school districts to include a fetal development presentation as part of the curriculum for any course that addresses human growth, human development or human sexuality and authorizing the state board of education to establish the rate of compensation for members of the board..",
   "type": "bill"
  },
  {
@@ -1959,7 +1959,7 @@
  },
  {
   "bill_no": "HB2342",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -1970,7 +1970,7 @@
  },
  {
   "bill_no": "HB2311",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -1981,13 +1981,13 @@
  },
  {
   "bill_no": "HB2275",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing countywide retailers' sales tax authority for Finney county for the purpose of financing the construction or remodeling of a courthouse, jail, law enforcement center facility or other county administrative facility.",
+  "title": "Providing countywide retailers' sales tax authority for Finney, Pawnee, Seward and Jackson counties, providing that countywide retailers' sales tax apportionment based on tangible property tax levies remain unchanged until December 31, 2026, and excluding exempt sales of certain custom meat processing services from sales tax exemption certificate requirements.",
   "type": "bill"
  },
  {
@@ -2003,7 +2003,7 @@
  },
  {
   "bill_no": "HB2195",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -2025,7 +2025,7 @@
  },
  {
   "bill_no": "HB2155",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -2064,12 +2064,12 @@
   "last_date": "2025-06-03",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing countywide retailers' sales tax authority for Pawnee county for the purpose of healthcare services and furnishing and equipping county-supported public safety operations.",
+  "title": "Senate Substitute for HB 2125 by Committee on Assessment and Taxation - Modifying the deadline for mailing property tax statements to taxpayers and the deadline for governing bodies to certify the amount of property tax to be levied to the county clerk, providing for the county clerk's use of the previous year's budget when a taxing subdivision fails to timely file its budget, modifying the content requirements of the revenue neutral rate hearing notice for property tax purposes and extending reimbursement from the taxpayer notification costs fund for printing and postage costs for county clerks for calendar years 2025 and 2026.",
   "type": "bill"
  },
  {
   "bill_no": "HB2120",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -2080,7 +2080,7 @@
  },
  {
   "bill_no": "HB2110",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -2091,7 +2091,7 @@
  },
  {
   "bill_no": "HB2054",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -2102,7 +2102,7 @@
  },
  {
   "bill_no": "HB2040",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-06-03",
@@ -2119,7 +2119,7 @@
   "last_date": "2025-06-03",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Permitting driving school instructors to possess a motorcycle driver's license from any state.",
+  "title": "Providing that driving school instructors and motorcycle instructors may possess a driver's license or motorcycle driver's license from any state.",
   "type": "bill"
  },
  {
@@ -2135,7 +2135,7 @@
  },
  {
   "bill_no": "SB98",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-25",
@@ -2146,13 +2146,13 @@
  },
  {
   "bill_no": "SB24",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "misc_bs_100",
   "last_action_label": "",
   "last_date": "2025-04-25",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Authorizing the commissioner of insurance to set the amount of certain fees and requiring the publication of certain fees in the Kansas register.",
+  "title": "Expanding the postsecondary educational institutions eligible to participate in the Kansas promise scholarship program and increasing the maximum annual appropriation limit.",
   "type": "bill"
  },
  {
@@ -2163,7 +2163,7 @@
   "last_date": "2025-04-25",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing law enforcement officers to conduct investigations of violations of the scrap metal theft reduction act.",
+  "title": "Requiring the court to consider the value of retirement accounts if a person loses income for certain reasons and eliminating the exemption of pension and retirement moneys from claims to fulfill child support obligations.",
   "type": "bill"
  },
  {
@@ -2185,7 +2185,7 @@
   "last_date": "2025-04-25",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring probable cause affidavits to be made available to law enforcement agencies prior to the execution of a warrant or summons.",
+  "title": "Modifying elements in the crimes of sexual exploitation of a child, unlawful transmission of a visual depiction of a child and breach of privacy, prohibiting certain acts related to visual depictions in which the person depicted is indistinguishable from a real child, morphed from a real child's image or generated without any actual child involvement, prohibiting dissemination of certain items that appear to depict or purport to depict an identifiable person, requiring affidavits or sworn testimony in support of probable cause to be made available to law enforcement, requiring the statement of facts sufficient to show probable cause justifying a search warrant to be made by a law enforcement officer, requiring that certain prior convictions be considered when bond is being set for certain sex offenses and specifying minimum requirements and conditions for such bond; relating to appearance bonds, requiring warrants for failure to appear to be given to sureties, allowing bond forfeiture to be set aside in certain circumstances and requiring remission in certain circumstances and prohibiting a compensated surety from making a loan for certain portions of the minimum appearance bond premium required. ",
   "type": "bill"
  },
  {
@@ -2201,7 +2201,7 @@
  },
  {
   "bill_no": "HB2335",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-25",
@@ -2229,7 +2229,7 @@
   "last_date": "2025-04-25",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing an additional personal exemption for head of household tax filers.",
+  "title": "Providing an additional personal exemption for head of household tax filers and increasing the personal exemption for certain disabled veterans for purposes of income tax, modifying the definition of household income and increasing the household income and the appraised value thresholds for eligibility of seniors and disabled veterans related to increased property tax homestead refund claims.",
   "type": "bill"
  },
  {
@@ -2240,7 +2240,7 @@
   "last_date": "2025-04-25",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Making and concerning supplemental appropriations for fiscal year 2025 and appropriations for fiscal years 2026 and 2027 for various state agencies.",
+  "title": "Senate Substitute for Substitute for HB 2007 by Committee on Ways and Means - Making and concerning supplemental appropriations for fiscal year 2025 and appropriations for fiscal years 2026 and 2027 for various state agencies.",
   "type": "bill"
  },
  {
@@ -2251,12 +2251,12 @@
   "last_date": "2025-04-24",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Reducing the number of board members appointed by the commissioner on certain insurance-related boards and the frequency of the meetings of the committee on surety bonds and insurance.",
+  "title": "Reducing certain license fees and training requirements for child care staff, creating a process for day care facility licensees to apply for temporary waiver of certain statutory requirements, authorizing the secretary of health and environment to develop and operate pilot programs to increase child care availability or capacity, transferring certain child care programs to the Kansas office of early childhood and creating day care licensing duties of the director of early childhood.",
   "type": "bill"
  },
  {
   "bill_no": "SB79",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_avm_129",
   "last_action_label": "No motion to reconsider vetoed bill; Veto sustained",
   "last_date": "2025-04-11",
@@ -2273,7 +2273,7 @@
   "last_date": "2025-04-11",
   "status": "vetoed",
   "status_label": "Vetoed",
-  "title": "Providing for the hunter nation distinctive license plate and decreasing the guarantee number of distinctive plates required for production.",
+  "title": "Providing for the hunter nation distinctive license plate.",
   "type": "bill"
  },
  {
@@ -2289,7 +2289,7 @@
  },
  {
   "bill_no": "HB2228",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_avm_129",
   "last_action_label": "No motion to reconsider vetoed bill; Veto sustained",
   "last_date": "2025-04-11",
@@ -2311,7 +2311,7 @@
  },
  {
   "bill_no": "SB5",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2025-04-10",
@@ -2328,7 +2328,7 @@
   "last_date": "2025-04-10",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Enacting the constitutional right to health freedom act to regulate the activities of local health officers related to public health functions and revoking the secretary's authority to quarantine individuals and impose penalties for violations thereof.",
+  "title": "Substitute for SB 29 by Committee on Public Health and Welfare - Removing the authority of the county or joint board of health or local health officer to prohibit public gatherings when necessary for the control of infectious or contagious disease.",
   "type": "bill"
  },
  {
@@ -2339,12 +2339,12 @@
   "last_date": "2025-04-10",
   "status": "veto-overridden",
   "status_label": "Vetoes Overridden",
-  "title": "Prohibiting a board of tax appeals filing fee when a previous appeal remains pending before the board.",
+  "title": "Providing that future income tax and privilege tax rate decreases be contingent on exceeding revenue estimates and retaining a certain amount in the budget stabilization fund.",
   "type": "bill"
  },
  {
   "bill_no": "SB250",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_151",
   "last_action_label": "Will become law without Governor's signature",
   "last_date": "2025-04-10",
@@ -2355,7 +2355,7 @@
  },
  {
   "bill_no": "SB14",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2025-04-10",
@@ -2366,7 +2366,7 @@
  },
  {
   "bill_no": "HB2263",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_151",
   "last_action_label": "Will become law without Governor's signature",
   "last_date": "2025-04-10",
@@ -2377,13 +2377,13 @@
  },
  {
   "bill_no": "HB2056",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_151",
   "last_action_label": "Will become law without Governor's signature",
   "last_date": "2025-04-10",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Specifying the procedures and restrictions on accepting a nomination for an elected office based on the form of nomination used.",
+  "title": "Senate Substitute for HB 2056 by Committee on Federal and State Affairs - Requiring specific intent as an element of the crime of false representation of an election official.",
   "type": "bill"
  },
  {
@@ -2394,7 +2394,7 @@
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Extending the amount of time required for reports to be filed with the state historical society for certain United States public land surveys from 30 to 90 days.",
+  "title": "Prohibiting foreign principals from acquiring interests in real estate in proximity to military installations, state agencies and local government from purchasing drones or critical components of drones from foreign principals or that are manufactured in countries of concern and foreign principals from receiving benefits from economic development programs.",
   "type": "bill"
  },
  {
@@ -2410,18 +2410,18 @@
  },
  {
   "bill_no": "SB50",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Establishing uniform interest rate provisions for service scholarship programs administered by the Kansas board of regents that have repayment obligations as a part of the terms and conditions of such programs and authorizing the Kansas board of regents to recover the costs of collecting such repayment obligations and charge fees for the costs of administering such programs and requiring eligible students to enter into agreements with the board of regents instead of a postsecondary educational institution as a condition to receiving a grant under the adult learner grant act.",
+  "title": "Establishing uniform interest rate provisions for service scholarship programs administered by the Kansas board of regents, authorizing the board of regents to recover the costs of collecting such repayment and charge fees for administration costs, requiring eligible students to enter into agreements with the board of regents as a condition to receiving a grant under the adult learner grant act and sunsetting the low-income family postsecondary savings accounts incentive program in 2028 and reducing the number of audits required for such program.",
   "type": "bill"
  },
  {
   "bill_no": "SB44",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
@@ -2443,7 +2443,7 @@
  },
  {
   "bill_no": "SB35",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
@@ -2482,7 +2482,7 @@
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring that third party administrators maintain separate fiduciary accounts for individual payors and not contain funds collected or held on behalf of multiple payors and requiring that third party administrators disclose to the commissioner of insurance any bankruptcy petition filed by or on behalf of such administrator pursuant to chapter 9 or chapter 11 of the United States bankruptcy code.",
+  "title": "Amending the Kansas parimutuel racing act regarding qualifications for an organization license, the definition of horsemen's associations and horsemen's nonprofit organizations and the distribution of certain tax revenues.",
   "type": "bill"
  },
  {
@@ -2493,7 +2493,7 @@
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Defining the fireworks sales season for seasonal retailers of consumer fireworks and providing for year-round sales by permanent retailers of consumer fireworks, requiring registration with the state fire marshal by such seasonal and permanent retailers, prohibiting internet sales of consumer fireworks, creating the license categories of distributor of display fireworks, distributor of pyrotechnic articles and unlimited distributor and limiting lawful sale of fireworks that are labeled \"For Professional Use Only\" to certain license categories.",
+  "title": "Designating the existing fallen firefighters memorial within the Kansas firefighters museum in Wichita as the official fallen firefighters memorial of the state of Kansas and replacing the Kansas firefighters memorial advisory committee with the Kansas firefighter memorial council; defining the fireworks sales season for seasonal retailers of consumer fireworks, providing for year-round sales by permanent retailers of consumer fireworks, requiring permanent retailers to register with the state fire marshal.",
   "type": "bill"
  },
  {
@@ -2504,7 +2504,7 @@
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Removing law enforcement agencies and officers from the state board of pharmacy's statewide opioid antagonist protocol.",
+  "title": "Sub for SB 193 by Committee on Public Health and Welfare - Exempting law enforcement agencies who do not provide emergency opioid antagonists pursuant to the statewide protocol from the requirement to procure a physician medical director.",
   "type": "bill"
  },
  {
@@ -2575,7 +2575,7 @@
  },
  {
   "bill_no": "HB2313",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
@@ -2586,13 +2586,13 @@
  },
  {
   "bill_no": "HB2280",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Clarifying that the authorized activities of paramedics, advanced emergency medical technicians, emergency medical technicians and emergency medical responders may be authorized upon the order of a healthcare professional, permitting certain ambulance services to offer service for less than 24 hours per day, every day of the year, and requiring entities using automated external defibrillators to register with the emergency medical services board. ",
+  "title": "Adding a citation to the code of federal regulations to the definition of veteran and disabled veteran and removing the active requirement from military service members for occupational licensure.",
   "type": "bill"
  },
  {
@@ -2608,7 +2608,7 @@
  },
  {
   "bill_no": "HB2249",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
@@ -2619,7 +2619,7 @@
  },
  {
   "bill_no": "HB2206",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
@@ -2630,7 +2630,7 @@
  },
  {
   "bill_no": "HB2201",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
@@ -2641,13 +2641,13 @@
  },
  {
   "bill_no": "HB2169",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Modifying the documentation requirements for military veteran license plates to align with updated military veteran documentation standards and eliminating the requirement for such military veteran license plate applications to be submitted 60 days prior to vehicle registration renewals.",
+  "title": "Providing for an exemption from remediation costs or other liability from prior commercial pesticide application by the United States army for owners of certain nonresidential property located in Johnson county.",
   "type": "bill"
  },
  {
@@ -2702,29 +2702,29 @@
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Requiring the information technology executive council to provide certain information technology reports to the joint committee on information technology.",
+  "title": "Senate Substitute for Substitute for HB 2060 by Committee on Local Government, Transparency and Ethics - Providing for the treatment of the reimbursement for expenses incurred for travel and activities in attending conferences or events by certain specified nonprofit organizations and discounted or free access to entertainment, sporting events or other activities.",
   "type": "bill"
  },
  {
   "bill_no": "HB2050",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing the commissioner of insurance to set the amount of certain fees and requiring the publication of certain fees in the Kansas register.",
+  "title": "Authorizing the commissioner of insurance to set the amount of certain fees and cause the publication of such fees in the Kansas register, authorizing the commissioner to reduce the number of board members on certain insurance-related boards, renaming the Kansas insurance department as the Kansas department of insurance, renaming the office of the securities commissioner as the department of insurance, securities division, renaming the securities commissioner as the department of insurance, assistant commissioner, securities division and eliminating the requirement of senate confirmation for appointees to such position, requiring the commissioner of insurance to maintain a list of eligible nonadmitted insurers and authorizing such nonadmitted insurers to transact business in Kansas with vehicle dealers and to provide excess coverage insurance on Kansas risks.",
   "type": "bill"
  },
  {
   "bill_no": "HB2039",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-09",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Amending definitions in the Kansas credentialing act to provide that certain entities providing physical therapy, occupational therapy and speech-language pathology are not home health agencies.",
+  "title": "Adding maternity center to the definition of healthcare provider for purposes of the healthcare provider insurance availability act, amending definitions in the Kansas credentialing act to provide that certain entities providing physical therapy, occupational therapy and speech-language pathology are not home health agencies, clarifying that the authorized activities of paramedics, advanced emergency medical technicians, emergency medical technicians and emergency medical responders may be authorized upon the order of a healthcare professional, permitting certain ambulance services to offer service for less than 24 hours per day, every day of the year, and requiring entities that control automated external defibrillators to register the device with the emergency medical services board.",
   "type": "bill"
  },
  {
@@ -2746,7 +2746,7 @@
   "last_date": "2025-04-08",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Limiting discovery and disclosure of third-party litigation funding agreements in certain circumstances and requiring reporting of such agreements to the judicial council for study.",
+  "title": "Substitute for SB 54 by Committee on Judiciary - Limiting discovery and disclosure of third-party litigation funding agreements and requiring reporting of such agreements to courts. or study. ",
   "type": "bill"
  },
  {
@@ -2757,7 +2757,7 @@
   "last_date": "2025-04-08",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Excluding students who transfer to homeschools or nonaccredited private schools from the alternative calculation of graduation rates for virtual schools.",
+  "title": "Substitute for SB 45 by Committee on Education - Requiring the state board of education to calculate graduation rates for all school districts for purposes of accreditation using an alternative calculation.",
   "type": "bill"
  },
  {
@@ -2773,7 +2773,7 @@
  },
  {
   "bill_no": "HB2122",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-08",
@@ -2784,7 +2784,7 @@
  },
  {
   "bill_no": "HB2118",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-08",
@@ -2806,7 +2806,7 @@
  },
  {
   "bill_no": "HB2016",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-08",
@@ -2817,7 +2817,7 @@
  },
  {
   "bill_no": "SB137",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-07",
@@ -2828,7 +2828,7 @@
  },
  {
   "bill_no": "SB117",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-07",
@@ -2850,7 +2850,7 @@
  },
  {
   "bill_no": "HB2109",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-07",
@@ -2867,7 +2867,7 @@
   "last_date": "2025-04-07",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for claims to recover damages from fire events caused by electric public utilities, specifying recovery for such damages and requiring the state corporation commission to provide trainings on wildfire risk and mitigation.",
+  "title": "Providing for claims to recover economic damages from fire events caused by electric public utilities, establishing a statute of limitations for such claims and requiring the state corporation commission to convene a workshop on utility wildfire risk and mitigation.",
   "type": "bill"
  },
  {
@@ -2883,7 +2883,7 @@
  },
  {
   "bill_no": "HB2052",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-07",
@@ -2894,7 +2894,7 @@
  },
  {
   "bill_no": "HB2037",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-07",
@@ -2905,18 +2905,18 @@
  },
  {
   "bill_no": "SB97",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-04",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Granting the purchasers of nonhighway vehicles the option to obtain a title for such vehicle.",
+  "title": "Requiring vehicle dealers to apply for a dealer inventory-only title for certain used nonhighway vehicles that a vehicle dealer obtains.",
   "type": "bill"
  },
  {
   "bill_no": "SB89",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-04",
@@ -2927,18 +2927,18 @@
  },
  {
   "bill_no": "SB67",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-04",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing registered nurse anesthetists to engage in independent practice and prescribe drugs and prohibiting registered nurse anesthetists from performing an abortion or prescribing drugs to induce an abortion.",
+  "title": "Substitute for SB 67 by Committee on Public Health and Welfare - Authorizing registered nurse anesthetists to prescribe, procure and administer drugs consistent with the registered nurse anesthetist's education and qualifications.",
   "type": "bill"
  },
  {
   "bill_no": "HB2359",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-04",
@@ -2949,7 +2949,7 @@
  },
  {
   "bill_no": "HB2338",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-04",
@@ -2960,7 +2960,7 @@
  },
  {
   "bill_no": "HB2307",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-04",
@@ -2977,12 +2977,12 @@
   "last_date": "2025-04-04",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Authorizing financial institutions to secure governmental unit deposits in excess of the amount insured or guaranteed by the FDIC by utilizing a public moneys pooled method of securities, prohibiting investment advisers that execute bids for the investment of public moneys from managing moneys directly from such bid, allowing municipal bond proceeds and governmental unit deposits to be invested at a rate agreed upon by the governmental unit and the financial institution, establishing certain public moneys investment rates, requiring certification from a governmental unit that deposits in the municipal investment pool fund were first offered to a financial institution in the preceding year and allowing financial institutions to file complaints upon the failure to comply with such certification.",
+  "title": "Substitute for HB 2152 by Committee on Financial Institutions and Pensions - Mandating financial institutions to secure governmental unit deposits in excess of the amount insured or guaranteed by the FDIC by utilizing a public moneys pooled method of securities, prohibiting investment advisers that execute bids for the investment of public moneys from managing moneys directly from such bid, allowing governmental unit deposits to be invested at a rate agreed upon by the governmental unit and the financial institution, requiring certification from a governmental unit that deposits in the municipal investment pool fund were first offered to a financial institution in the preceding year and allowing financial institutions to file complaints upon the failure to comply.",
   "type": "bill"
  },
  {
   "bill_no": "HB2101",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_151",
   "last_action_label": "Will become law without Governor's signature",
   "last_date": "2025-04-04",
@@ -2993,7 +2993,7 @@
  },
  {
   "bill_no": "SB77",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-03",
@@ -3004,7 +3004,7 @@
  },
  {
   "bill_no": "SB13",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-03",
@@ -3026,7 +3026,7 @@
  },
  {
   "bill_no": "HB2222",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-03",
@@ -3037,7 +3037,7 @@
  },
  {
   "bill_no": "HB2221",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-03",
@@ -3048,7 +3048,7 @@
  },
  {
   "bill_no": "HB2215",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-04-03",
@@ -3059,7 +3059,7 @@
  },
  {
   "bill_no": "SB6",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-31",
@@ -3070,7 +3070,7 @@
  },
  {
   "bill_no": "SB58",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-31",
@@ -3081,7 +3081,7 @@
  },
  {
   "bill_no": "SB36",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-31",
@@ -3131,12 +3131,12 @@
   "last_date": "2025-03-31",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Prohibiting a sheriff from charging a fee for service of process for proceedings under the protection from abuse act and the protection from stalking, sexual assault or human trafficking act.",
+  "title": "Prohibiting a sheriff from charging a fee for service of process for proceedings under the protection from abuse act and the protection from stalking, sexual assault or human trafficking act and similar proceedings based on the laws of other jurisdictions.",
   "type": "bill"
  },
  {
   "bill_no": "HB2166",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-31",
@@ -3158,7 +3158,7 @@
  },
  {
   "bill_no": "HB2085",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-31",
@@ -3169,7 +3169,7 @@
  },
  {
   "bill_no": "HB2027",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_151",
   "last_action_label": "Will become law without Governor's signature",
   "last_date": "2025-03-31",
@@ -3202,7 +3202,7 @@
  },
  {
   "bill_no": "SB166",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-28",
@@ -3213,7 +3213,7 @@
  },
  {
   "bill_no": "HB2261",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-03-28",
@@ -3224,7 +3224,7 @@
  },
  {
   "bill_no": "HB2185",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-03-28",
@@ -3235,18 +3235,18 @@
  },
  {
   "bill_no": "HB2145",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-03-28",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Establishing the Butler county fair board as consisting of 15 members, providing for the appointment of members to such board and allowing up to five members of such board to be appointed from the county at large.",
+  "title": "Substitute for HB 2145 by Committee on Local Government - Establishing the Butler county fair board to consist of 15 members, providing for the appointment of members to such board and allowing up to five members of such board to be appointed from the county at large.",
   "type": "bill"
  },
  {
   "bill_no": "HB2117",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-03-28",
@@ -3257,18 +3257,18 @@
  },
  {
   "bill_no": "HB2102",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-03-28",
   "status": "signed",
   "status_label": "Approved by Governor",
-  "title": "Providing for the advance enrollment of military students whose parent or person acting as parent will be stationed in this state.",
+  "title": "Substitute for HB 2102 by Committee on Education - Providing for the advance enrollment of a military student whose parent or person acting as parent will be stationed in this state and correcting federal statutory citations in the interstate compact on educational opportunity for military children.",
   "type": "bill"
  },
  {
   "bill_no": "HB2092",
-  "chamber": "",
+  "chamber": "House",
   "last_action_code": "gov_mg_100",
   "last_action_label": "Law effective",
   "last_date": "2025-03-28",
@@ -3279,7 +3279,7 @@
  },
  {
   "bill_no": "SB4",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_avm_885",
   "last_action_label": "Motion to override veto prevailed;",
   "last_date": "2025-03-25",
@@ -3290,7 +3290,7 @@
  },
  {
   "bill_no": "SB88",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-24",
@@ -3312,7 +3312,7 @@
  },
  {
   "bill_no": "SB7",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-24",
@@ -3334,7 +3334,7 @@
  },
  {
   "bill_no": "SB175",
-  "chamber": "",
+  "chamber": "Senate",
   "last_action_code": "gov_mg_150",
   "last_action_label": "Approved by Governor on",
   "last_date": "2025-03-24",

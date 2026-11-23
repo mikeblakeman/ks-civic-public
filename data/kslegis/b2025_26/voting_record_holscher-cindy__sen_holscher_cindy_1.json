@@ -7150,6 +7150,31 @@
   }
  },
  {
+  "apn": "b2025_26/year2/senate/legislative_days/day035_20260304/vote_records/vote_119_SB315.odt",
+  "bill_no": "SB315",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "fa_fabc_921",
+   "action_label": "Final Action - Substitute passed as amended;",
+   "apn": "b2025_26/year2/senate/legislative_days/day035_20260304/journal_elements/je_20260304151656_077282.odt",
+   "chamber": "senate",
+   "occurred": "2026-03-04T15:16:55+00:00",
+   "page_number": 1591
+  },
+  "motion": "Final Action Substitute Amended",
+  "rcs_num": "119",
+  "rev_date": "2026-03-05T17:44:42.550255+00:00",
+  "session_day": "35",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 19,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 21
+  }
+ },
+ {
   "apn": "b2025_26/year2/senate/legislative_days/day035_20260304/vote_records/vote_121_4047.odt",
   "bill_no": "4047",
   "chamber": "senate",
@@ -16400,6 +16425,31 @@
   }
  },
  {
+  "apn": "b2025_26/year1/senate/legislative_days/day026_20250219/vote_records/vote_90_1549.odt",
+  "bill_no": "SB76",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "cow_jcow_727",
+   "action_label": "Committee of the Whole - Amendment by  was rejected;",
+   "apn": "b2025_26/year1/senate/legislative_days/day026_20250219/journal_elements/je_20250219150844_847184.odt",
+   "chamber": "senate",
+   "occurred": "2025-02-19T15:08:43+00:00",
+   "page_number": 184
+  },
+  "motion": "",
+  "rcs_num": "90",
+  "rev_date": "2025-02-19T21:29:11.326706+00:00",
+  "session_day": "26",
+  "stance": "present",
+  "tally": {
+   "absent": 0,
+   "nay": 31,
+   "not_voting": 0,
+   "present": 6,
+   "yea": 3
+  }
+ },
+ {
   "apn": "b2025_26/year1/senate/legislative_days/day026_20250219/vote_records/vote_52_SB92.odt",
   "bill_no": "SB92",
   "chamber": "senate",
@@ -16447,6 +16497,31 @@
    "not_voting": 0,
    "present": 0,
    "yea": 40
+  }
+ },
+ {
+  "apn": "b2025_26/year1/senate/legislative_days/day026_20250219/vote_records/vote_82_SB157.odt",
+  "bill_no": "SB157",
+  "chamber": "senate",
+  "journal_element": {
+   "action_code": "fa_fabc_341",
+   "action_label": "Final Action - Passed as amended;",
+   "apn": "b2025_26/year1/senate/legislative_days/day026_20250219/journal_elements/je_20250219115354_068742.odt",
+   "chamber": "senate",
+   "occurred": "2025-02-19T11:53:53+00:00",
+   "page_number": 198
+  },
+  "motion": "Final Action Amended",
+  "rcs_num": "82",
+  "rev_date": "2025-02-19T20:11:21.022395+00:00",
+  "session_day": "26",
+  "stance": "nay",
+  "tally": {
+   "absent": 0,
+   "nay": 9,
+   "not_voting": 0,
+   "present": 0,
+   "yea": 31
   }
  },
  {

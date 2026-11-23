@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-22T20:28:53Z",
+  "published_at": "2026-11-23T22:58:37Z",
   "included": [
     "civic.db",
     "registry",
@@ -83,7 +83,7 @@
       },
       "voting-record": {
         "biennium": "b2025_26",
-        "count": 743,
+        "count": 746,
         "kpid": "sen_masterson_ty_1",
         "name": "Ty Masterson",
         "next_offset": 100,
@@ -135,7 +135,7 @@
           "sen_francisco_marci_1": 608
         },
         "b2025_26": {
-          "sen_francisco_marci_1": 743
+          "sen_francisco_marci_1": 746
         }
       },
       "gossage-beverly": {
@@ -143,7 +143,7 @@
           "sen_gossage_beverly_1": 608
         },
         "b2025_26": {
-          "sen_gossage_beverly_1": 743
+          "sen_gossage_beverly_1": 746
         }
       },
       "hawkins-dan": {
@@ -161,7 +161,7 @@
         },
         "b2025_26": {
           "rep_holscher_cindy_1": 0,
-          "sen_holscher_cindy_1": 743
+          "sen_holscher_cindy_1": 746
         }
       },
       "kloos-rick": {
@@ -169,7 +169,7 @@
           "sen_kloos_rick_1": 608
         },
         "b2025_26": {
-          "sen_kloos_rick_1": 743
+          "sen_kloos_rick_1": 746
         }
       },
       "masterson-ty": {
@@ -177,7 +177,7 @@
           "sen_masterson_ty_1": 608
         },
         "b2025_26": {
-          "sen_masterson_ty_1": 743
+          "sen_masterson_ty_1": 746
         }
       },
       "mosley-brooklynne": {
@@ -208,7 +208,7 @@
       },
       "schmidt-patrick": {
         "b2025_26": {
-          "sen_schmidt_patrick_1": 743
+          "sen_schmidt_patrick_1": 746
         }
       },
       "sutton-bill": {
@@ -224,7 +224,7 @@
           "sen_sykes_dinah_1": 608
         },
         "b2025_26": {
-          "sen_sykes_dinah_1": 743
+          "sen_sykes_dinah_1": 746
         }
       },
       "turk-adam": {
